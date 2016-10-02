@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'icons';
-  src: url('../font/icons.eot?67333776');
-  src: url('../font/icons.eot?67333776#iefix') format('embedded-opentype'),
-       url('../font/icons.woff2?67333776') format('woff2'),
-       url('../font/icons.woff?67333776') format('woff'),
-       url('../font/icons.ttf?67333776') format('truetype'),
-       url('../font/icons.svg?67333776#icons') format('svg');
+  src: url('../font/icons.eot?42188679');
+  src: url('../font/icons.eot?42188679#iefix') format('embedded-opentype'),
+       url('../font/icons.woff2?42188679') format('woff2'),
+       url('../font/icons.woff?42188679') format('woff'),
+       url('../font/icons.ttf?42188679') format('truetype'),
+       url('../font/icons.svg?42188679#icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'icons';
-    src: url('../font/icons.svg?67333776#icons') format('svg');
+    src: url('../font/icons.svg?42188679#icons') format('svg');
   }
 }
 */
@@ -58,8 +58,10 @@
 .icon-pencil:before { content: '\e800'; } /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
 .icon-tags:before { content: '\e802'; } /* '' */
+.icon-calendar:before { content: '\e803'; } /* '' */
 .icon-github-circled:before { content: '\f056'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\f164'; } /* '' */

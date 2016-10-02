@@ -8,8 +8,10 @@ function showMenuFunc() {
     var sidebarShown = new RegExp('(^| )' + className + '( |$)', 'gi').test(sidebar.className);
     if(sidebarShown) {
       sidebar.className = "";
+      mobileMenu.className = "";
     } else {
       sidebar.className = "show";
+      mobileMenu.className = "show";
     }
 
   });

@@ -5,7 +5,7 @@
   <meta charset="utf-8"/>
   <meta http-equiv="content-language" content="tr-TR"/>
   <meta name="description" content=""/>
-  <title>Merhaba. | TufanTunc.com</title>
+  <title>Blog | TufanTunc.com</title>
   <!--
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/icons.css">
@@ -28,9 +28,9 @@
       <hr />
       <nav>
         <ul>
-          <li><a href="http://www.tufantunc.com" class="noicon active" >ANASAYFA</a></li>
+          <li><a href="http://www.tufantunc.com" class="noicon " >ANASAYFA</a></li>
           <li><a href="http://www.tufantunc.com/hakkimda/" class="noicon ">HAKKIMDA</a></li>
-          <li><a href="http://www.tufantunc.com/blog/"  >BLOG <i class="icon icon-pencil"></i></a></li>
+          <li><a href="http://www.tufantunc.com/blog/" class=active >BLOG <i class="icon icon-pencil"></i></a></li>
           <li><a href="https://github.com/tufantunc/" rel="external" target="_blank">GITHUB <i class="icon icon-github-circled"></i></a></li>
           <li><a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LINKEDIN <i class="icon icon-linkedin"></i></a></li>
           <li><a href="https://twitter.com/tufant" rel="external" target="_blank">TWITTER <i class="icon icon-twitter"></i></a></li>
@@ -41,16 +41,38 @@
   </div>
   <div id="content-container">
     <article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde Front-End Developer olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-<!--
-  <h2>Son Blog Yazım:</h2>
-  <p><a href="#">KnockoutJS ile uygulama geliştirmek</a></p>
--->
+  <h1>Blog</h1>
+  <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/static-site-generator-kullanmanin-avantajlari">
+        <span>Static Site Generator Kullanmanın Avantajları</span>
+        <time>02 Ekim 2016</time>
+      </a>
+    </li>
+    
+  </ul>
+  <!-- Page Listing -->
+<div id="pagination">
+    <ul>
+        <!-- Previous Page Button -->
+        
+            <li class="disabled"><span>Önceki</span></li>
+        
+
+        <!-- Page Number Buttons -->
+        
+            
+                <li class="active"><span>1</span></li>
+            
+        
+
+        <!-- Next Page Button -->
+        
+            <li class="disabled"><span>Sonraki</span></li>
+        
+    </ul>
+</div>
 </article>
   </div>
   <script defer="defer"  src="/script/scripts.min.js"></script><script defer="defer"  src="/scripts/analytics.js"></script>

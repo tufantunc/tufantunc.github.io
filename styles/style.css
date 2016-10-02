@@ -45,9 +45,16 @@ hr {
   float: left;
   padding: 0px 20px 0px 20px;
   position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
-#sidebar #showmenu {
-  visibility: hidden;
+#sidebar #sidebar-container {
+  display: table-cell;
+  position: relative;
+  min-height: 260px;
+}
+#showmenu {
+  display: none;
 }
 #sidebar #introduce {
   margin-top: 50px;
@@ -140,11 +147,27 @@ hr {
 }
 article {
   width: 700px;
-  margin: 0 auto;
+  margin: 40px auto 0px auto;;
 }
-article img {
-  max-width: 700px;
+article figure {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  background: #f8f8f8;
+  margin: 20px 0 0 0;
+}
+article figure img {
+  width: 680px;
   height: auto;
+}
+article figure figcaption {
+  font-size:16px;
+  font-style: italic;
+  text-align: center;
+}
+article figure figcaption a {
+  font-size:16px;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
 }
 article p {
   font-size: 21px;
@@ -175,17 +198,18 @@ article h4 {
 article blockquote {
   border-left: 3px solid rgba(0, 0, 0, 0.8);
   margin-left: -23px;
-  padding-bottom: 3px;
-  padding-left: 20px;
+  padding: 10px 0px 10px 20px;
   font-size: 21px;
   font-style: italic;
   font-weight: 400;
   letter-spacing: -0.003em;
   line-height: 1.58;
+  background: #f8f8f8;
 }
 article ul,
 article ol {
   list-style: none;
+  padding: 0;
 }
 article ul li::before,
 article ol li::before {
@@ -235,6 +259,9 @@ footer {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
   text-align: center;
 }
+footer .post-date time {
+  font-size: 13px;
+}
 footer .tags a {
   background: #f2f2f2;
   margin-bottom: 8px;
@@ -249,7 +276,7 @@ footer .tags a {
 footer .tags a:hover {
   background: #e5e5e5;
 }
-footer .share {
+footer .share, footer .tags {
   margin-top: 10px;
 }
 footer .share a {
@@ -283,4 +310,42 @@ footer .share .linkedin {
 }
 .email::before {
   content: attr(data-address) "\0040";
+}
+article ul#blog-posts li, article #pagination ul li {
+  margin: 0;
+}
+article ul#blog-posts li::before, article #pagination ul li::before {
+  content: none;
+  padding: 0;
+  margin: 0;
+}
+article ul#blog-posts li a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+article ul#blog-posts li a span {
+  float: left;
+  max-width: 550px;
+}
+article ul#blog-posts li a time {
+  float: right;
+  color: #bbb;
+}
+article #pagination {
+  text-align: center;
+}
+article #pagination ul {
+  display: inline-block;
+  margin: 0;
+}
+article #pagination ul li {
+  float: left;
+  padding: 0px 5px 0px 5px;
+}
+article abbr
+{
+  cursor:help;
+	border-bottom: .1em dotted;
 }
