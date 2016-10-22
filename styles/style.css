@@ -181,10 +181,6 @@ article h1 {
   line-height: 1.04;
   margin-bottom: 0px;
   margin-top: 0px;
-  background: -webkit-linear-gradient(135deg, #61c2ff 0%, #cd4444 100%);
-  background: linear-gradient(-45deg, #61c2ff 0%, #cd4444 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 article h2,
 article h3,
@@ -348,4 +344,11 @@ article abbr
 {
   cursor:help;
 	border-bottom: .1em dotted;
+}
+.rss {
+  float:right;
+  color: #f26522;
+}
+.rss:hover {
+  color:#ec8a00;
 }

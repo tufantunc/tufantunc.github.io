@@ -4,9 +4,9 @@
         <description><![CDATA[TufanTunc.com]]></description>
         <link>http://www.tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Oct 2016 12:30:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Oct 2016 11:24:18 GMT</lastBuildDate>
         <atom:link href="http://www.tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 02 Oct 2016 12:22:24 GMT</pubDate>
+        <pubDate>Sat, 22 Oct 2016 11:24:16 GMT</pubDate>
         <item>
             <title><![CDATA[Hakkımda]]></title>
             <description><![CDATA[<article class="main-content">
@@ -35,6 +35,67 @@
             <link>http://www.tufantunc.com/hakkimda</link>
             <guid isPermaLink="true">http://www.tufantunc.com/hakkimda</guid>
             <pubDate>Sat, 01 Oct 2016 11:10:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>
+    Blog
+    <a href="http://www.tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
+  </h1>
+  <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/static-site-generator-kullanmanin-avantajlari">
+        <span>Static Site Generator Kullanmanın Avantajları</span>
+        <time>02 Ekim 2016</time>
+      </a>
+    </li>
+    
+  </ul>
+  <!-- Page Listing -->
+<div id="pagination">
+    <ul>
+        <!-- Previous Page Button -->
+        
+            <li class="disabled"><span>Önceki</span></li>
+        
+
+        <!-- Page Number Buttons -->
+        
+            
+                <li class="active"><span>1</span></li>
+            
+        
+
+        <!-- Next Page Button -->
+        
+            <li class="disabled"><span>Sonraki</span></li>
+        
+    </ul>
+</div>
+</article>]]></description>
+            <link>http://www.tufantunc.com/blog</link>
+            <guid isPermaLink="true">http://www.tufantunc.com/blog</guid>
+            <pubDate>Sat, 22 Oct 2016 11:09:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[İletişim]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>İletişim</h1>
+  <p>
+    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
+  </p>
+  <p>
+    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
+  </p>
+  <p>
+    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
+  </p>
+</article>]]></description>
+            <link>http://www.tufantunc.com/iletisim</link>
+            <guid isPermaLink="true">http://www.tufantunc.com/iletisim</guid>
+            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Merhaba.]]></title>
@@ -67,7 +128,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
   </figure>
   <p><a href="http://mailchimp.com" target="_blank" rel="external">MailChimp</a> ana sitesinin static site generator ile hazırlanması şaşırtıcı olmadı. Statik siteler son zamanlarda büyük firmaların
   <em>yeniden</em> gözdesi oldu. <a href="https://www.google.com/trends/2014/" target="_blank" rel="external">Google 2014 arama trendleri</a> sayfasını statik site olarak hazırlamasının ardından
-  çeşitli servislerini statik sayfalar ile hazırlamayı tercih ediyor. Avantajlarını araştırdıktan sonra ben de kendi sitemi ve blogumu static site generator ile hazırlamaya karar verdim.</p>
+  çeşitli servislerini statik sayfalar ile hazırlamayı tercih ediyor. Avantajlarını araştırdıktan sonra ben de kendi sitemi ve blog sayfalarımı static site generator ile hazırlamaya karar verdim.</p>
   <h2>Static site generator nedir?</h2>
   <p>Static site generator araçları, hazırlanış aşamasında html template yapıları ve veri tabanı gibi CMS özellikleri ile geliştirme ortamı sağlarken, çıktı olarak sadece html sayfaları oluşturan
   sistemlerdir. <a href="https://staticsitegenerators.net/" target="_blank" rel="external">Staticsitegenerators.net</a> sitesine göre Github üzerinde 437 tane sitatic site generator bulunmakta. Aynı siteden
@@ -80,40 +141,40 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
     <li>Statik sayfaları oluşturmak eskisi gibi eziyet değil, artık çok gelişmiş yardımcı araç seçenekleri var</li>
   </ol>
   <h2>Statik Sitelerin Avantajları</h2>
-  <p>Statik site oluşturmamamın avantaj ve dezavantajlarını kendi açımdan listeledim.</p>
+  <p>Statik site oluşturmamın avantaj ve dezavantajlarını kendi açımdan listeledim.</p>
   <h2>1) Düşük kaynak ihtiyacı</h2>
-  <p>Uzun yıllar WordPress için geliştirmeler yaptım ve blog tuttum. WordPress <abbr title="Content Management System">CMS</abbr> sistemleri arasında en kolay kurulum ve kullanıma sahip olanı.
+  <p>Uzun yıllar WordPress için geliştirmeler yaptım ve WordPress hakkında blog yazıları yazdım. WordPress <abbr title="Content Management System">CMS</abbr> sistemleri arasında en kolay kurulum ve kullanıma sahip olanı.
   Ancak bugün normal karşıladığımız sistem gereksinimleri hiç de azımsanacak gibi değil.</p>
-  <p>Ortalama bir WordPress sitenin çalışması için aşağıdaki sistem gereksinimlerine ihtiyaç var:</p>
+  <p>Ortalama bir WordPress site çalışmak için aşağıdaki sistem gereksinimlerine ihtiyaç duyar:</p>
   <ul>
-    <li>Linux server kurulu bir sunucu</li>
+    <li>Linux kurulu bir sunucu</li>
     <li>Apache veya Nginx server yazılımı</li>
     <li>Sunucuda gerekli PHP ayarları</li>
     <li>WordPress kurulumu</li>
     <li>Temaya ait veya siteye özellik katan eklentiler</li>
     <li>Tema kurulumu</li>
   </ul>
-  <p>Tüm bunlara sahip olmak yeterli değil, eğer başarılı bir cache sistemi kurulmazsa, yüksek trafikli WordPress sitelerde CPU kullanım sorunu ortaya çıkıyor. Sayfaların hazırlanıp ziyaretçilerin taleplerine
-  cevap vermek WordPress gibi esnek yapıdaki sistemler için yüksek CPU gücü gerektiren bir işlemdir. Bu durum da sunucu maliyetlerinizin artmasına sebep olur.</p>
+  <p>Tüm bunlara sahip olmak yeterli değil, eğer başarılı bir cache sistemi kurulmazsa, yüksek trafikli WordPress sitelerde aşırı CPU kullanım sorunu ortaya çıkıyor. Sayfaların hazırlanıp ziyaretçilerin taleplerine
+  cevap vermek WordPress gibi esnek yapıdaki sistemler için yüksek CPU gücü gerektiren bir işlemdir. Bu durum sunucu maliyetlerinin artmasına sebep oluyor.</p>
   <p>Tüm bunların sonucunda, sitenizi taşırken yeni hosting firmanızda bu ayarlardan birinin eksik olması ya da mevcut hosting firmanızın sistemini güncellemeye karar vermesi sitenizin çalışmamasına sebep
   olacaktır.</p>
   <p>Durum statik sayfalara geldiğinde ise çok daha basit ve kolay: dosyalarınızı servis edecek bir sunucu olması yeterli.</p>
-  <p>Statik siteler için sunucunuzun sadece html, css, js ve gerekli görsel dosyalarınızı saklaması yeterli. Static site generator'lar çıktı olarak yalnızca bu dosyaları veriyor.</p>
+  <p>Statik siteler için sunucunuzun sadece html, css, js ve gerekli görsel dosyalarınızı saklaması ve servis etmesi yeterli. Static site generator'lar çıktı olarak yalnızca bu dosyaları veriyor.</p>
   <p>Ben kendi sitem için Github sunucularında barındırılan <a href="https://pages.github.com/" target="_blank" rel="external">Github Sayfalar</a> hizmetini kullandım. Bu sayede sunucu bakımı, hosting masrafı
   gibi dertlerden de kurtuldum.</p>
   <h2>2) Hız</h2>
-  <p>Araştırmalara göre internet kullanıcılarının büyük bir kısmı sayfa açılış süresi 3 saniyenin üzerine çıktığında bekemekten vazgeçip siteyi terk ediyor. Bu sonuçlardan yola çıkara Google ve diğer
+  <p>Araştırmalara göre internet kullanıcılarının büyük bir kısmı sayfa açılış süresi 3 saniyenin üzerine çıktığında bekemekten vazgeçip siteyi terk ediyor. Bu sonuçlardan yola çıkarak Google ve diğer
   arama motorları da sayfa açılış hızını bir <abbr title="Search Engine Optimizations">SEO</abbr> kriteri olarak kabul etti.</p>
   <p>Statik siteler maksimum hızda çalışıyor. Bunun sebebi sunucu tarafında dosyaları hazırlamak için bir işlem yok, sunucu dosyaları olduğu gibi servis ediyor.</p>
-  <h2>Versiyon kontrolü</h2>
+  <h2>3) Versiyon kontrolü</h2>
   <p>Versiyon kontrol sistemi olmadan bir proje üzerinde çalışmak neredeyse imkansız. Hazır yapılar bunu yazılımsal olarak sağlamıyor, WordPress gibi gelişmiş CMS sistemleri sadece içerik için versiyon kontrolü
-  özelliği sağlıyor. Ancak hatalı bir eklenti veya tema geliştirmesini eski haline döndürmek, yedek almayı unuttuysanız büyük problem olabilir.</p>
-  <p>Sitemi Github üzerinde barındırıyor olmak beni bu versiyon kontrol sistemi ayarlamak için sarf edeceğim efordan kurtardı.</p>
-  <h2>3) Güvenlik</h2>
-  <p>Hazır yapılarda sıklıkla güvenlik açığı çıkma ihtimali var. Örneğin WordPress için, bulunduğunuz sürümde bir güvenlik açığı çıkması durumunda siz güncelleme yapana kadar sistemiz tehdit altında olacaktır.</p>
-  <p>Statik sitelerde ise kullanıcı etkileşimi olmadığından, bu tarz hizmetler farklı servislerden alındığından sitenizi direkt etkileyecek bir güvenlik açığı söz konusu değil. Sadece hosting firmanızın kendi
-  güvenliğini sağlaması yeterli. Bu nedenle güvenlik konusunda da tedirginlik yaşanmıyor.</p>
-  <h3>4) Esneklik</h3>
+  özelliği sağlıyor. Ancak hatalı bir eklenti veya tema geliştirmesini eski haline döndürmek, yedek almayı unuttuysanız büyük problem oluyor.</p>
+  <p>Sitemi Github üzerinde barındırıyor olmak beni versiyon kontrol sistemi ayarlamak için sarf edeceğim efordan kurtardı.</p>
+  <h2>4) Güvenlik</h2>
+  <p>Hazır yapılarda sıklıkla güvenlik açığı çıkma ihtimali var. Örneğin WordPress için, bulunduğunuz sürümde bir güvenlik açığı çıkması durumunda siz güncelleme yapana kadar sisteminiz tehdit altında olacaktır.</p>
+  <p>Statik sitelerde ise kullanıcı etkileşimi doğrudan yapılmıyor. Bu tarz hizmetler farklı servislerden alınabilir. Böylece sitenizi direkt etkileyecek bir güvenlik açığı söz konusu olmaz. Sadece hosting firmanızın kendi
+  güvenliğini sağlaması yeterli. Bu nedenle güvenlik konusunda büyük tedirginlikler yaşanmıyor.</p>
+  <h3>5) Esneklik</h3>
   <p>Yapıyı kendiniz kurguladığınız için, giriş sayfasını bir landing page olarak ve içerik sayfalarını da blog olarak tasarlamanızda hiçbir engel yok. CMS sistemlerinde ise bu durum çok daha zor ve
   kısıtlıdır. Hazır blog yapıları ise buna izin vermez.</p>
   <h2>Statik sayfaların dezavantajları</h2>
@@ -121,8 +182,9 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
   <ol>
     <li>
       <p>Kullanıcı etkileşiminin olmaması</p>
-      <p>Örneğin blog için basit bir yorum sistemi yapacağımızı düşünelim. Statik bir sitede veritabanı kaydını nasıl gerçekleştireceğiz? Yapamayız. Bunun için
-      <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> gibi bir servisten yararlanmak mümkün. Ancak daha karmaşık etkileşim işlemlerinde bu durum bir dezavantaj olacaktır.</p>
+      <p>Güvenlik başlığından bunun bir avantaj olduğunu söylemiştim. Ancak kullanıcılardan bir bilgi girişi isteyecekseniz bunu direkt olarak yapmanız pek mümkün değil.</p>
+      <p>Örneğin blog için basit bir yorum sistemi yapacağımızı düşünelim. Tamamı statik bir sitede veritabanı kaydını nasıl gerçekleştireceğiz? Klasik yapılarda bunu yapamayız. Bunun için
+      <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> gibi bir servisten yararlanmak mümkün. Ancak daha karmaşık etkileşimli işlemlerde bu durum bir dezavantaj olacaktır.</p>
     </li>
     <li>
       <p>Yönetici arayüzünün olmaması</p>
@@ -142,8 +204,8 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
     <li><a href="https://laktek.github.io/punch/" target="_blank" rel="external">Punch</a></li>
     <li><a href="http://brunch.io/" target="_blank" rel="external">Brunch</a></li>
   </ul>
-  <p>Sonuç olarak DocPad'in kullanımını kolay buldum. Ayrıca eklenti olarak tam da ihtiyaç duyacağımı tahmin ettiğim eklentiler mevcuttu. Döküman sayfasındaki örnek uygulama oluşturma adımlarını takip
-  edince çabucak alışacağımı anladım.</p>
+  <p>Sonuç olarak DocPad'in kullanımını kolay buldum. Ayrıca eklenti olarak tam da ihtiyaç duyacağım eklentileri mevcut. Döküman sayfasındaki örnek uygulama oluşturma adımlarını takip
+  edince çabuk alışacağımı anladım.</p>
   <p>Sonraki yazılarımda DocPad'in kullanımına da yer vereceğim.</p>
   <footer>
   <div class="post-date">
@@ -213,64 +275,6 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[İletişim]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>İletişim</h1>
-  <p>
-    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
-  </p>
-  <p>
-    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
-  </p>
-  <p>
-    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
-  </p>
-</article>]]></description>
-            <link>http://www.tufantunc.com/iletisim</link>
-            <guid isPermaLink="true">http://www.tufantunc.com/iletisim</guid>
-            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Blog]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Blog</h1>
-  <ul id="blog-posts">
-    
-    <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
-      </a>
-    </li>
-    
-  </ul>
-  <!-- Page Listing -->
-<div id="pagination">
-    <ul>
-        <!-- Previous Page Button -->
-        
-            <li class="disabled"><span>Önceki</span></li>
-        
-
-        <!-- Page Number Buttons -->
-        
-            
-                <li class="active"><span>1</span></li>
-            
-        
-
-        <!-- Next Page Button -->
-        
-            <li class="disabled"><span>Sonraki</span></li>
-        
-    </ul>
-</div>
-</article>]]></description>
-            <link>http://www.tufantunc.com/blog</link>
-            <guid isPermaLink="true">http://www.tufantunc.com/blog</guid>
-            <pubDate>Sun, 02 Oct 2016 12:17:43 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Tag: nodejs]]></title>
             <description><![CDATA[<article class="main-content bracket">
   <h1>nodejs etiketi içeren yazılar:</h1>
@@ -288,7 +292,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/nodejs</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/nodejs</guid>
-            <pubDate>Sun, 02 Oct 2016 12:22:24 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:24:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: javascript]]></title>
@@ -308,7 +312,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/javascript</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/javascript</guid>
-            <pubDate>Sun, 02 Oct 2016 12:22:24 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:24:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: static-site-generator]]></title>
@@ -328,7 +332,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/static-site-generator</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/static-site-generator</guid>
-            <pubDate>Sun, 02 Oct 2016 12:22:24 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:24:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: docpad]]></title>
@@ -348,7 +352,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/docpad</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/docpad</guid>
-            <pubDate>Sun, 02 Oct 2016 12:22:24 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:24:17 GMT</pubDate>
         </item>
     </channel>
 </rss>
