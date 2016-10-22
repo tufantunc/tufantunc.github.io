@@ -4,9 +4,88 @@
         <description><![CDATA[TufanTunc.com]]></description>
         <link>http://www.tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Oct 2016 11:33:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Oct 2016 11:40:27 GMT</lastBuildDate>
         <atom:link href="http://www.tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 22 Oct 2016 11:33:17 GMT</pubDate>
+        <pubDate>Sat, 22 Oct 2016 11:40:25 GMT</pubDate>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>
+    Blog
+    <a href="http://www.tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
+  </h1>
+  <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
+        <span>Static Site Generator Kullanmanın Avantajları</span>
+        <time>02 Ekim 2016</time>
+      </a>
+    </li>
+    
+  </ul>
+  <!-- Page Listing -->
+<div id="pagination">
+    <ul>
+        <!-- Previous Page Button -->
+        
+            <li class="disabled"><span>Önceki</span></li>
+        
+
+        <!-- Page Number Buttons -->
+        
+            
+                <li class="active"><span>1</span></li>
+            
+        
+
+        <!-- Next Page Button -->
+        
+            <li class="disabled"><span>Sonraki</span></li>
+        
+    </ul>
+</div>
+</article>]]></description>
+            <link>http://www.tufantunc.com/blog</link>
+            <guid isPermaLink="true">http://www.tufantunc.com/blog</guid>
+            <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Merhaba.]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>Merhaba.</h1>
+  <p>Adım Tufan Tunç.<br/>
+    CRM Akademi şirketinde Front-End Developer olarak çalışıyorum.</p>
+  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
+otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
+kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
+<!--
+  <h2>Son Blog Yazım:</h2>
+  <p><a href="#">KnockoutJS ile uygulama geliştirmek</a></p>
+-->
+</article>]]></description>
+            <link>http://www.tufantunc.com/</link>
+            <guid isPermaLink="true">http://www.tufantunc.com/</guid>
+            <pubDate>Sat, 01 Oct 2016 23:48:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[İletişim]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>İletişim</h1>
+  <p>
+    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
+  </p>
+  <p>
+    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
+  </p>
+  <p>
+    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
+  </p>
+</article>]]></description>
+            <link>http://www.tufantunc.com/iletisim</link>
+            <guid isPermaLink="true">http://www.tufantunc.com/iletisim</guid>
+            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Hakkımda]]></title>
             <description><![CDATA[<article class="main-content">
@@ -35,24 +114,6 @@
             <link>http://www.tufantunc.com/hakkimda</link>
             <guid isPermaLink="true">http://www.tufantunc.com/hakkimda</guid>
             <pubDate>Sat, 01 Oct 2016 11:10:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Merhaba.]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde Front-End Developer olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-<!--
-  <h2>Son Blog Yazım:</h2>
-  <p><a href="#">KnockoutJS ile uygulama geliştirmek</a></p>
--->
-</article>]]></description>
-            <link>http://www.tufantunc.com/</link>
-            <guid isPermaLink="true">http://www.tufantunc.com/</guid>
-            <pubDate>Sat, 01 Oct 2016 23:48:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Static Site Generator Kullanmanın Avantajları]]></title>
@@ -169,13 +230,13 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 
   <div class="share">
     <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=http://www.tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari" class="facebook" target="_blank" rel="external,nofollow">
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=http://www.tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari/" class="facebook" target="_blank" rel="external,nofollow">
       <i class="icon-facebook"></i> Facebook
     </a>
-    <a href="https://twitter.com/intent/tweet?text=Static Site Generator Kullanmanın Avantajları&url=http://www.tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Static Site Generator Kullanmanın Avantajları&url=http://www.tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
       <i class="icon-twitter"></i> Twitter
     </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari&title=Static Site Generator Kullanmanın Avantajları&summary=Geliştiricilerin yeni oyuncağı static site generator'lara genel bakış&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari/&title=Static Site Generator Kullanmanın Avantajları&summary=Geliştiricilerin yeni oyuncağı static site generator'lara genel bakış&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
       <i class="icon-linkedin"></i> LinkedIn
     </a>
   </div>
@@ -214,67 +275,6 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[İletişim]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>İletişim</h1>
-  <p>
-    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
-  </p>
-  <p>
-    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
-  </p>
-  <p>
-    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
-  </p>
-</article>]]></description>
-            <link>http://www.tufantunc.com/iletisim</link>
-            <guid isPermaLink="true">http://www.tufantunc.com/iletisim</guid>
-            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Blog]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>
-    Blog
-    <a href="http://www.tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
-  </h1>
-  <ul id="blog-posts">
-    
-    <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
-      </a>
-    </li>
-    
-  </ul>
-  <!-- Page Listing -->
-<div id="pagination">
-    <ul>
-        <!-- Previous Page Button -->
-        
-            <li class="disabled"><span>Önceki</span></li>
-        
-
-        <!-- Page Number Buttons -->
-        
-            
-                <li class="active"><span>1</span></li>
-            
-        
-
-        <!-- Next Page Button -->
-        
-            <li class="disabled"><span>Sonraki</span></li>
-        
-    </ul>
-</div>
-</article>]]></description>
-            <link>http://www.tufantunc.com/blog</link>
-            <guid isPermaLink="true">http://www.tufantunc.com/blog</guid>
-            <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Tag: nodejs]]></title>
             <description><![CDATA[<article class="main-content bracket">
   <h1>nodejs etiketi içeren yazılar:</h1>
@@ -292,7 +292,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/nodejs</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/nodejs</guid>
-            <pubDate>Sat, 22 Oct 2016 11:33:18 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:40:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: javascript]]></title>
@@ -312,7 +312,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/javascript</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/javascript</guid>
-            <pubDate>Sat, 22 Oct 2016 11:33:18 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:40:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: static-site-generator]]></title>
@@ -332,7 +332,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/static-site-generator</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/static-site-generator</guid>
-            <pubDate>Sat, 22 Oct 2016 11:33:18 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:40:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: docpad]]></title>
@@ -352,7 +352,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>http://www.tufantunc.com/tags/docpad</link>
             <guid isPermaLink="true">http://www.tufantunc.com/tags/docpad</guid>
-            <pubDate>Sat, 22 Oct 2016 11:33:18 GMT</pubDate>
+            <pubDate>Sat, 22 Oct 2016 11:40:25 GMT</pubDate>
         </item>
     </channel>
 </rss>

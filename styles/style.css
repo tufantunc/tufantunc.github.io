@@ -288,6 +288,7 @@ footer .share a {
   opacity: 1;
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
+  margin-left:10px;
 }
 footer .share a:hover {
   opacity: 0.8;
