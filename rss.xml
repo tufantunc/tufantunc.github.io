@@ -4,9 +4,77 @@
         <description><![CDATA[TufanTunc.com]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Dec 2016 19:45:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Dec 2016 15:50:34 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 21 Dec 2016 19:45:12 GMT</pubDate>
+        <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>
+    Blog
+    <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
+  </h1>
+  <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/ssl-sertifikasinin-seo-etkisi/">
+        <span>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</span>
+        <time>24 Aralık 2016</time>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
+        <span>Static Site Generator Kullanmanın Avantajları</span>
+        <time>02 Ekim 2016</time>
+      </a>
+    </li>
+    
+  </ul>
+  <!-- Page Listing -->
+<div id="pagination">
+    <ul>
+        <!-- Previous Page Button -->
+        
+            <li class="disabled"><span>Önceki</span></li>
+        
+
+        <!-- Page Number Buttons -->
+        
+            
+                <li class="active"><span>1</span></li>
+            
+        
+
+        <!-- Next Page Button -->
+        
+            <li class="disabled"><span>Sonraki</span></li>
+        
+    </ul>
+</div>
+</article>]]></description>
+            <link>https://tufantunc.com/blog</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog</guid>
+            <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[İletişim]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>İletişim</h1>
+  <p>
+    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
+  </p>
+  <p>
+    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
+  </p>
+  <p>
+    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
+  </p>
+</article>]]></description>
+            <link>https://tufantunc.com/iletisim</link>
+            <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
+            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Hakkımda]]></title>
             <description><![CDATA[<article class="main-content">
@@ -201,7 +269,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 		}
 		else {
 		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
 		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 		}
 	})();
@@ -214,65 +282,125 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[İletişim]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>İletişim</h1>
-  <p>
-    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
+            <title><![CDATA[SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak]]></title>
+            <description><![CDATA[<article>
+  <h1>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</h1>
+  <figure>
+    <img alt="ssl seritifikası ile tarayıcıda görünen güvenli bağlantı bilgisi" src="https://tufantunc.com/content/blog/ssl-sertifikasi-guvenli-baglanti-bilgisi.jpg">
+    <figcaption>
+      SSL seritifikası ile tarayıcıda görünen güvenli bağlantı bilgisi
+    </figcaption>
+  </figure>
+  <p>Genellikle uygulama arayüzleri geliştirdiğimden SEO konusu benim için ikinci planda kaldı. Güvenlik konuları ise daha ön planda.</p>
+<p>Bu nedenle <a href="https://ahrefs.com/blog/" target="_blank" rel="external">Ahrefs</a> blogunu nadiren takip ederim. Geçtiğimiz aylarda tesadüfen denk geldiğim yazıda <a href="https://ahrefs.com/blog/http-vs-https-for-seo/" target="_blank" rel="external">Google'ın https bağlantılarını pozitif SEO kriteri olarak kabul etmesi</a> bilgisi ilgimi çekti (Yazı çok daha eski).
+Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerimi bedavaya getirmemdeki gibi SSL sertifikası için de hemen ücretsiz bir servis aramaya koyuldum.
   </p>
-  <p>
-    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
-  </p>
-  <p>
-    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
-  </p>
-</article>]]></description>
-            <link>https://tufantunc.com/iletisim</link>
-            <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
-            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Blog]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>
-    Blog
-    <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
-  </h1>
-  <ul id="blog-posts">
-    
-    <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
-      </a>
-    </li>
-    
-  </ul>
-  <!-- Page Listing -->
-<div id="pagination">
-    <ul>
-        <!-- Previous Page Button -->
-        
-            <li class="disabled"><span>Önceki</span></li>
-        
+  <blockquote>Google Webmaster blogunda yayınlanan bir yazıda https adreslerinin sıralamada öncelik kazanacağına dair detaylar mevcut. Kaynak: <a href="https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html" target="_blank" rel="external">Google Webmaster Blog</a></blockquote>
+  <h2>Cloudflare ücretsiz SSL hizmeti</h2>
+  <p><a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a> servisini daha önce deneme amaçlı kullanmıştım. Ücretsiz olmasına rağmen çok başarılı servisleri var.
+  Bir dönem özellikle sık sık bot saldırısı alan siteler, Cloudflare ile bu saldırıları nasıl hasarsız atlattığını yazdı. İnternette bu konuda pek çok başarı hikayesi okumuştum. Bu yazılardan da etkilenerek Cloudflare'den sonra aramaya devam etmedim. Benin için SSL ve Cache hizmetleri oldukça cazip ve şimdilik bunlarla ilgileniyorum.</p>
+  <p>Cloudflare sitesinden bir üyelik aldıktan sonra DNS yönetimini ona devretmeniz gerekiyor. DNS kayıtlarımı Cloudflare üzerine taşıdım, bu oldukça kolay bir işlem. Kayıt olduktan sonra site sizi adım adım yönlendiriyor.</p>
+  <p>Kurulumu doğru yaptıysanız eğer sitenize erişimde bir sıkıntı yaşamıyor olmalısınız. Artık SSL sertifikanızı aktifleştirmeniz için birkaç kolay adım kaldı. Bunlardan ilki, Cloudflare panelindeki Crypto sayfasından SSL alanına gitmek ve Full seçeneğini seçmek. Böylece Full SSL aktifleşecek. Artık sitenize https üzerinden ulaşabilirsiniz.</p>
+  <p>İkinci adım ise tüm http trafiğini https adresine yönlendirmek. Eğer hosting firmanız varsa, bunu hosting panelinizden ya da linux sunucular için htaccess dosyası ile yapmak mümkün. Dileyen o yöntemleri araştırıp bulabilir. Ancak ben Github Pages kullandığımdan her ikisine de sahip değilim. Dolayısıyla yine Cloudflare panelindeki yönlendirme özelliklerinden faydalanacağım.</p>
+  <p>Bunu yapmak için Page Rules sayfasına gitmeli ve buradan yönlendirme için kural tanımlamaları yapmalıyız. Ben ilk olarak www önekini kullanmak istemediğimden, bu adrese ait trafiği <i>https://tufantunc.com</i> adresine yönlendirdim. Yaptığım ayarlama resimdeki gibi.</p>
+  <figure>
+    <img alt="www önekine ait 301 redirect yönlendirmesi" src="https://tufantunc.com/content/blog/www-oneki-icin-301-redirect-yonlendirmesi.jpg">
+    <figcaption>
+      Site adresimde www önekini kullanmak istemediğimden böyle bir yönlendirme yaptım.
+    </figcaption>
+  </figure>
+  <p>İkinci adım tüm site trafiğini https adresine yönlendirmek. Bunun için kullandığım ayarlar da resimdeki gibi.</p>
+  <figure>
+    <img alt="Cloudflare servisinin her zaman https kullan ayarı" src="https://tufantunc.com/content/blog/always-use-https-ayari.jpg">
+    <figcaption>
+      Cloudflare tüm site trafiğini https adresine yönlendirmek için bir seçenek sunuyor.
+    </figcaption>
+  </figure>
+  <p>Bu iki adım ile SSL sertifikamızı kullanan https adresimizi aktifleştirmiş olduk. Benim için üçüncü bir adım daha oldu. Cache'leme özelliğini aktifleştirmek çok kolaydı. Açıkcası bana ne kadar faydalı olacağını düşünmeden bunu da aktifleştirdim. Üçüncü bir kural ekleyip ayarları resimdeki gibi seçin.</p>
+  <figure>
+    <img alt="Cloudflare cache ayarları" src="https://tufantunc.com/content/blog/cloudflare-cache-ayarlari.jpg">
+    <figcaption>
+      Cloudflare servisi ücretsiz bir Cache özelliği de sunuyor.
+    </figcaption>
+  </figure>
+  <h2>Güvenli olmayan içerik hatası</h2>
+  <p>Ben ilk defa güvenli bağlantı ile siteme ulaşmayı denediğimde bu hatayı aldım. İlginç bir şekilde Firefox detayları paylaşmıyor. Ancak Chrome'daki developer tools sayesinde hatayı anladım.</p>
+  <ol>
+    <li>Sayfamdaki görseller hala http adresimden yükleniyordu ve bu nedenle tarayıcılar sitemi güvenli olarak kabul etmiyor.</li>
+    <li>Yorumlarda kullandığım Discus servisine ait js dosyaları http adresinden yüklenmeye çalıştığı için tarayıcı bu script'in yüklenmesini engelliyor.</li>
+  </ol>
+  <p>Her iki sorunu da düzeltmek benim için çocuk oyuncağı oldu. İlk olarak sitemi generate ettiğim uygulama olan Docpad'in ayarlarından varsayılan adresime https ekledim. Tüm sayfaları yeniden generate ettim ve bu sayede görsellerin url adresleri istediğim şekilde düzeldi.</p>
+  <p>Discus hizmeti ise Docpad'in services isimli bir eklentisi sayesinde sayfalara ekleniyor. Eklentinin dosyalarını açıp url adresine https ekledim. Bu sorun da böylece düzelmiş oldu.</p>
+  <h2>Sonuç Olarak</h2>
+  <p>SEO'yu bahane ederek ücretsiz SSL sertifikası ve kolayca Cache mekanizması kurmuş oldum. Bloglamak için WordPress kullananlar eminim CloudFlare servisi için bir eklenti bulabilir, belki de bu ayarları daha kolay yapabilir. Ancak benim gibi kendi blogunu kendisi hazırlayanlar için bu ayarlamalar keyifli bir uğraş olacak.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>24 Aralık 2016</time>
+  </div>
 
-        <!-- Page Number Buttons -->
-        
-            
-                <li class="active"><span>1</span></li>
-            
-        
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/google/">google</a>
+    
+    <a href="https://tufantunc.com/tags/seo/">seo</a>
+    
+    <a href="https://tufantunc.com/tags/ssl/">ssl</a>
+    
+    <a href="https://tufantunc.com/tags/github/">github</a>
+    
+    <a href="https://tufantunc.com/tags/cloudflare/">cloudflare</a>
+    
+  </div>
+  
 
-        <!-- Next Page Button -->
-        
-            <li class="disabled"><span>Sonraki</span></li>
-        
-    </ul>
-</div>
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak&url=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/&title=SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak&summary=SSL sertifikası kullanmanın sitenize sağladığı seo avantajlarını ve Github Pages üzerine kurulu siteye sertifika alma yöntemini anlattım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi';
+		window.disqus_identifier = 'blog-ssl-sertifikasinin-seo-etkisi';
+		window.disqus_title = 'SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </article>]]></description>
-            <link>https://tufantunc.com/blog</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog</guid>
-            <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
+            <link>https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</guid>
+            <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: nodejs]]></title>
@@ -292,7 +420,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>https://tufantunc.com/tags/nodejs</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/nodejs</guid>
-            <pubDate>Wed, 21 Dec 2016 19:45:15 GMT</pubDate>
+            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: javascript]]></title>
@@ -312,7 +440,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>https://tufantunc.com/tags/javascript</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/javascript</guid>
-            <pubDate>Wed, 21 Dec 2016 19:45:15 GMT</pubDate>
+            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: static-site-generator]]></title>
@@ -332,7 +460,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>https://tufantunc.com/tags/static-site-generator</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/static-site-generator</guid>
-            <pubDate>Wed, 21 Dec 2016 19:45:15 GMT</pubDate>
+            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: docpad]]></title>
@@ -352,7 +480,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 ]]></description>
             <link>https://tufantunc.com/tags/docpad</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/docpad</guid>
-            <pubDate>Wed, 21 Dec 2016 19:45:15 GMT</pubDate>
+            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
