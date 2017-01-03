@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[TufanTunc.com]]></title>
-        <description><![CDATA[TufanTunc.com]]></description>
+        <title><![CDATA[Tufan Tunç]]></title>
+        <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Dec 2016 15:50:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jan 2017 20:00:05 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
+        <pubDate>Tue, 03 Jan 2017 20:00:01 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -15,6 +15,13 @@
     <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
   </h1>
   <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/2017-kisisel-hedeflerim/">
+        <span>2017 Yılı İçin Kişisel Hedeflerim</span>
+        <time>03 Ocak 2017</time>
+      </a>
+    </li>
     
     <li>
       <a href="/blog/ssl-sertifikasinin-seo-etkisi/">
@@ -58,24 +65,6 @@
             <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[İletişim]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>İletişim</h1>
-  <p>
-    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
-  </p>
-  <p>
-    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
-  </p>
-  <p>
-    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
-  </p>
-</article>]]></description>
-            <link>https://tufantunc.com/iletisim</link>
-            <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
-            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Hakkımda]]></title>
             <description><![CDATA[<article class="main-content">
   <h1>Hakkımda</h1>
@@ -105,22 +94,283 @@
             <pubDate>Sat, 01 Oct 2016 11:10:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Merhaba.]]></title>
+            <title><![CDATA[Front-End Developer]]></title>
             <description><![CDATA[<article class="main-content bracket">
   <h1>Merhaba.</h1>
   <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde Front-End Developer olarak çalışıyorum.</p>
+    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
   <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
 otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
 kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-<!--
+
   <h2>Son Blog Yazım:</h2>
-  <p><a href="#">KnockoutJS ile uygulama geliştirmek</a></p>
--->
+  
+  <p class="no-margin-top"><a href="/blog/2017-kisisel-hedeflerim">2017 Yılı İçin Kişisel Hedeflerim</a></p>
+  
+
+
 </article>]]></description>
             <link>https://tufantunc.com/</link>
             <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Sat, 01 Oct 2016 23:48:03 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 19:59:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[İletişim]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>İletişim</h1>
+  <p>
+    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
+  </p>
+  <p>
+    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
+  </p>
+  <p>
+    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
+  </p>
+</article>]]></description>
+            <link>https://tufantunc.com/iletisim</link>
+            <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
+            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
+            <description><![CDATA[<article>
+  <h1>2017 Yılı İçin Kişisel Hedeflerim</h1>
+  <p>Bu konuda açık olalım, alışkanlıklarımızı değiştirmek hepimiz için zor. Bu konuda özellikle kendini eğitmeye çalışan benim için bile...</p>
+  <p>Mesleğim gereği insanların alışkanlıklarını bozmaya ne denli isteksiz olduklarını, bu konuda ayak dirediklerini biliyorum. Hatta kendimde bunu değiştirmek için bu alanda her hikayeyi okumaya çalışıyorum. En sevdiğim hikaye Ebay’e ait.</p>
+  <p>Hikaye şöyle: <i>Bir gün Ebay ekibi parlak sarı arkaplan renginden bıkıyor. Siteyi beyaz arkaplan rengi ile yeniliyorlar. Kullanıcılar ağır tepki gösteriyor, e-posta yağmuruna tutuyor. Ekip kullanıcıları memnun etmek için geri adım atmak zorunda. Ertesi gün bu değişiklik geri alınıyor. Ebay ekibi farklı bir strateji denemeye karar veriyor: Sitenin arkaplan rengini her gün bir ton açmaya karar veriyorlar. Tamamen beyaz olduğunda tek bir kullanıcı bile bunu fark etmiyor.</i></p>
+  <blockquote>Tüm hikayelere, bilince rağmen yine de alışkanlıklarımı değiştirmek benim için zor.</blockquote>
+  <p>Aralık ayında sosyal medya 2016 yılını karalama kampanyası başlattı. Yıl içerisinde gerçekleşen bütün felaketler, ölen ünlüler listeler halinde paylaşıldı. Bu yazının konusu daha kişisel ancak benim için de 2016 pek parlak geçmedi.</p>
+  <p>İlk olarak, en çok övündüğüm kitap okuma alışkanlığımdan tamamen koptum. WordPress blogumu satmamın ardından blog yazma alışkanlığım da kalmadı. Yemek yeme alışkanlığım da bozuldu. Daha önceleri abur-cubur, fast food benim için ödülken şimdi bu ödül yerini ev yemeklerine bıraktı. Gördüm ki bu tembelliklerin toplamı bana daha az üretmek olarak geri dönüyor.</p>
+  <h2>2017 Hedeflerim</h2>
+  <p>2017 yılı için kendime 6 temel hedef belirledim.</p>
+  <ol>
+    <li>Erken kalk (Saat 5:45’te)</li>
+    <li>Düzenli spor yap</li>
+    <li>Sağlıklı beslen (Yemek yap)</li>
+    <li>Kitap oku</li>
+    <li>Blog yaz</li>
+    <li>Uyku öncesi meditasyon!</li>
+  </ol>
+  <p>Aşağıda neden bu hedeflerde karar kıldığımı sırasıyla inceledim.</p>
+  <h3>Erken kalk</h3>
+  <p>Ben daha çok geç yatan - geç uyanan biriyim. Uykuyu sevmekten çok, gecenin sessizliğinde çalışmayı daha verimli buluyorum. Diğer yandan 6 saatten az uyku bana yeterli değil.</p>
+  <p>Geç uyanmak bütün günümü verimsizleştiriyor. Bunun için gece çalıştığım 1-2 saatlik verimli süremi feda edip tüm günü daha performanslı geçirmek için çalışacağım. Bunu daha önce denedim, saat 6’da güne başlayıp gün içinde yapacaklarımı planlamak benim için daha faydalı. Üstelik kahvaltıya da vakit kalıyor. Bir taşla iki kuş!</p>
+  <p>Uyanma saatime 5:45 olarak karar vermem çok radikal bir değişiklik oldu. Bu saate karar vermemde Quora’daki <a href="https://www.quora.com/What-do-most-successful-people-do-every-morning/answer/Janis-Butevics" rel="external" target="_blank">Başarılı insanlar her sabah ne yapar?</a> sorusuna gelen bir cevap yardımcı oldu.</p>
+  <p>Şahsi olarak tanıştığım ve başarılı bulduğum herkesin de saat 7’den önce uyandığını biliyorum. Bu nedenle hedefimi 5:45 olarak belirledim.</p>
+  <h3>Düzenli spor yap</h3>
+  <p>Düzenli spor yaptığım zaman kendimi daha dinç ve daha sağlıklı hissediyorum. Bu aslında erken uyanmamın da bir parçası: 15-20 dakikalık bir sabah egzersizi ve haftanın belli günleri de işten sonra 30-45 dakikalık spor. Düzenli spor yaptığım zamanlarda sırt ve omuz ağrılarım kayboluyor. Tüm gününü bilgisayar başında geçirenlere öneririm.</p>
+  <h3>Sağlıklı beslen</h3>
+  <p>Sağlıklı beslenmekten kastettiğim ev yemekleri yemek. Hazır yiyeceklerden kendimi kurtarırsam yaşam kalitemi artıracağıma inanıyorum. Evde yemek yapmaya vakit ayırmam gerek. Bunun için kendimi haftanın üç günü evde yemek yapmak için motive etmeye çalışıyorum.</p>
+  <h3>Kitap oku</h3>
+  <p>2016’da çok az okudum. Biriken kitaplarımı bir an önce bitirmem, yenilerine başlamam gerekli. Kitap okumayı zihnimi boşaltmak için de faydalı buluyorum. Ayrıca okuduğum kitaplar hakkındaki fikirlerimi bloglamak gibi de bir niyetim var.</p>
+  <figure>
+    <img alt="Franz Kafka'nın Dönüşüm kitabına ait bir illustrasyon" src="https://tufantunc.com/content/blog/franz-kafka-donusum.jpg">
+    <figcaption>
+      Kitap okuma hedefime Franz Kafka'nın, giriş paragrafını her edebiyat severin ezbere bildiği Dönüşüm adlı kitabı ile başladım.
+    </figcaption>
+  </figure>
+  <h3>Blog yaz</h3>
+  <p>Normal zamanlarda bildiğim bir konu üzerinde durmaktansa yeni şeyler araştırmak daha cazip geliyor. Blog yazarken ise bildiğimi düşündüğüm konuları yazıyorum. Ancak yazarken bilmediğim ya da daha önce merak etmediğim şeyleri de araştırmam gerekiyor. Bu hem bildiklerimi pekiştirmek hem de bilgiyi detaylandırmak adına çok faydalı.</p>
+  <h3>Uyku öncesi meditasyon yap</h3>
+  <p>Meditasyon dediysem, bacaklarımı çapraz yapıp halının ortasında oturmak değil!</p>
+  <p>Bazen sadece gözlerimi kapatıp müzik dinlemek, bazen de <a href="https://www.calm.com/" rel="external" target="_blank">Calm App</a> yardımıyla biraz zihnime odaklanıp hiçbir şey yapmamak iyi geliyor. Günlük hayatın akışında herşeyi aceleye getiriyorum, zihin sağlığımı korumak için bu ufak duraksamalar bana iyi geliyor.</p>
+  <h3>Son olarak...</h3>
+  <p>Benim için en büyük motivasyon alışkanlıklarımı geri kazanmaya çalışıyor olmak. Bunlar "yapabilir miyim" diye endişe ettiğim amaçlar değil, eskiden zaten yapıyordum.</p>
+  <p>Ancak herkes önüne benim kadar basit hedefler koymayabilir. Eğer bu konuda bir motivasyona ihtiyacınız varsa, Barış Özcan'ın <i>Zinciri Kırma</i> isimli projesine göz atmanızı öneririm. Hedeflerinize ilerlemenizi takip edebilecek ve kendiniz motive etmenizi sağlayacak etkili bir yol öneriyor.</p>
+  <p>
+  <iframe width="680" height="383" src="https://www.youtube.com/embed/ZoOTMQQzsJY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </p>
+  <p>İyi seneler...</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>03 Ocak 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/kişisel/">kişisel</a>
+    
+    <a href="https://tufantunc.com/tags/hedef/">hedef</a>
+    
+    <a href="https://tufantunc.com/tags/blog/">blog</a>
+    
+    <a href="https://tufantunc.com/tags/kitap/">kitap</a>
+    
+    <a href="https://tufantunc.com/tags/spor/">spor</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/2017-kisisel-hedeflerim/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=2017 Yılı İçin Kişisel Hedeflerim&url=https://tufantunc.com/blog/2017-kisisel-hedeflerim/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/2017-kisisel-hedeflerim/&title=2017 Yılı İçin Kişisel Hedeflerim&summary=2017 yılında daha üretken olabilmek için kendime belirlediğim kişisel hedeflerimi yazdım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/2017-kisisel-hedeflerim';
+		window.disqus_identifier = 'blog-2017-kisisel-hedeflerim';
+		window.disqus_title = '2017 Yılı İçin Kişisel Hedeflerim';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/2017-kisisel-hedeflerim</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/2017-kisisel-hedeflerim</guid>
+            <pubDate>Tue, 03 Jan 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak]]></title>
+            <description><![CDATA[<article>
+  <h1>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</h1>
+  <figure>
+    <img alt="ssl seritifikası ile tarayıcıda görünen güvenli bağlantı bilgisi" src="https://tufantunc.com/content/blog/ssl-sertifikasi-guvenli-baglanti-bilgisi.jpg">
+    <figcaption>
+      SSL seritifikası ile tarayıcıda görünen güvenli bağlantı bilgisi
+    </figcaption>
+  </figure>
+  <p>Genellikle uygulama arayüzleri geliştirdiğimden SEO konusu benim için ikinci planda kaldı. Güvenlik konuları ise daha ön planda.</p>
+<p>Bu nedenle <a href="https://ahrefs.com/blog/" target="_blank" rel="external">Ahrefs</a> blogunu nadiren takip ederim. Geçtiğimiz aylarda tesadüfen denk geldiğim yazıda <a href="https://ahrefs.com/blog/http-vs-https-for-seo/" target="_blank" rel="external">Google'ın https bağlantılarını pozitif SEO kriteri olarak kabul etmesi</a> bilgisi ilgimi çekti (Yazı çok daha eski).
+Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerimi bedavaya getirmemdeki gibi SSL sertifikası için de hemen ücretsiz bir servis aramaya koyuldum.
+  </p>
+  <blockquote>Google Webmaster blogunda yayınlanan bir yazıda https adreslerinin sıralamada öncelik kazanacağına dair detaylar mevcut. Kaynak: <a href="https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html" target="_blank" rel="external">Google Webmaster Blog</a></blockquote>
+  <h2>Cloudflare ücretsiz SSL hizmeti</h2>
+  <p><a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a> servisini daha önce deneme amaçlı kullanmıştım. Ücretsiz olmasına rağmen çok başarılı servisleri var.
+  Bir dönem özellikle sık sık bot saldırısı alan siteler, Cloudflare ile bu saldırıları nasıl hasarsız atlattığını yazdı. İnternette bu konuda pek çok başarı hikayesi okumuştum. Bu yazılardan da etkilenerek Cloudflare'den sonra aramaya devam etmedim. Benin için SSL ve Cache hizmetleri oldukça cazip ve şimdilik bunlarla ilgileniyorum.</p>
+  <p>Cloudflare sitesinden bir üyelik aldıktan sonra DNS yönetimini ona devretmeniz gerekiyor. DNS kayıtlarımı Cloudflare üzerine taşıdım, bu oldukça kolay bir işlem. Kayıt olduktan sonra site sizi adım adım yönlendiriyor.</p>
+  <p>Kurulumu doğru yaptıysanız eğer sitenize erişimde bir sıkıntı yaşamıyor olmalısınız. Artık SSL sertifikanızı aktifleştirmeniz için birkaç kolay adım kaldı. Bunlardan ilki, Cloudflare panelindeki Crypto sayfasından SSL alanına gitmek ve Full seçeneğini seçmek. Böylece Full SSL aktifleşecek. Artık sitenize https üzerinden ulaşabilirsiniz.</p>
+  <p>İkinci adım ise tüm http trafiğini https adresine yönlendirmek. Eğer hosting firmanız varsa, bunu hosting panelinizden ya da linux sunucular için htaccess dosyası ile yapmak mümkün. Dileyen o yöntemleri araştırıp bulabilir. Ancak ben Github Pages kullandığımdan her ikisine de sahip değilim. Dolayısıyla yine Cloudflare panelindeki yönlendirme özelliklerinden faydalanacağım.</p>
+  <p>Bunu yapmak için Page Rules sayfasına gitmeli ve buradan yönlendirme için kural tanımlamaları yapmalıyız. Ben ilk olarak www önekini kullanmak istemediğimden, bu adrese ait trafiği <i>https://tufantunc.com</i> adresine yönlendirdim. Yaptığım ayarlama resimdeki gibi.</p>
+  <figure>
+    <img alt="www önekine ait 301 redirect yönlendirmesi" src="https://tufantunc.com/content/blog/www-oneki-icin-301-redirect-yonlendirmesi.jpg">
+    <figcaption>
+      Site adresimde www önekini kullanmak istemediğimden böyle bir yönlendirme yaptım.
+    </figcaption>
+  </figure>
+  <p>İkinci adım tüm site trafiğini https adresine yönlendirmek. Bunun için kullandığım ayarlar da resimdeki gibi.</p>
+  <figure>
+    <img alt="Cloudflare servisinin her zaman https kullan ayarı" src="https://tufantunc.com/content/blog/always-use-https-ayari.jpg">
+    <figcaption>
+      Cloudflare tüm site trafiğini https adresine yönlendirmek için bir seçenek sunuyor.
+    </figcaption>
+  </figure>
+  <p>Bu iki adım ile SSL sertifikamızı kullanan https adresimizi aktifleştirmiş olduk. Benim için üçüncü bir adım daha oldu. Cache'leme özelliğini aktifleştirmek çok kolaydı. Açıkcası bana ne kadar faydalı olacağını düşünmeden bunu da aktifleştirdim. Üçüncü bir kural ekleyip ayarları resimdeki gibi seçin.</p>
+  <figure>
+    <img alt="Cloudflare cache ayarları" src="https://tufantunc.com/content/blog/cloudflare-cache-ayarlari.jpg">
+    <figcaption>
+      Cloudflare servisi ücretsiz bir Cache özelliği de sunuyor.
+    </figcaption>
+  </figure>
+  <h2>Güvenli olmayan içerik hatası</h2>
+  <p>Ben ilk defa güvenli bağlantı ile siteme ulaşmayı denediğimde bu hatayı aldım. İlginç bir şekilde Firefox detayları paylaşmıyor. Ancak Chrome'daki developer tools sayesinde hatayı anladım.</p>
+  <ol>
+    <li>Sayfamdaki görseller hala http adresimden yükleniyordu ve bu nedenle tarayıcılar sitemi güvenli olarak kabul etmiyor.</li>
+    <li>Yorumlarda kullandığım Discus servisine ait js dosyaları http adresinden yüklenmeye çalıştığı için tarayıcı bu script'in yüklenmesini engelliyor.</li>
+  </ol>
+  <p>Her iki sorunu da düzeltmek benim için çocuk oyuncağı oldu. İlk olarak sitemi generate ettiğim uygulama olan Docpad'in ayarlarından varsayılan adresime https ekledim. Tüm sayfaları yeniden generate ettim ve bu sayede görsellerin url adresleri istediğim şekilde düzeldi.</p>
+  <p>Discus hizmeti ise Docpad'in services isimli bir eklentisi sayesinde sayfalara ekleniyor. Eklentinin dosyalarını açıp url adresine https ekledim. Bu sorun da böylece düzelmiş oldu.</p>
+  <h2>Sonuç Olarak</h2>
+  <p>SEO'yu bahane ederek ücretsiz SSL sertifikası ve kolayca Cache mekanizması kurmuş oldum. Bloglamak için WordPress kullananlar eminim CloudFlare servisi için bir eklenti bulabilir, belki de bu ayarları daha kolay yapabilir. Ancak benim gibi kendi blogunu kendisi hazırlayanlar için bu ayarlamalar keyifli bir uğraş olacak.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>24 Aralık 2016</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/google/">google</a>
+    
+    <a href="https://tufantunc.com/tags/seo/">seo</a>
+    
+    <a href="https://tufantunc.com/tags/ssl/">ssl</a>
+    
+    <a href="https://tufantunc.com/tags/github/">github</a>
+    
+    <a href="https://tufantunc.com/tags/cloudflare/">cloudflare</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak&url=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/&title=SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak&summary=SSL sertifikası kullanmanın sitenize sağladığı seo avantajlarını ve Github Pages üzerine kurulu siteye sertifika alma yöntemini anlattım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi';
+		window.disqus_identifier = 'blog-ssl-sertifikasinin-seo-etkisi';
+		window.disqus_title = 'SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</guid>
+            <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Static Site Generator Kullanmanın Avantajları]]></title>
@@ -282,205 +532,64 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak]]></title>
-            <description><![CDATA[<article>
-  <h1>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</h1>
-  <figure>
-    <img alt="ssl seritifikası ile tarayıcıda görünen güvenli bağlantı bilgisi" src="https://tufantunc.com/content/blog/ssl-sertifikasi-guvenli-baglanti-bilgisi.jpg">
-    <figcaption>
-      SSL seritifikası ile tarayıcıda görünen güvenli bağlantı bilgisi
-    </figcaption>
-  </figure>
-  <p>Genellikle uygulama arayüzleri geliştirdiğimden SEO konusu benim için ikinci planda kaldı. Güvenlik konuları ise daha ön planda.</p>
-<p>Bu nedenle <a href="https://ahrefs.com/blog/" target="_blank" rel="external">Ahrefs</a> blogunu nadiren takip ederim. Geçtiğimiz aylarda tesadüfen denk geldiğim yazıda <a href="https://ahrefs.com/blog/http-vs-https-for-seo/" target="_blank" rel="external">Google'ın https bağlantılarını pozitif SEO kriteri olarak kabul etmesi</a> bilgisi ilgimi çekti (Yazı çok daha eski).
-Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerimi bedavaya getirmemdeki gibi SSL sertifikası için de hemen ücretsiz bir servis aramaya koyuldum.
-  </p>
-  <blockquote>Google Webmaster blogunda yayınlanan bir yazıda https adreslerinin sıralamada öncelik kazanacağına dair detaylar mevcut. Kaynak: <a href="https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html" target="_blank" rel="external">Google Webmaster Blog</a></blockquote>
-  <h2>Cloudflare ücretsiz SSL hizmeti</h2>
-  <p><a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a> servisini daha önce deneme amaçlı kullanmıştım. Ücretsiz olmasına rağmen çok başarılı servisleri var.
-  Bir dönem özellikle sık sık bot saldırısı alan siteler, Cloudflare ile bu saldırıları nasıl hasarsız atlattığını yazdı. İnternette bu konuda pek çok başarı hikayesi okumuştum. Bu yazılardan da etkilenerek Cloudflare'den sonra aramaya devam etmedim. Benin için SSL ve Cache hizmetleri oldukça cazip ve şimdilik bunlarla ilgileniyorum.</p>
-  <p>Cloudflare sitesinden bir üyelik aldıktan sonra DNS yönetimini ona devretmeniz gerekiyor. DNS kayıtlarımı Cloudflare üzerine taşıdım, bu oldukça kolay bir işlem. Kayıt olduktan sonra site sizi adım adım yönlendiriyor.</p>
-  <p>Kurulumu doğru yaptıysanız eğer sitenize erişimde bir sıkıntı yaşamıyor olmalısınız. Artık SSL sertifikanızı aktifleştirmeniz için birkaç kolay adım kaldı. Bunlardan ilki, Cloudflare panelindeki Crypto sayfasından SSL alanına gitmek ve Full seçeneğini seçmek. Böylece Full SSL aktifleşecek. Artık sitenize https üzerinden ulaşabilirsiniz.</p>
-  <p>İkinci adım ise tüm http trafiğini https adresine yönlendirmek. Eğer hosting firmanız varsa, bunu hosting panelinizden ya da linux sunucular için htaccess dosyası ile yapmak mümkün. Dileyen o yöntemleri araştırıp bulabilir. Ancak ben Github Pages kullandığımdan her ikisine de sahip değilim. Dolayısıyla yine Cloudflare panelindeki yönlendirme özelliklerinden faydalanacağım.</p>
-  <p>Bunu yapmak için Page Rules sayfasına gitmeli ve buradan yönlendirme için kural tanımlamaları yapmalıyız. Ben ilk olarak www önekini kullanmak istemediğimden, bu adrese ait trafiği <i>https://tufantunc.com</i> adresine yönlendirdim. Yaptığım ayarlama resimdeki gibi.</p>
-  <figure>
-    <img alt="www önekine ait 301 redirect yönlendirmesi" src="https://tufantunc.com/content/blog/www-oneki-icin-301-redirect-yonlendirmesi.jpg">
-    <figcaption>
-      Site adresimde www önekini kullanmak istemediğimden böyle bir yönlendirme yaptım.
-    </figcaption>
-  </figure>
-  <p>İkinci adım tüm site trafiğini https adresine yönlendirmek. Bunun için kullandığım ayarlar da resimdeki gibi.</p>
-  <figure>
-    <img alt="Cloudflare servisinin her zaman https kullan ayarı" src="https://tufantunc.com/content/blog/always-use-https-ayari.jpg">
-    <figcaption>
-      Cloudflare tüm site trafiğini https adresine yönlendirmek için bir seçenek sunuyor.
-    </figcaption>
-  </figure>
-  <p>Bu iki adım ile SSL sertifikamızı kullanan https adresimizi aktifleştirmiş olduk. Benim için üçüncü bir adım daha oldu. Cache'leme özelliğini aktifleştirmek çok kolaydı. Açıkcası bana ne kadar faydalı olacağını düşünmeden bunu da aktifleştirdim. Üçüncü bir kural ekleyip ayarları resimdeki gibi seçin.</p>
-  <figure>
-    <img alt="Cloudflare cache ayarları" src="https://tufantunc.com/content/blog/cloudflare-cache-ayarlari.jpg">
-    <figcaption>
-      Cloudflare servisi ücretsiz bir Cache özelliği de sunuyor.
-    </figcaption>
-  </figure>
-  <h2>Güvenli olmayan içerik hatası</h2>
-  <p>Ben ilk defa güvenli bağlantı ile siteme ulaşmayı denediğimde bu hatayı aldım. İlginç bir şekilde Firefox detayları paylaşmıyor. Ancak Chrome'daki developer tools sayesinde hatayı anladım.</p>
-  <ol>
-    <li>Sayfamdaki görseller hala http adresimden yükleniyordu ve bu nedenle tarayıcılar sitemi güvenli olarak kabul etmiyor.</li>
-    <li>Yorumlarda kullandığım Discus servisine ait js dosyaları http adresinden yüklenmeye çalıştığı için tarayıcı bu script'in yüklenmesini engelliyor.</li>
-  </ol>
-  <p>Her iki sorunu da düzeltmek benim için çocuk oyuncağı oldu. İlk olarak sitemi generate ettiğim uygulama olan Docpad'in ayarlarından varsayılan adresime https ekledim. Tüm sayfaları yeniden generate ettim ve bu sayede görsellerin url adresleri istediğim şekilde düzeldi.</p>
-  <p>Discus hizmeti ise Docpad'in services isimli bir eklentisi sayesinde sayfalara ekleniyor. Eklentinin dosyalarını açıp url adresine https ekledim. Bu sorun da böylece düzelmiş oldu.</p>
-  <h2>Sonuç Olarak</h2>
-  <p>SEO'yu bahane ederek ücretsiz SSL sertifikası ve kolayca Cache mekanizması kurmuş oldum. Bloglamak için WordPress kullananlar eminim CloudFlare servisi için bir eklenti bulabilir, belki de bu ayarları daha kolay yapabilir. Ancak benim gibi kendi blogunu kendisi hazırlayanlar için bu ayarlamalar keyifli bir uğraş olacak.</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>24 Aralık 2016</time>
-  </div>
-
-  
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/google/">google</a>
-    
-    <a href="https://tufantunc.com/tags/seo/">seo</a>
-    
-    <a href="https://tufantunc.com/tags/ssl/">ssl</a>
-    
-    <a href="https://tufantunc.com/tags/github/">github</a>
-    
-    <a href="https://tufantunc.com/tags/cloudflare/">cloudflare</a>
-    
-  </div>
-  
-
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak&url=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi/&title=SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak&summary=SSL sertifikası kullanmanın sitenize sağladığı seo avantajlarını ve Github Pages üzerine kurulu siteye sertifika alma yöntemini anlattım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
-
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi';
-		window.disqus_identifier = 'blog-ssl-sertifikasinin-seo-etkisi';
-		window.disqus_title = 'SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>]]></description>
-            <link>https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</guid>
-            <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tag: nodejs]]></title>
+            <title><![CDATA[Tag: kişisel]]></title>
             <description><![CDATA[<article class="main-content bracket">
-  <h1>nodejs etiketi içeren yazılar:</h1>
+  <h1>kişisel etiketi içeren yazılar:</h1>
   <ul id="blog-posts">
     
     <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
+      <a href="/blog/2017-kisisel-hedeflerim/">
+        <span>2017 Yılı İçin Kişisel Hedeflerim</span>
+        <time>03 Ocak 2017</time>
       </a>
     </li>
     
   </ul>
 </article>
 ]]></description>
-            <link>https://tufantunc.com/tags/nodejs</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/nodejs</guid>
-            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
+            <link>https://tufantunc.com/tags/ki-isel</link>
+            <guid isPermaLink="true">https://tufantunc.com/tags/ki-isel</guid>
+            <pubDate>Tue, 03 Jan 2017 20:00:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: javascript]]></title>
+            <title><![CDATA[Tag: hedef]]></title>
             <description><![CDATA[<article class="main-content bracket">
-  <h1>javascript etiketi içeren yazılar:</h1>
+  <h1>hedef etiketi içeren yazılar:</h1>
   <ul id="blog-posts">
     
     <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
+      <a href="/blog/2017-kisisel-hedeflerim/">
+        <span>2017 Yılı İçin Kişisel Hedeflerim</span>
+        <time>03 Ocak 2017</time>
       </a>
     </li>
     
   </ul>
 </article>
 ]]></description>
-            <link>https://tufantunc.com/tags/javascript</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/javascript</guid>
-            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
+            <link>https://tufantunc.com/tags/hedef</link>
+            <guid isPermaLink="true">https://tufantunc.com/tags/hedef</guid>
+            <pubDate>Tue, 03 Jan 2017 20:00:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: static-site-generator]]></title>
+            <title><![CDATA[Tag: blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
-  <h1>static-site-generator etiketi içeren yazılar:</h1>
+  <h1>blog etiketi içeren yazılar:</h1>
   <ul id="blog-posts">
     
     <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
+      <a href="/blog/2017-kisisel-hedeflerim/">
+        <span>2017 Yılı İçin Kişisel Hedeflerim</span>
+        <time>03 Ocak 2017</time>
       </a>
     </li>
     
   </ul>
 </article>
 ]]></description>
-            <link>https://tufantunc.com/tags/static-site-generator</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/static-site-generator</guid>
-            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tag: docpad]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>docpad etiketi içeren yazılar:</h1>
-  <ul id="blog-posts">
-    
-    <li>
-      <a href="/blog/static-site-generator-kullanmanin-avantajlari/">
-        <span>Static Site Generator Kullanmanın Avantajları</span>
-        <time>02 Ekim 2016</time>
-      </a>
-    </li>
-    
-  </ul>
-</article>
-]]></description>
-            <link>https://tufantunc.com/tags/docpad</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/docpad</guid>
-            <pubDate>Sat, 24 Dec 2016 15:50:32 GMT</pubDate>
+            <link>https://tufantunc.com/tags/blog</link>
+            <guid isPermaLink="true">https://tufantunc.com/tags/blog</guid>
+            <pubDate>Tue, 03 Jan 2017 20:00:02 GMT</pubDate>
         </item>
     </channel>
 </rss>
