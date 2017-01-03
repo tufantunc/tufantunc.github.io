@@ -4,9 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Jan 2017 20:02:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jan 2017 20:06:24 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
+        <pubDate>Tue, 03 Jan 2017 20:06:20 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -83,6 +83,27 @@
             <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Front-End Developer]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>Merhaba.</h1>
+  <p>Adım Tufan Tunç.<br/>
+    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
+  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
+otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
+kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
+
+  <h2>Son Blog Yazım:</h2>
+  
+  <p class="no-margin-top"><a href="/blog/2017-kisisel-hedeflerim/">2017 Yılı İçin Kişisel Hedeflerim</a></p>
+  
+
+
+</article>]]></description>
+            <link>https://tufantunc.com/</link>
+            <guid isPermaLink="true">https://tufantunc.com/</guid>
+            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Hakkımda]]></title>
             <description><![CDATA[<article class="main-content">
   <h1>Hakkımda</h1>
@@ -110,27 +131,6 @@
             <link>https://tufantunc.com/hakkimda</link>
             <guid isPermaLink="true">https://tufantunc.com/hakkimda</guid>
             <pubDate>Sat, 01 Oct 2016 11:10:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Front-End Developer]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-
-  <h2>Son Blog Yazım:</h2>
-  
-  <p class="no-margin-top"><a href="/blog/2017-kisisel-hedeflerim/">2017 Yılı İçin Kişisel Hedeflerim</a></p>
-  
-
-
-</article>]]></description>
-            <link>https://tufantunc.com/</link>
-            <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
@@ -192,7 +192,7 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
   <div class="tags">
     <small><i class="icon-tags"></i> Etiketler: </small><br/>
     
-    <a href="https://tufantunc.com/tags/kişisel/">kişisel</a>
+    <a href="https://tufantunc.com/tags/kisisel/">kisisel</a>
     
     <a href="https://tufantunc.com/tags/hedef/">hedef</a>
     
@@ -532,9 +532,9 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: kişisel]]></title>
+            <title><![CDATA[Tag: kisisel]]></title>
             <description><![CDATA[<article class="main-content bracket">
-  <h1>kişisel etiketi içeren yazılar:</h1>
+  <h1>kisisel etiketi içeren yazılar:</h1>
   <ul id="blog-posts">
     
     <li>
@@ -547,9 +547,9 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
   </ul>
 </article>
 ]]></description>
-            <link>https://tufantunc.com/tags/ki-isel</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/ki-isel</guid>
-            <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
+            <link>https://tufantunc.com/tags/kisisel</link>
+            <guid isPermaLink="true">https://tufantunc.com/tags/kisisel</guid>
+            <pubDate>Tue, 03 Jan 2017 20:06:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: hedef]]></title>
@@ -569,7 +569,7 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
 ]]></description>
             <link>https://tufantunc.com/tags/hedef</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/hedef</guid>
-            <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 20:06:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: blog]]></title>
@@ -589,7 +589,7 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
 ]]></description>
             <link>https://tufantunc.com/tags/blog</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/blog</guid>
-            <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 20:06:20 GMT</pubDate>
         </item>
     </channel>
 </rss>
