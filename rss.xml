@@ -4,9 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Jan 2017 20:00:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jan 2017 20:02:37 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 03 Jan 2017 20:00:01 GMT</pubDate>
+        <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -65,6 +65,24 @@
             <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[İletişim]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>İletişim</h1>
+  <p>
+    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
+  </p>
+  <p>
+    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
+  </p>
+  <p>
+    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
+  </p>
+</article>]]></description>
+            <link>https://tufantunc.com/iletisim</link>
+            <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
+            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Hakkımda]]></title>
             <description><![CDATA[<article class="main-content">
   <h1>Hakkımda</h1>
@@ -105,32 +123,14 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 
   <h2>Son Blog Yazım:</h2>
   
-  <p class="no-margin-top"><a href="/blog/2017-kisisel-hedeflerim">2017 Yılı İçin Kişisel Hedeflerim</a></p>
+  <p class="no-margin-top"><a href="/blog/2017-kisisel-hedeflerim/">2017 Yılı İçin Kişisel Hedeflerim</a></p>
   
 
 
 </article>]]></description>
             <link>https://tufantunc.com/</link>
             <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Tue, 03 Jan 2017 19:59:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[İletişim]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>İletişim</h1>
-  <p>
-    Eğer herhangi bir konuda bana bir sorunuz varsa ya da sadece selam vermek isterseniz bana bir e-posta gönderin: <span class="email" data-address="tufan.tunc.91" data-domain="gmail.com"></span>
-  </p>
-  <p>
-    Dilerseniz <a href="https://twitter.com/tufant" rel="external" target="_blank">Twitter adresime</a> bir ileti gönderebilir ya da <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn</a> üzerinde beni ekleyebilirsiniz.
-  </p>
-  <p>
-    Hem e-posta hem de sosyal medya hesaplarımı günlük takip ediyorum.
-  </p>
-</article>]]></description>
-            <link>https://tufantunc.com/iletisim</link>
-            <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
-            <pubDate>Sun, 02 Oct 2016 12:17:36 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
@@ -549,7 +549,7 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
 ]]></description>
             <link>https://tufantunc.com/tags/ki-isel</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/ki-isel</guid>
-            <pubDate>Tue, 03 Jan 2017 20:00:02 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: hedef]]></title>
@@ -569,7 +569,7 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
 ]]></description>
             <link>https://tufantunc.com/tags/hedef</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/hedef</guid>
-            <pubDate>Tue, 03 Jan 2017 20:00:02 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tag: blog]]></title>
@@ -589,7 +589,7 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
 ]]></description>
             <link>https://tufantunc.com/tags/blog</link>
             <guid isPermaLink="true">https://tufantunc.com/tags/blog</guid>
-            <pubDate>Tue, 03 Jan 2017 20:00:02 GMT</pubDate>
+            <pubDate>Tue, 03 Jan 2017 20:02:34 GMT</pubDate>
         </item>
     </channel>
 </rss>
