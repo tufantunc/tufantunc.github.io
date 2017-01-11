@@ -4,9 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Jan 2017 17:26:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Jan 2017 20:39:12 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Jan 2017 17:26:41 GMT</pubDate>
+        <pubDate>Wed, 11 Jan 2017 20:39:08 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -15,6 +15,13 @@
     <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
   </h1>
   <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/">
+        <span>KnockoutJS Kullanmanız için Birkaç Sebep</span>
+        <time>11 Ocak 2017</time>
+      </a>
+    </li>
     
     <li>
       <a href="/blog/2017-kisisel-hedeflerim/">
@@ -94,6 +101,27 @@
             <pubDate>Sat, 01 Oct 2016 11:10:26 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Front-End Developer]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>Merhaba.</h1>
+  <p>Adım Tufan Tunç.<br/>
+    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
+  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
+otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
+kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
+
+  <h2>Son Blog Yazım:</h2>
+  
+  <p class="no-margin-top"><a href="/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/">KnockoutJS Kullanmanız için Birkaç Sebep</a></p>
+  
+
+
+</article>]]></description>
+            <link>https://tufantunc.com/</link>
+            <guid isPermaLink="true">https://tufantunc.com/</guid>
+            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[İletişim]]></title>
             <description><![CDATA[<article class="main-content">
   <h1>İletişim</h1>
@@ -112,25 +140,100 @@
             <pubDate>Tue, 03 Jan 2017 20:08:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Front-End Developer]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
+            <title><![CDATA[KnockoutJS Kullanmanız için Birkaç Sebep]]></title>
+            <description><![CDATA[<article>
+  <h1>KnockoutJS Kullanmanız için Birkaç Sebep</h1>
+  <p>Arayüz Geliştiriciler Angular.js ve React.js arasında taraf olurken, pek çok geliştirici KnockoutJS’nin adını duymadı bile. Ben 1 yıldan fazla süredir bu javascript kütüphanesini kullanıyorum. Sizin de kullanmanız için birkaç sebep sıraladım.</p>
+  <p>Önceki yazılarımda daha çok web uygulamaları arayüzleri geliştirdiğimden bahsetmiştim. Bu nedenle dinamik olarak değişen ve kullanıcı ile sunucu arasında data alışverişlerini yönetmek için bir kütüphaneye ihtiyaç duyuyorduk. Dolayısıyla two-way binding denilen, arayüz ile javascript arasında data senkronizasyonu yapan bir kütüphane aradık. O dönem birlikte çalıştığımız <a href="http://www.cuneytbekar.net" rel="coworker" target="_blank">Software Architect Cüneyt Bekar</a> ile birlikte, dinamik arayüzleri kontrol edebileceğimiz bir framework arayışına koyulduk.</p>
+  <p><a href="http://knockoutjs.com/" rel="nofollow" target="_blank">KnockoutJS</a> kullanmaya karar verirken pek çok popüler front-end js kütüphanesinin özelliklerini ve yazım stillerini inceleme fırsatı buldum. Bu yazıda daha çok <a href="https://angularjs.org/" rel="external" target="_blank">Angular.js</a> ve <a href="https://facebook.github.io/react/" rel="external" target="_blank">React.js</a> üzerinden gideceğim.</p>
+  <p>İhtiyaçlarımız basit: Hali hazırda çalışan projelere kolayca entegre edebileceğimiz, öğrenme süresi kısa, yazımı kolay, templating özelliğine sahip bir framework bulmak.</p>
+  <h2>Angular.js</h2>
+  <p>Angular.js’nin popülerliği bizi manipüle etti, onun üzerinde çok durduk. Kendi yazım stiline sahip olması bizim için büyük problem yarattı, üstelik dökümantasyonu da karmaşıktı. Projelerde backend developer’ların da gerektiğinde js ya da html dosyalarına müdahale edebileceği basitlikte kodlar yazmamız gerekiyordu. Angular’ın yazımı aşina olmayan biri için hiç de müdahale edilebilir değil. Elememizin en büyük sebeplerinden biri de routing ve controller gibi backend’de .net kullandığımız projelerde hiç kullanmayacağımız özelliklere sahip olmasıydı. Angular.js tahmin ettiğimizden çok daha büyük, ASP.NET MVC gibi bir framework çıktı.</p>
+  <h2>React.js</h2>
+  <p>React.js performans karşılaştırmalarında yarattığı farkla bizi heyecanlandırmıştı. Diğer taraftan JSX yazımı harika görünüyordu. Ancak bu da Angular gibi javascript’in dışında bir yazım stili ve yine aşina olmayan birinin müdahalesi zor. Diğer taraftan jsx dosyalarının compile edildikten sonra yayınlanması projelerin süresini uzatacaktır. Bizim aradığımız ise tek sayfalık bir basit bir formda veya çok sayfalı karmaşık projelerde kullanabileceğimiz ortak bir framework. React’in yazım stili küçük projeler için büyük zaman kaybına neden olabilir. Üstelik jQuery ile olan anlaşmazlığı da can sıkıcı. Çünkü müdahale etmemiz ya da ek geliştirme yapmamız gereken çoğu projede jQuery kullanılıyor. Ayrıca HTML elemanlarını da JS içine yazmamızı şart koşuyor. Virtual DOM’u kullanması pek çok açıdan fayda sağlasa da amacımız alışkanlıklarımızı bozmamak olduğundan React’i de eledik.</p>
+  <h2>KnockoutJS</h2>
+  <p>KnockoutJS’yi incelerken yazım stiline bayıldık. Değişken tanımlama kuralı dışında, klasik javascript yazdığınızı hissediyorsunuz. 43 kb’lık dosya boyutu ile Angular.js(81 kb) ve React.js(78 kb)’den neredeyse yarı yarıya daha küçük. Dökümantasyonu oldukça güzel ve basit anlatımlı. Tutorial uygulaması ile birkaç saatte Knockout’a hakim olmak mümkün. Ayrıca jQuery ve benzeri diğer kütüphane ve pluginlerle uyumlu. Sadece UI ve javascript arasında data-binding için yazılmış ve bunu başarıyla yapıyor.</p>
+  <h3>Tarayıcı uyumluluğu konusu</h3>
+  <p>Bu konu bizim karar vermemizdeki en etkin sebeplerden biri. Çünkü müşterilerden bazıları için daha önce geliştirilmiş uygulamaların ie6 uyumluluğuna dair fix çalışmaları yapıyorduk. Dolayısıyla, olabilecek en geniş tarayıcı desteğine sahip framework’ü seçmemiz gerekliydi. Angular ve React’in sadece A sınıfı tarayıcılarda(ie9 ve üstü Chrome, Firefox vb.) çalışması kararımızı kolaylaştırdı.</p>
+  <p>KnockoutJS ise ie6, firefox 2.0 ve sonrası tüm browser’ları destekliyor.</p>
+  <figure>
+    <iframe src="//giphy.com/embed/l0MYGhnGm3sTNreow?html5=true&hideSocial=true" width="680" height="379" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <figcaption>
+      Bilin bakalım çevremde KnockoutJS kullanan başka kim var?
+    </figcaption>
+  </figure>
+  <h3>KnockoutJS’nin eksikleri</h3>
+  <p>Angular ve React gibi geliştirme aşamasında fazla kuralcı olmaması nedeniyle spagetti kod yazımına çok müsait. Eğer kodlar doğru bir şekilde organize edilmezse büyük projelerde içinden çıkılmaz karmaşalara neden olabilir. Tüm siteyi tek view-model’da hazırlayabilir ya da tek sayfada 10 ayrı view-model kullanabilirsiniz. Mimari tamamen geliştiriciye kalmış.</p>
+  <p>Diğer yandan React ve Angular kadar kalabalık kullanıcı komünitesine sahip değil. Bu nedenle ihtiyaçlarınız için plugin aramaktansa çoğu zaman kendiniz yazmanız gerekecektir. Hazır çözümleri çok nadiren bulabiliyorsunuz.</p>
+  <p>Bir sonraki yazımda KnockoutJS ile örnek uygulama geliştirmesini anlatacağım. O zamana dek <a href="http://learn.knockoutjs.com/#/?tutorial=intro" rel="external" target="_blank">Tutorial</a> sayfasındaki alıştırmaları yapabilirsiniz.</p>
+  <p>Eklemek istediğiniz tecrübeleriniz ya da merak ettiğiniz bir konu varsa yorum yazmaktan çekinmeyin.</p>
+  <p>Sonraki yazıda görüşmek üzere.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>11 Ocak 2017</time>
+  </div>
 
-  <h2>Son Blog Yazım:</h2>
   
-  <p class="no-margin-top"><a href="/blog/2017-kisisel-hedeflerim/">2017 Yılı İçin Kişisel Hedeflerim</a></p>
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/knockoutjs/">knockoutjs</a>
+    
+    <a href="https://tufantunc.com/tags/angular/">angular</a>
+    
+    <a href="https://tufantunc.com/tags/react/">react</a>
+    
+    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
+    
+  </div>
   
 
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=KnockoutJS Kullanmanız için Birkaç Sebep&url=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/&title=KnockoutJS Kullanmanız için Birkaç Sebep&summary=KnockoutJS javascript kütüphanesini kullanmanız için sizi ikna etmeye çalıştığım bir yazı.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
 
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep';
+		window.disqus_identifier = 'blog-knockoutjs-kullanmaniz-icin-birkac-sebep';
+		window.disqus_title = 'KnockoutJS Kullanmanız için Birkaç Sebep';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </article>]]></description>
-            <link>https://tufantunc.com/</link>
-            <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
+            <link>https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep</guid>
+            <pubDate>Wed, 11 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak]]></title>
@@ -252,125 +355,6 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <link>https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</link>
             <guid isPermaLink="true">https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</guid>
             <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
-            <description><![CDATA[<article>
-  <h1>2017 Yılı İçin Kişisel Hedeflerim</h1>
-  <p>Bu konuda açık olalım, alışkanlıklarımızı değiştirmek hepimiz için zor. Bu konuda özellikle kendini eğitmeye çalışan benim için bile...</p>
-  <p>Mesleğim gereği insanların alışkanlıklarını bozmaya ne denli isteksiz olduklarını, bu konuda ayak dirediklerini biliyorum. Hatta kendimde bunu değiştirmek için bu alanda her hikayeyi okumaya çalışıyorum. En sevdiğim hikaye Ebay’e ait.</p>
-  <p>Hikaye şöyle: <i>Bir gün Ebay ekibi parlak sarı arkaplan renginden bıkıyor. Siteyi beyaz arkaplan rengi ile yeniliyorlar. Kullanıcılar ağır tepki gösteriyor, e-posta yağmuruna tutuyor. Ekip kullanıcıları memnun etmek için geri adım atmak zorunda. Ertesi gün bu değişiklik geri alınıyor. Ebay ekibi farklı bir strateji denemeye karar veriyor: Sitenin arkaplan rengini her gün bir ton açmaya karar veriyorlar. Tamamen beyaz olduğunda tek bir kullanıcı bile bunu fark etmiyor.</i></p>
-  <blockquote>Tüm hikayelere, bilince rağmen yine de alışkanlıklarımı değiştirmek benim için zor.</blockquote>
-  <p>Aralık ayında sosyal medya 2016 yılını karalama kampanyası başlattı. Yıl içerisinde gerçekleşen bütün felaketler, ölen ünlüler listeler halinde paylaşıldı. Bu yazının konusu daha kişisel ancak benim için de 2016 pek parlak geçmedi.</p>
-  <p>İlk olarak, en çok övündüğüm kitap okuma alışkanlığımdan tamamen koptum. WordPress blogumu satmamın ardından blog yazma alışkanlığım da kalmadı. Yemek yeme alışkanlığım da bozuldu. Daha önceleri abur-cubur, fast food benim için ödülken şimdi bu ödül yerini ev yemeklerine bıraktı. Gördüm ki bu tembelliklerin toplamı bana daha az üretmek olarak geri dönüyor.</p>
-  <h2>2017 Hedeflerim</h2>
-  <p>2017 yılı için kendime 6 temel hedef belirledim.</p>
-  <ol>
-    <li>Erken kalk (Saat 5:45’te)</li>
-    <li>Düzenli spor yap</li>
-    <li>Sağlıklı beslen (Yemek yap)</li>
-    <li>Kitap oku</li>
-    <li>Blog yaz</li>
-    <li>Uyku öncesi meditasyon!</li>
-  </ol>
-  <p>Aşağıda neden bu hedeflerde karar kıldığımı sırasıyla inceledim.</p>
-  <h3>Erken kalk</h3>
-  <p>Ben daha çok geç yatan - geç uyanan biriyim. Uykuyu sevmekten çok, gecenin sessizliğinde çalışmayı daha verimli buluyorum. Diğer yandan 6 saatten az uyku bana yeterli değil.</p>
-  <p>Geç uyanmak bütün günümü verimsizleştiriyor. Bunun için gece çalıştığım 1-2 saatlik verimli süremi feda edip tüm günü daha performanslı geçirmek için çalışacağım. Bunu daha önce denedim, saat 6’da güne başlayıp gün içinde yapacaklarımı planlamak benim için daha faydalı. Üstelik kahvaltıya da vakit kalıyor. Bir taşla iki kuş!</p>
-  <p>Uyanma saatime 5:45 olarak karar vermem çok radikal bir değişiklik oldu. Bu saate karar vermemde Quora’daki <a href="https://www.quora.com/What-do-most-successful-people-do-every-morning/answer/Janis-Butevics" rel="external" target="_blank">Başarılı insanlar her sabah ne yapar?</a> sorusuna gelen bir cevap yardımcı oldu.</p>
-  <p>Şahsi olarak tanıştığım ve başarılı bulduğum herkesin de saat 7’den önce uyandığını biliyorum. Bu nedenle hedefimi 5:45 olarak belirledim.</p>
-  <h3>Düzenli spor yap</h3>
-  <p>Düzenli spor yaptığım zaman kendimi daha dinç ve daha sağlıklı hissediyorum. Bu aslında erken uyanmamın da bir parçası: 15-20 dakikalık bir sabah egzersizi ve haftanın belli günleri de işten sonra 30-45 dakikalık spor. Düzenli spor yaptığım zamanlarda sırt ve omuz ağrılarım kayboluyor. Tüm gününü bilgisayar başında geçirenlere öneririm.</p>
-  <h3>Sağlıklı beslen</h3>
-  <p>Sağlıklı beslenmekten kastettiğim ev yemekleri yemek. Hazır yiyeceklerden kendimi kurtarırsam yaşam kalitemi artıracağıma inanıyorum. Evde yemek yapmaya vakit ayırmam gerek. Bunun için kendimi haftanın üç günü evde yemek yapmak için motive etmeye çalışıyorum.</p>
-  <h3>Kitap oku</h3>
-  <p>2016’da çok az okudum. Biriken kitaplarımı bir an önce bitirmem, yenilerine başlamam gerekli. Kitap okumayı zihnimi boşaltmak için de faydalı buluyorum. Ayrıca okuduğum kitaplar hakkındaki fikirlerimi bloglamak gibi de bir niyetim var.</p>
-  <figure>
-    <img alt="Franz Kafka'nın Dönüşüm kitabına ait bir illustrasyon" src="https://tufantunc.com/content/blog/franz-kafka-donusum.jpg">
-    <figcaption>
-      Kitap okuma hedefime Franz Kafka'nın, giriş paragrafını her edebiyat severin ezbere bildiği Dönüşüm adlı kitabı ile başladım.
-    </figcaption>
-  </figure>
-  <h3>Blog yaz</h3>
-  <p>Normal zamanlarda bildiğim bir konu üzerinde durmaktansa yeni şeyler araştırmak daha cazip geliyor. Blog yazarken ise bildiğimi düşündüğüm konuları yazıyorum. Ancak yazarken bilmediğim ya da daha önce merak etmediğim şeyleri de araştırmam gerekiyor. Bu hem bildiklerimi pekiştirmek hem de bilgiyi detaylandırmak adına çok faydalı.</p>
-  <h3>Uyku öncesi meditasyon yap</h3>
-  <p>Meditasyon dediysem, bacaklarımı çapraz yapıp halının ortasında oturmak değil!</p>
-  <p>Bazen sadece gözlerimi kapatıp müzik dinlemek, bazen de <a href="https://www.calm.com/" rel="external" target="_blank">Calm App</a> yardımıyla biraz zihnime odaklanıp hiçbir şey yapmamak iyi geliyor. Günlük hayatın akışında herşeyi aceleye getiriyorum, zihin sağlığımı korumak için bu ufak duraksamalar bana iyi geliyor.</p>
-  <h3>Son olarak...</h3>
-  <p>Benim için en büyük motivasyon alışkanlıklarımı geri kazanmaya çalışıyor olmak. Bunlar "yapabilir miyim" diye endişe ettiğim amaçlar değil, eskiden zaten yapıyordum.</p>
-  <p>Ancak herkes önüne benim kadar basit hedefler koymayabilir. Eğer bu konuda bir motivasyona ihtiyacınız varsa, Barış Özcan'ın <i>Zinciri Kırma</i> isimli projesine göz atmanızı öneririm. Hedeflerinize ilerlemenizi takip edebilecek ve kendiniz motive etmenizi sağlayacak etkili bir yol öneriyor.</p>
-  <p>
-  <iframe width="680" height="383" src="https://www.youtube.com/embed/ZoOTMQQzsJY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-  </p>
-  <p>İyi seneler...</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>03 Ocak 2017</time>
-  </div>
-
-  
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/kisisel/">kisisel</a>
-    
-    <a href="https://tufantunc.com/tags/hedef/">hedef</a>
-    
-    <a href="https://tufantunc.com/tags/blog/">blog</a>
-    
-    <a href="https://tufantunc.com/tags/kitap/">kitap</a>
-    
-    <a href="https://tufantunc.com/tags/spor/">spor</a>
-    
-  </div>
-  
-
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/2017-kisisel-hedeflerim/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=2017 Yılı İçin Kişisel Hedeflerim&url=https://tufantunc.com/blog/2017-kisisel-hedeflerim/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/2017-kisisel-hedeflerim/&title=2017 Yılı İçin Kişisel Hedeflerim&summary=2017 yılında daha üretken olabilmek için kendime belirlediğim kişisel hedeflerimi yazdım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
-
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/2017-kisisel-hedeflerim';
-		window.disqus_identifier = 'blog-2017-kisisel-hedeflerim';
-		window.disqus_title = '2017 Yılı İçin Kişisel Hedeflerim';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>]]></description>
-            <link>https://tufantunc.com/blog/2017-kisisel-hedeflerim</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/2017-kisisel-hedeflerim</guid>
-            <pubDate>Tue, 03 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Static Site Generator Kullanmanın Avantajları]]></title>
@@ -532,64 +516,163 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: google]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>google etiketi içeren yazılar:</h1>
-  <ul id="blog-posts">
+            <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
+            <description><![CDATA[<article>
+  <h1>2017 Yılı İçin Kişisel Hedeflerim</h1>
+  <p>Bu konuda açık olalım, alışkanlıklarımızı değiştirmek hepimiz için zor. Bu konuda özellikle kendini eğitmeye çalışan benim için bile...</p>
+  <p>Mesleğim gereği insanların alışkanlıklarını bozmaya ne denli isteksiz olduklarını, bu konuda ayak dirediklerini biliyorum. Hatta kendimde bunu değiştirmek için bu alanda her hikayeyi okumaya çalışıyorum. En sevdiğim hikaye Ebay’e ait.</p>
+  <p>Hikaye şöyle: <i>Bir gün Ebay ekibi parlak sarı arkaplan renginden bıkıyor. Siteyi beyaz arkaplan rengi ile yeniliyorlar. Kullanıcılar ağır tepki gösteriyor, e-posta yağmuruna tutuyor. Ekip kullanıcıları memnun etmek için geri adım atmak zorunda. Ertesi gün bu değişiklik geri alınıyor. Ebay ekibi farklı bir strateji denemeye karar veriyor: Sitenin arkaplan rengini her gün bir ton açmaya karar veriyorlar. Tamamen beyaz olduğunda tek bir kullanıcı bile bunu fark etmiyor.</i></p>
+  <blockquote>Tüm hikayelere, bilince rağmen yine de alışkanlıklarımı değiştirmek benim için zor.</blockquote>
+  <p>Aralık ayında sosyal medya 2016 yılını karalama kampanyası başlattı. Yıl içerisinde gerçekleşen bütün felaketler, ölen ünlüler listeler halinde paylaşıldı. Bu yazının konusu daha kişisel ancak benim için de 2016 pek parlak geçmedi.</p>
+  <p>İlk olarak, en çok övündüğüm kitap okuma alışkanlığımdan tamamen koptum. WordPress blogumu satmamın ardından blog yazma alışkanlığım da kalmadı. Yemek yeme alışkanlığım da bozuldu. Daha önceleri abur-cubur, fast food benim için ödülken şimdi bu ödül yerini ev yemeklerine bıraktı. Gördüm ki bu tembelliklerin toplamı bana daha az üretmek olarak geri dönüyor.</p>
+  <h2>2017 Hedeflerim</h2>
+  <p>2017 yılı için kendime 6 temel hedef belirledim.</p>
+  <ol>
+    <li>Erken kalk (Saat 5:45’te)</li>
+    <li>Düzenli spor yap</li>
+    <li>Sağlıklı beslen (Yemek yap)</li>
+    <li>Kitap oku</li>
+    <li>Blog yaz</li>
+    <li>Uyku öncesi meditasyon!</li>
+  </ol>
+  <p>Aşağıda neden bu hedeflerde karar kıldığımı sırasıyla inceledim.</p>
+  <h3>Erken kalk</h3>
+  <p>Ben daha çok geç yatan - geç uyanan biriyim. Uykuyu sevmekten çok, gecenin sessizliğinde çalışmayı daha verimli buluyorum. Diğer yandan 6 saatten az uyku bana yeterli değil.</p>
+  <p>Geç uyanmak bütün günümü verimsizleştiriyor. Bunun için gece çalıştığım 1-2 saatlik verimli süremi feda edip tüm günü daha performanslı geçirmek için çalışacağım. Bunu daha önce denedim, saat 6’da güne başlayıp gün içinde yapacaklarımı planlamak benim için daha faydalı. Üstelik kahvaltıya da vakit kalıyor. Bir taşla iki kuş!</p>
+  <p>Uyanma saatime 5:45 olarak karar vermem çok radikal bir değişiklik oldu. Bu saate karar vermemde Quora’daki <a href="https://www.quora.com/What-do-most-successful-people-do-every-morning/answer/Janis-Butevics" rel="external" target="_blank">Başarılı insanlar her sabah ne yapar?</a> sorusuna gelen bir cevap yardımcı oldu.</p>
+  <p>Şahsi olarak tanıştığım ve başarılı bulduğum herkesin de saat 7’den önce uyandığını biliyorum. Bu nedenle hedefimi 5:45 olarak belirledim.</p>
+  <h3>Düzenli spor yap</h3>
+  <p>Düzenli spor yaptığım zaman kendimi daha dinç ve daha sağlıklı hissediyorum. Bu aslında erken uyanmamın da bir parçası: 15-20 dakikalık bir sabah egzersizi ve haftanın belli günleri de işten sonra 30-45 dakikalık spor. Düzenli spor yaptığım zamanlarda sırt ve omuz ağrılarım kayboluyor. Tüm gününü bilgisayar başında geçirenlere öneririm.</p>
+  <h3>Sağlıklı beslen</h3>
+  <p>Sağlıklı beslenmekten kastettiğim ev yemekleri yemek. Hazır yiyeceklerden kendimi kurtarırsam yaşam kalitemi artıracağıma inanıyorum. Evde yemek yapmaya vakit ayırmam gerek. Bunun için kendimi haftanın üç günü evde yemek yapmak için motive etmeye çalışıyorum.</p>
+  <h3>Kitap oku</h3>
+  <p>2016’da çok az okudum. Biriken kitaplarımı bir an önce bitirmem, yenilerine başlamam gerekli. Kitap okumayı zihnimi boşaltmak için de faydalı buluyorum. Ayrıca okuduğum kitaplar hakkındaki fikirlerimi bloglamak gibi de bir niyetim var.</p>
+  <figure>
+    <img alt="Franz Kafka'nın Dönüşüm kitabına ait bir illustrasyon" src="https://tufantunc.com/content/blog/franz-kafka-donusum.jpg">
+    <figcaption>
+      Kitap okuma hedefime Franz Kafka'nın, giriş paragrafını her edebiyat severin ezbere bildiği Dönüşüm adlı kitabı ile başladım.
+    </figcaption>
+  </figure>
+  <h3>Blog yaz</h3>
+  <p>Normal zamanlarda bildiğim bir konu üzerinde durmaktansa yeni şeyler araştırmak daha cazip geliyor. Blog yazarken ise bildiğimi düşündüğüm konuları yazıyorum. Ancak yazarken bilmediğim ya da daha önce merak etmediğim şeyleri de araştırmam gerekiyor. Bu hem bildiklerimi pekiştirmek hem de bilgiyi detaylandırmak adına çok faydalı.</p>
+  <h3>Uyku öncesi meditasyon yap</h3>
+  <p>Meditasyon dediysem, bacaklarımı çapraz yapıp halının ortasında oturmak değil!</p>
+  <p>Bazen sadece gözlerimi kapatıp müzik dinlemek, bazen de <a href="https://www.calm.com/" rel="external" target="_blank">Calm App</a> yardımıyla biraz zihnime odaklanıp hiçbir şey yapmamak iyi geliyor. Günlük hayatın akışında herşeyi aceleye getiriyorum, zihin sağlığımı korumak için bu ufak duraksamalar bana iyi geliyor.</p>
+  <h3>Son olarak...</h3>
+  <p>Benim için en büyük motivasyon alışkanlıklarımı geri kazanmaya çalışıyor olmak. Bunlar "yapabilir miyim" diye endişe ettiğim amaçlar değil, eskiden zaten yapıyordum.</p>
+  <p>Ancak herkes önüne benim kadar basit hedefler koymayabilir. Eğer bu konuda bir motivasyona ihtiyacınız varsa, Barış Özcan'ın <i>Zinciri Kırma</i> isimli projesine göz atmanızı öneririm. Hedeflerinize ilerlemenizi takip edebilecek ve kendiniz motive etmenizi sağlayacak etkili bir yol öneriyor.</p>
+  <p>
+  <iframe width="680" height="383" src="https://www.youtube.com/embed/ZoOTMQQzsJY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </p>
+  <p>İyi seneler...</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>03 Ocak 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
     
-    <li>
-      <a href="/blog/ssl-sertifikasinin-seo-etkisi/">
-        <span>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</span>
-        <time>24 Aralık 2016</time>
-      </a>
-    </li>
+    <a href="https://tufantunc.com/tags/kisisel/">kisisel</a>
     
-  </ul>
-</article>
-]]></description>
-            <link>https://tufantunc.com/tags/google</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/google</guid>
-            <pubDate>Wed, 11 Jan 2017 17:26:41 GMT</pubDate>
+    <a href="https://tufantunc.com/tags/hedef/">hedef</a>
+    
+    <a href="https://tufantunc.com/tags/blog/">blog</a>
+    
+    <a href="https://tufantunc.com/tags/kitap/">kitap</a>
+    
+    <a href="https://tufantunc.com/tags/spor/">spor</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/2017-kisisel-hedeflerim/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=2017 Yılı İçin Kişisel Hedeflerim&url=https://tufantunc.com/blog/2017-kisisel-hedeflerim/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/2017-kisisel-hedeflerim/&title=2017 Yılı İçin Kişisel Hedeflerim&summary=2017 yılında daha üretken olabilmek için kendime belirlediğim kişisel hedeflerimi yazdım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/2017-kisisel-hedeflerim';
+		window.disqus_identifier = 'blog-2017-kisisel-hedeflerim';
+		window.disqus_title = '2017 Yılı İçin Kişisel Hedeflerim';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/2017-kisisel-hedeflerim</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/2017-kisisel-hedeflerim</guid>
+            <pubDate>Tue, 03 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: seo]]></title>
+            <title><![CDATA[Tag: knockoutjs]]></title>
             <description><![CDATA[<article class="main-content bracket">
-  <h1>seo etiketi içeren yazılar:</h1>
+  <h1>knockoutjs etiketi içeren yazılar:</h1>
   <ul id="blog-posts">
     
     <li>
-      <a href="/blog/ssl-sertifikasinin-seo-etkisi/">
-        <span>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</span>
-        <time>24 Aralık 2016</time>
+      <a href="/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/">
+        <span>KnockoutJS Kullanmanız için Birkaç Sebep</span>
+        <time>11 Ocak 2017</time>
       </a>
     </li>
     
   </ul>
 </article>
 ]]></description>
-            <link>https://tufantunc.com/tags/seo</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/seo</guid>
-            <pubDate>Wed, 11 Jan 2017 17:26:41 GMT</pubDate>
+            <link>https://tufantunc.com/tags/knockoutjs</link>
+            <guid isPermaLink="true">https://tufantunc.com/tags/knockoutjs</guid>
+            <pubDate>Wed, 11 Jan 2017 20:39:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: ssl]]></title>
+            <title><![CDATA[Tag: angular]]></title>
             <description><![CDATA[<article class="main-content bracket">
-  <h1>ssl etiketi içeren yazılar:</h1>
+  <h1>angular etiketi içeren yazılar:</h1>
   <ul id="blog-posts">
     
     <li>
-      <a href="/blog/ssl-sertifikasinin-seo-etkisi/">
-        <span>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</span>
-        <time>24 Aralık 2016</time>
+      <a href="/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/">
+        <span>KnockoutJS Kullanmanız için Birkaç Sebep</span>
+        <time>11 Ocak 2017</time>
       </a>
     </li>
     
   </ul>
 </article>
 ]]></description>
-            <link>https://tufantunc.com/tags/ssl</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/ssl</guid>
-            <pubDate>Wed, 11 Jan 2017 17:26:41 GMT</pubDate>
+            <link>https://tufantunc.com/tags/angular</link>
+            <guid isPermaLink="true">https://tufantunc.com/tags/angular</guid>
+            <pubDate>Wed, 11 Jan 2017 20:39:08 GMT</pubDate>
         </item>
     </channel>
 </rss>
