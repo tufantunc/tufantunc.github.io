@@ -4,9 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 31 Jan 2017 08:40:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Jan 2017 15:46:55 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 31 Jan 2017 08:40:31 GMT</pubDate>
+        <pubDate>Tue, 31 Jan 2017 15:46:49 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -273,234 +273,6 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Tue, 03 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı]]></title>
-            <description><![CDATA[<article>
-  <h1>Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı</h1>
-  <p>KnockoutJS kütüphanesini kullanmaya nasıl karar verdiğimi <a href="https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/" target="_blank">önceki yazımda</a> yazmıştım. Bu defa basit örneklerle kullanımını anlatacağım.</p>
-  <p>Önceki yazıyı uzun bulanlar için KnockoutJS’nin ne yaptığına dair bir özet geçeyim: Tıpkı jQuery gibi bir kütüphane. Kendi sitesinde UI ve json data arasındaki iletişimi kontrol eden MVVM’in VM’i olarak tanıtılmış.</p>
-  <p>Peki <abbr title="Model-View-ViewModel">MVVM</abbr> nedir? MVVM, tıpkı MVC gibi bir yazılım mimarisi pattern’i. Gelin bu kısaltmadaki harflerin anlamına bakalım:</p>
-  <ul>
-    <li><strong>Model</strong>: Uygulamanızda kullandığınız data katmanı. Bu dataya ulaşmak için Ajax talebi gönderir ve aldığınız datayı javascript ile işlersiniz.</li>
-    <li><strong>View</strong>: Arayüz katmanı, HTML’de kullanıcıya gösterdiğimiz tüm elemanlar bu katmanda yer alır. Bu katman sadece sayfa elemanlarını anlamlı bir şekilde kullanıcıya sunmaz, aynı zamanda kullanıcının yapmış olduğu veri girişi, buton tıklaması gibi işlemleri view-model katmanına iletir.</li>
-    <li><strong>View-Model</strong>: Bu katmanda hem datalar hem de arayüz elemanlarının etkileşimine dair fonksiyonlar yer alır. Ancak UI elemanlarının kendisi yer almaz. Çalışma prensibini şu şekilde düşünebilirsiniz: Sayfanızda bir liste görünümü var. Bu listenin her elemanı view-model katmanında tutulur. Yine listeye yeni bir eleman ekleme ve eleman çıkarma işlemleri için bu katmanda fonksiyonlar yer alır. Basitçe Model ve View katmanı arasındaki iletişimi sağlar. Knockout bu katmanın kontrolünü sağlayan bir kütüphanedir.</li>
-  </ul>
-  <figure>
-    <img alt="mvvm çalışma prensibi" src="https://tufantunc.com/content/blog/mvvm-design-pattern.png">
-    <figcaption>
-      Bulabildiğim en güzel MVVM'in çalışma prensibini anlatan görsel bu. Kaynak: <a href="https://msdn.microsoft.com/en-us/library/ff798384.aspx" rel="external" target="_blank">Microsoft</a>
-    </figcaption>
-  </figure>
-  <h2>Knockout’a hızlı giriş</h2>
-  <p>İlk adım elbette js kütüphanesini sayfanıza eklemek. İlgili dosyaları KnockoutJS sitesinden alabilirsiniz. Bower kullananlar aşağıdaki komut ile son sürümü indirebilir:</p>
-  <pre class="highlight"><code class="hljs mipsasm"><span class="hljs-keyword">bower </span><span class="hljs-keyword">install </span>knockout</code></pre>
-  <p>Ardından:</p>
-  <ul>
-    <li>Basitçe bir javascript objesi oluşturun,</li>
-    <li>Objedeki datanın UI’da nereyi dolduracağını belirtin</li>
-    <li>KnockoutJS’yi aktifleştirin</li>
-  </ul>
-  <p>Kolay görünüyor, değil mi? KnockoutJS dökümentasyonunda yer alan bir örnekle başlayalım. JS Objemizde kişi bilgileri yer alsın:</p>
-  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> myViewModel = {
-    <span class="hljs-attr">personName</span>: <span class="hljs-string">'Tufan'</span>,
-    <span class="hljs-attr">personAge</span>: <span class="hljs-number">26</span>
-};
-</code></pre>
-  <p>Şimdi UI’da bu datayı göstereceğimiz yeri Knockout’a bildirelim. Bunun için HTML etiketimize data-bind parametresi ile Knockout komutu ekleyeceğiz:</p>
-  <pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Benim adım <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">data-bind</span>=<span class="hljs-string">"text: personName"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre>
-  <p>Şimdi de JS tarafına geri dönelim ve KnockoutJS’yi çalıştıralım:</p>
-  <pre class="highlight"><code class="hljs javascript">ko.applyBindings(myViewModel);</code></pre>
-  <p>ko.applyBindings komutu ile belirttiğimiz viewModel objesini sayfadaki data-bind parametrelerine bağlamış olduk.</p>
-  <p>Bu basit örneğin kodlarını codepen.io'daki hesabıma ekledim, <a href="http://codepen.io/tufantunc/pen/MJrgNK" rel="external" target="_blank">buradan</a> inceleyip üzerinde oynayabilirsiniz.</p>
-  <p>Şimdi biraz da KnockoutJS’nin sihrine bakalım.</p>
-  <h3>Observable kullanımı</h3>
-  <p>Observable değişkenler KnockoutJS için özel yeteneklere sahip. En önemli iki özelliği:</p>
-  <ol>
-    <li>Bağlılık takibi (dependency tracking) özelliğine sahip olması</li>
-    <li>View-model'daki değişiklikleri UI’a yansıtması ve UI'dakileri view-model'a taşıması (two-way binding)</li>
-  </ol>
-  <p>Observable tanımlamak oldukça kolay. Bir önceki örneğimizden devam edelim:</p>
-  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> myViewModel = {
-    <span class="hljs-attr">personName</span>: ko.observable(<span class="hljs-string">'Tufan'</span>),
-    <span class="hljs-attr">personAge</span>: ko.observable(<span class="hljs-number">26</span>)
-};</code></pre>
-  <p>personName ve personAge property’leri burada observable oldu. Fonksiyon parametresi olarak verdiğimiz değerler de varsayılan değer olarak set etmiş olduk. Değerleri js içinde okumak istersek şu şekilde okuyabiliriz:</p>
-  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> isim = myViewModel.personName(); <span class="hljs-comment">//isim değişkenine Tufan datası set edilir</span></code></pre>
-  <p>Yeni bir isim atamak için:</p>
-  <pre class="highlight"><code class="hljs javascript">myViewModel.personName(<span class="hljs-string">"Ahmet"</span>);</code></pre>
-  <p>Biz yeni ismi set eder etmez UI'da ilgili alan güncellenecek ve 'Benim adım Ahmet' yazacaktır.</p>
-  <p>Eğer bir dizi tanımlayacak olursak, bunu ObservableArray ile yaparız. ObservableArray'ler tıpkı Observable gibi çalışır, sadece ekstra fonksiyonlara sahiptir. JS array'lerin pop, shift gibi özel fonksiyonlarına sahiptir. Şu şekilde tanımlanır:</p>
-  <pre class="highlight"><code class="hljs javascript">myviewModel.personHobbies = ko.observableArray([<span class="hljs-string">"kitap okumak"</span>, <span class="hljs-string">"film izlemek"</span>, <span class="hljs-string">"blog yazmak"</span>]);</code></pre>
-  <h3>Subscribe özelliği</h3>
-  <p>Subscribe, observable tanımlı datalarda benim en sık kullandığım özellik. Bir datada değişiklik olması durumunda çalışacak işlemleri belirtir. Örnek bir subscribe yazımı:</p>
-  <pre class="highlight"><code class="hljs javascript">myViewModel.personName.subscribe(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newValue</span>) </span>{
-    alert(<span class="hljs-string">"Yeni kişi adı: "</span> + newValue);
-});</code></pre>
-  <p>Subscribe fonksiyonu personName değişkenindeki değişikliği yakalıyor ve alert ile ekranda gösteriyor.</p>
-  <h4>Son olarak</h4>
-  <p>Yazıda HTML'e sadece text binding seçeneğini gösterdim. Çok daha çeşitli binding fonksiyonlarını <a href="http://knockoutjs.com/documentation/introduction.html" rel="external" target="_blank">dokümentasyonda</a> inceleyebilirsiniz.</p>
-  <p>Ayrıca, observable ve subscribe özelliğini de kullanan bir form örneği hazırlayıp codepen’e ekledim. <a href="http://codepen.io/tufantunc/pen/oBpNgE" rel="external" target="_blank">Kodları inceleyip</a> siz de ilk örneğinizi yapabilirsiniz.</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>31 Ocak 2017</time>
-  </div>
-
-  
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/knockoutjs/">knockoutjs</a>
-    
-    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
-    
-    <a href="https://tufantunc.com/tags/anlatim/">anlatim</a>
-    
-  </div>
-  
-
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı&url=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/&title=Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı&summary=Basit örneklerle KnockoutJS kütüphanesinin kullanımını anlattığım blog yazım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
-
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi';
-		window.disqus_identifier = 'blog-basit-orneklerle-knockoutjs-anlatimi';
-		window.disqus_title = 'Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>]]></description>
-            <link>https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi</guid>
-            <pubDate>Tue, 31 Jan 2017 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[KnockoutJS Kullanmanız için Birkaç Sebep]]></title>
-            <description><![CDATA[<article>
-  <h1>KnockoutJS Kullanmanız için Birkaç Sebep</h1>
-  <p>Arayüz Geliştiriciler Angular.js ve React.js arasında taraf olurken, pek çok geliştirici KnockoutJS’nin adını duymadı bile. Ben 1 yıldan fazla süredir bu javascript kütüphanesini kullanıyorum. Sizin de kullanmanız için birkaç sebep sıraladım.</p>
-  <p>Önceki yazılarımda daha çok web uygulamaları arayüzleri geliştirdiğimden bahsetmiştim. Bu nedenle dinamik olarak değişen ve kullanıcı ile sunucu arasında data alışverişlerini yönetmek için bir kütüphaneye ihtiyaç duyuyorduk. Dolayısıyla two-way binding denilen, arayüz ile javascript arasında data senkronizasyonu yapan bir kütüphane aradık. O dönem birlikte çalıştığımız <a href="http://www.cuneytbekar.net" rel="coworker" target="_blank">Software Architect Cüneyt Bekar</a> ile birlikte, dinamik arayüzleri kontrol edebileceğimiz bir framework arayışına koyulduk.</p>
-  <p><a href="http://knockoutjs.com/" rel="nofollow" target="_blank">KnockoutJS</a> kullanmaya karar verirken pek çok popüler front-end js kütüphanesinin özelliklerini ve yazım stillerini inceleme fırsatı buldum. Bu yazıda daha çok <a href="https://angularjs.org/" rel="external" target="_blank">Angular.js</a> ve <a href="https://facebook.github.io/react/" rel="external" target="_blank">React.js</a> üzerinden gideceğim.</p>
-  <p>İhtiyaçlarımız basit: Hali hazırda çalışan projelere kolayca entegre edebileceğimiz, öğrenme süresi kısa, yazımı kolay, templating özelliğine sahip bir framework bulmak.</p>
-  <h2>Angular.js</h2>
-  <p>Angular.js’nin popülerliği bizi manipüle etti, onun üzerinde çok durduk. Kendi yazım stiline sahip olması bizim için büyük problem yarattı, üstelik dökümantasyonu da karmaşıktı. Projelerde backend developer’ların da gerektiğinde js ya da html dosyalarına müdahale edebileceği basitlikte kodlar yazmamız gerekiyordu. Angular’ın yazımı aşina olmayan biri için hiç de müdahale edilebilir değil. Elememizin en büyük sebeplerinden biri de routing ve controller gibi backend’de .net kullandığımız projelerde hiç kullanmayacağımız özelliklere sahip olmasıydı. Angular.js tahmin ettiğimizden çok daha büyük, ASP.NET MVC gibi bir framework çıktı.</p>
-  <h2>React.js</h2>
-  <p>React.js performans karşılaştırmalarında yarattığı farkla bizi heyecanlandırmıştı. Diğer taraftan JSX yazımı harika görünüyordu. Ancak bu da Angular gibi javascript’in dışında bir yazım stili ve yine aşina olmayan birinin müdahalesi zor. Diğer taraftan jsx dosyalarının compile edildikten sonra yayınlanması projelerin süresini uzatacaktır. Bizim aradığımız ise tek sayfalık bir basit bir formda veya çok sayfalı karmaşık projelerde kullanabileceğimiz ortak bir framework. React’in yazım stili küçük projeler için büyük zaman kaybına neden olabilir. Üstelik jQuery ile olan anlaşmazlığı da can sıkıcı. Çünkü müdahale etmemiz ya da ek geliştirme yapmamız gereken çoğu projede jQuery kullanılıyor. Ayrıca HTML elemanlarını da JS içine yazmamızı şart koşuyor. Virtual DOM’u kullanması pek çok açıdan fayda sağlasa da amacımız alışkanlıklarımızı bozmamak olduğundan React’i de eledik.</p>
-  <h2>KnockoutJS</h2>
-  <p>KnockoutJS’yi incelerken yazım stiline bayıldık. Değişken tanımlama kuralı dışında, klasik javascript yazdığınızı hissediyorsunuz. 43 kb’lık dosya boyutu ile Angular.js(81 kb) ve React.js(78 kb)’den neredeyse yarı yarıya daha küçük. Dökümantasyonu oldukça güzel ve basit anlatımlı. Tutorial uygulaması ile birkaç saatte Knockout’a hakim olmak mümkün. Ayrıca jQuery ve benzeri diğer kütüphane ve pluginlerle uyumlu. Sadece UI ve javascript arasında data-binding için yazılmış ve bunu başarıyla yapıyor.</p>
-  <h3>Tarayıcı uyumluluğu konusu</h3>
-  <p>Bu konu bizim karar vermemizdeki en etkin sebeplerden biri. Çünkü müşterilerden bazıları için daha önce geliştirilmiş uygulamaların ie6 uyumluluğuna dair fix çalışmaları yapıyorduk. Dolayısıyla, olabilecek en geniş tarayıcı desteğine sahip framework’ü seçmemiz gerekliydi. Angular ve React’in sadece A sınıfı tarayıcılarda(ie9 ve üstü Chrome, Firefox vb.) çalışması kararımızı kolaylaştırdı.</p>
-  <p>KnockoutJS ise ie6, firefox 2.0 ve sonrası tüm browser’ları destekliyor.</p>
-  <figure>
-    <iframe src="//giphy.com/embed/l0MYGhnGm3sTNreow?html5=true&hideSocial=true" width="680" height="379" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-    <figcaption>
-      Bilin bakalım çevremde KnockoutJS kullanan başka kim var?
-    </figcaption>
-  </figure>
-  <h3>KnockoutJS’nin eksikleri</h3>
-  <p>Angular ve React gibi geliştirme aşamasında fazla kuralcı olmaması nedeniyle spagetti kod yazımına çok müsait. Eğer kodlar doğru bir şekilde organize edilmezse büyük projelerde içinden çıkılmaz karmaşalara neden olabilir. Tüm siteyi tek view-model’da hazırlayabilir ya da tek sayfada 10 ayrı view-model kullanabilirsiniz. Mimari tamamen geliştiriciye kalmış.</p>
-  <p>Diğer yandan React ve Angular kadar kalabalık kullanıcı komünitesine sahip değil. Bu nedenle ihtiyaçlarınız için plugin aramaktansa çoğu zaman kendiniz yazmanız gerekecektir. Hazır çözümleri çok nadiren bulabiliyorsunuz.</p>
-  <p>Bir sonraki yazımda KnockoutJS ile örnek uygulama geliştirmesini anlatacağım. O zamana dek <a href="http://learn.knockoutjs.com/#/?tutorial=intro" rel="external" target="_blank">Tutorial</a> sayfasındaki alıştırmaları yapabilirsiniz.</p>
-  <p>Eklemek istediğiniz tecrübeleriniz ya da merak ettiğiniz bir konu varsa yorum yazmaktan çekinmeyin.</p>
-  <p>Sonraki yazıda görüşmek üzere.</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>11 Ocak 2017</time>
-  </div>
-
-  
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/knockoutjs/">knockoutjs</a>
-    
-    <a href="https://tufantunc.com/tags/angular/">angular</a>
-    
-    <a href="https://tufantunc.com/tags/react/">react</a>
-    
-    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
-    
-  </div>
-  
-
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=KnockoutJS Kullanmanız için Birkaç Sebep&url=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/&title=KnockoutJS Kullanmanız için Birkaç Sebep&summary=KnockoutJS javascript kütüphanesini kullanmanız için sizi ikna etmeye çalıştığım bir yazı.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
-
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep';
-		window.disqus_identifier = 'blog-knockoutjs-kullanmaniz-icin-birkac-sebep';
-		window.disqus_title = 'KnockoutJS Kullanmanız için Birkaç Sebep';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>]]></description>
-            <link>https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep</guid>
-            <pubDate>Wed, 11 Jan 2017 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak]]></title>
             <description><![CDATA[<article>
   <h1>SSL Sertifikasının SEO Etkisi ve Ücretsiz SSL Almak</h1>
@@ -620,6 +392,102 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <link>https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</link>
             <guid isPermaLink="true">https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</guid>
             <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[KnockoutJS Kullanmanız için Birkaç Sebep]]></title>
+            <description><![CDATA[<article>
+  <h1>KnockoutJS Kullanmanız için Birkaç Sebep</h1>
+  <p>Arayüz Geliştiriciler Angular.js ve React.js arasında taraf olurken, pek çok geliştirici KnockoutJS’nin adını duymadı bile. Ben 1 yıldan fazla süredir bu javascript kütüphanesini kullanıyorum. Sizin de kullanmanız için birkaç sebep sıraladım.</p>
+  <p>Önceki yazılarımda daha çok web uygulamaları arayüzleri geliştirdiğimden bahsetmiştim. Bu nedenle dinamik olarak değişen ve kullanıcı ile sunucu arasında data alışverişlerini yönetmek için bir kütüphaneye ihtiyaç duyuyorduk. Dolayısıyla two-way binding denilen, arayüz ile javascript arasında data senkronizasyonu yapan bir kütüphane aradık. O dönem birlikte çalıştığımız <a href="http://www.cuneytbekar.net" rel="coworker" target="_blank">Software Architect Cüneyt Bekar</a> ile birlikte, dinamik arayüzleri kontrol edebileceğimiz bir framework arayışına koyulduk.</p>
+  <p><a href="http://knockoutjs.com/" rel="nofollow" target="_blank">KnockoutJS</a> kullanmaya karar verirken pek çok popüler front-end js kütüphanesinin özelliklerini ve yazım stillerini inceleme fırsatı buldum. Bu yazıda daha çok <a href="https://angularjs.org/" rel="external" target="_blank">Angular.js</a> ve <a href="https://facebook.github.io/react/" rel="external" target="_blank">React.js</a> üzerinden gideceğim.</p>
+  <p>İhtiyaçlarımız basit: Hali hazırda çalışan projelere kolayca entegre edebileceğimiz, öğrenme süresi kısa, yazımı kolay, templating özelliğine sahip bir framework bulmak.</p>
+  <h2>Angular.js</h2>
+  <p>Angular.js’nin popülerliği bizi manipüle etti, onun üzerinde çok durduk. Kendi yazım stiline sahip olması bizim için büyük problem yarattı, üstelik dökümantasyonu da karmaşıktı. Projelerde backend developer’ların da gerektiğinde js ya da html dosyalarına müdahale edebileceği basitlikte kodlar yazmamız gerekiyordu. Angular’ın yazımı aşina olmayan biri için hiç de müdahale edilebilir değil. Elememizin en büyük sebeplerinden biri de routing ve controller gibi backend’de .net kullandığımız projelerde hiç kullanmayacağımız özelliklere sahip olmasıydı. Angular.js tahmin ettiğimizden çok daha büyük, ASP.NET MVC gibi bir framework çıktı.</p>
+  <h2>React.js</h2>
+  <p>React.js performans karşılaştırmalarında yarattığı farkla bizi heyecanlandırmıştı. Diğer taraftan JSX yazımı harika görünüyordu. Ancak bu da Angular gibi javascript’in dışında bir yazım stili ve yine aşina olmayan birinin müdahalesi zor. Diğer taraftan jsx dosyalarının compile edildikten sonra yayınlanması projelerin süresini uzatacaktır. Bizim aradığımız ise tek sayfalık bir basit bir formda veya çok sayfalı karmaşık projelerde kullanabileceğimiz ortak bir framework. React’in yazım stili küçük projeler için büyük zaman kaybına neden olabilir. Üstelik jQuery ile olan anlaşmazlığı da can sıkıcı. Çünkü müdahale etmemiz ya da ek geliştirme yapmamız gereken çoğu projede jQuery kullanılıyor. Ayrıca HTML elemanlarını da JS içine yazmamızı şart koşuyor. Virtual DOM’u kullanması pek çok açıdan fayda sağlasa da amacımız alışkanlıklarımızı bozmamak olduğundan React’i de eledik.</p>
+  <h2>KnockoutJS</h2>
+  <p>KnockoutJS’yi incelerken yazım stiline bayıldık. Değişken tanımlama kuralı dışında, klasik javascript yazdığınızı hissediyorsunuz. 43 kb’lık dosya boyutu ile Angular.js(81 kb) ve React.js(78 kb)’den neredeyse yarı yarıya daha küçük. Dökümantasyonu oldukça güzel ve basit anlatımlı. Tutorial uygulaması ile birkaç saatte Knockout’a hakim olmak mümkün. Ayrıca jQuery ve benzeri diğer kütüphane ve pluginlerle uyumlu. Sadece UI ve javascript arasında data-binding için yazılmış ve bunu başarıyla yapıyor.</p>
+  <h3>Tarayıcı uyumluluğu konusu</h3>
+  <p>Bu konu bizim karar vermemizdeki en etkin sebeplerden biri. Çünkü müşterilerden bazıları için daha önce geliştirilmiş uygulamaların ie6 uyumluluğuna dair fix çalışmaları yapıyorduk. Dolayısıyla, olabilecek en geniş tarayıcı desteğine sahip framework’ü seçmemiz gerekliydi. Angular ve React’in sadece A sınıfı tarayıcılarda(ie9 ve üstü Chrome, Firefox vb.) çalışması kararımızı kolaylaştırdı.</p>
+  <p>KnockoutJS ise ie6, firefox 2.0 ve sonrası tüm browser’ları destekliyor.</p>
+  <figure>
+    <iframe src="//giphy.com/embed/l0MYGhnGm3sTNreow?html5=true&hideSocial=true" width="680" height="379" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <figcaption>
+      Bilin bakalım çevremde KnockoutJS kullanan başka kim var?
+    </figcaption>
+  </figure>
+  <h3>KnockoutJS’nin eksikleri</h3>
+  <p>Angular ve React gibi geliştirme aşamasında fazla kuralcı olmaması nedeniyle spagetti kod yazımına çok müsait. Eğer kodlar doğru bir şekilde organize edilmezse büyük projelerde içinden çıkılmaz karmaşalara neden olabilir. Tüm siteyi tek view-model’da hazırlayabilir ya da tek sayfada 10 ayrı view-model kullanabilirsiniz. Mimari tamamen geliştiriciye kalmış.</p>
+  <p>Diğer yandan React ve Angular kadar kalabalık kullanıcı komünitesine sahip değil. Bu nedenle ihtiyaçlarınız için plugin aramaktansa çoğu zaman kendiniz yazmanız gerekecektir. Hazır çözümleri çok nadiren bulabiliyorsunuz.</p>
+  <p>Bir sonraki yazımda KnockoutJS ile örnek uygulama geliştirmesini anlatacağım. O zamana dek <a href="http://learn.knockoutjs.com/#/?tutorial=intro" rel="external" target="_blank">Tutorial</a> sayfasındaki alıştırmaları yapabilirsiniz.</p>
+  <p>Eklemek istediğiniz tecrübeleriniz ya da merak ettiğiniz bir konu varsa yorum yazmaktan çekinmeyin.</p>
+  <p>Sonraki yazıda görüşmek üzere.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>11 Ocak 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/knockoutjs/">knockoutjs</a>
+    
+    <a href="https://tufantunc.com/tags/angular/">angular</a>
+    
+    <a href="https://tufantunc.com/tags/react/">react</a>
+    
+    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=KnockoutJS Kullanmanız için Birkaç Sebep&url=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/&title=KnockoutJS Kullanmanız için Birkaç Sebep&summary=KnockoutJS javascript kütüphanesini kullanmanız için sizi ikna etmeye çalıştığım bir yazı.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep';
+		window.disqus_identifier = 'blog-knockoutjs-kullanmaniz-icin-birkac-sebep';
+		window.disqus_title = 'KnockoutJS Kullanmanız için Birkaç Sebep';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep</guid>
+            <pubDate>Wed, 11 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Static Site Generator Kullanmanın Avantajları]]></title>
@@ -883,6 +751,138 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <link>https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama</link>
             <guid isPermaLink="true">https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama</guid>
             <pubDate>Tue, 24 Jan 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı]]></title>
+            <description><![CDATA[<article>
+  <h1>Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı</h1>
+  <p>KnockoutJS kütüphanesini kullanmaya nasıl karar verdiğimi <a href="https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/" target="_blank">önceki yazımda</a> yazmıştım. Bu defa basit örneklerle kullanımını anlatacağım.</p>
+  <p>Önceki yazıyı uzun bulanlar için KnockoutJS’nin ne yaptığına dair bir özet geçeyim: Tıpkı jQuery gibi bir kütüphane. Kendi sitesinde UI ve json data arasındaki iletişimi kontrol eden MVVM’in VM’i olarak tanıtılmış.</p>
+  <p>Peki <abbr title="Model-View-ViewModel">MVVM</abbr> nedir? MVVM, tıpkı MVC gibi bir yazılım mimarisi pattern’i. Gelin bu kısaltmadaki harflerin anlamına bakalım:</p>
+  <ul>
+    <li><strong>Model</strong>: Uygulamanızda kullandığınız data katmanı. Bu dataya ulaşmak için Ajax talebi gönderir ve aldığınız datayı javascript ile işlersiniz.</li>
+    <li><strong>View</strong>: Arayüz katmanı, HTML’de kullanıcıya gösterdiğimiz tüm elemanlar bu katmanda yer alır. Bu katman sadece sayfa elemanlarını anlamlı bir şekilde kullanıcıya sunmaz, aynı zamanda kullanıcının yapmış olduğu veri girişi, buton tıklaması gibi işlemleri view-model katmanına iletir.</li>
+    <li><strong>View-Model</strong>: Bu katmanda hem datalar hem de arayüz elemanlarının etkileşimine dair fonksiyonlar yer alır. Ancak UI elemanlarının kendisi yer almaz. Çalışma prensibini şu şekilde düşünebilirsiniz: Sayfanızda bir liste görünümü var. Bu listenin her elemanı view-model katmanında tutulur. Yine listeye yeni bir eleman ekleme ve eleman çıkarma işlemleri için bu katmanda fonksiyonlar yer alır. Basitçe Model ve View katmanı arasındaki iletişimi sağlar. Knockout bu katmanın kontrolünü sağlayan bir kütüphanedir.</li>
+  </ul>
+  <figure>
+    <img alt="mvvm çalışma prensibi" src="https://tufantunc.com/content/blog/mvvm-design-pattern.png">
+    <figcaption>
+      Bulabildiğim en güzel MVVM'in çalışma prensibini anlatan görsel bu. Kaynak: <a href="https://msdn.microsoft.com/en-us/library/ff798384.aspx" rel="external" target="_blank">Microsoft</a>
+    </figcaption>
+  </figure>
+  <h2>Knockout’a hızlı giriş</h2>
+  <p>İlk adım elbette js kütüphanesini sayfanıza eklemek. İlgili dosyaları KnockoutJS sitesinden alabilirsiniz. Bower kullananlar aşağıdaki komut ile son sürümü indirebilir:</p>
+  <pre class="highlight"><code class="hljs mipsasm"><span class="hljs-keyword">bower </span><span class="hljs-keyword">install </span>knockout</code></pre>
+  <p>Ardından:</p>
+  <ul>
+    <li>Basitçe bir javascript objesi oluşturun,</li>
+    <li>Objedeki datanın UI’da nereyi dolduracağını belirtin</li>
+    <li>KnockoutJS’yi aktifleştirin</li>
+  </ul>
+  <p>Kolay görünüyor, değil mi? KnockoutJS dökümentasyonunda yer alan bir örnekle başlayalım. JS Objemizde kişi bilgileri yer alsın:</p>
+  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> myViewModel = {
+    <span class="hljs-attr">personName</span>: <span class="hljs-string">'Tufan'</span>,
+    <span class="hljs-attr">personAge</span>: <span class="hljs-number">26</span>
+};
+</code></pre>
+  <p>Şimdi UI’da bu datayı göstereceğimiz yeri Knockout’a bildirelim. Bunun için HTML etiketimize data-bind parametresi ile Knockout komutu ekleyeceğiz:</p>
+  <pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Benim adım <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">data-bind</span>=<span class="hljs-string">"text: personName"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre>
+  <p>Şimdi de JS tarafına geri dönelim ve KnockoutJS’yi çalıştıralım:</p>
+  <pre class="highlight"><code class="hljs javascript">ko.applyBindings(myViewModel);</code></pre>
+  <p>ko.applyBindings komutu ile belirttiğimiz viewModel objesini sayfadaki data-bind parametrelerine bağlamış olduk.</p>
+  <p>Bu basit örneğin kodlarını codepen.io'daki hesabıma ekledim, <a href="http://codepen.io/tufantunc/pen/MJrgNK" rel="external" target="_blank">buradan</a> inceleyip üzerinde oynayabilirsiniz.</p>
+  <p>Şimdi biraz da KnockoutJS’nin sihrine bakalım.</p>
+  <h3>Observable kullanımı</h3>
+  <p>Observable değişkenler KnockoutJS için özel yeteneklere sahip. En önemli iki özelliği:</p>
+  <ol>
+    <li>Bağlılık takibi (dependency tracking) özelliğine sahip olması</li>
+    <li>View-model'daki değişiklikleri UI’a yansıtması ve UI'dakileri view-model'a taşıması (two-way binding)</li>
+  </ol>
+  <p>Observable tanımlamak oldukça kolay. Bir önceki örneğimizden devam edelim:</p>
+  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> myViewModel = {
+    <span class="hljs-attr">personName</span>: ko.observable(<span class="hljs-string">'Tufan'</span>),
+    <span class="hljs-attr">personAge</span>: ko.observable(<span class="hljs-number">26</span>)
+};</code></pre>
+  <p>personName ve personAge property’leri burada observable oldu. Fonksiyon parametresi olarak verdiğimiz değerler de varsayılan değer olarak set etmiş olduk. Değerleri js içinde okumak istersek şu şekilde okuyabiliriz:</p>
+  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> isim = myViewModel.personName(); <span class="hljs-comment">//isim değişkenine Tufan datası set edilir</span></code></pre>
+  <p>Yeni bir isim atamak için:</p>
+  <pre class="highlight"><code class="hljs javascript">myViewModel.personName(<span class="hljs-string">"Ahmet"</span>);</code></pre>
+  <p>Biz yeni ismi set eder etmez UI'da ilgili alan güncellenecek ve 'Benim adım Ahmet' yazacaktır.</p>
+  <p>Eğer bir dizi tanımlayacak olursak, bunu ObservableArray ile yaparız. ObservableArray'ler tıpkı Observable gibi çalışır, sadece ekstra fonksiyonlara sahiptir. JS array'lerin pop, shift gibi özel fonksiyonlarına sahiptir. Şu şekilde tanımlanır:</p>
+  <pre class="highlight"><code class="hljs javascript">myviewModel.personHobbies = ko.observableArray([<span class="hljs-string">"kitap okumak"</span>, <span class="hljs-string">"film izlemek"</span>, <span class="hljs-string">"blog yazmak"</span>]);</code></pre>
+  <h3>Subscribe özelliği</h3>
+  <p>Subscribe, observable tanımlı datalarda benim en sık kullandığım özellik. Bir datada değişiklik olması durumunda çalışacak işlemleri belirtir. Örnek bir subscribe yazımı:</p>
+  <pre class="highlight"><code class="hljs javascript">myViewModel.personName.subscribe(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newValue</span>) </span>{
+    alert(<span class="hljs-string">"Yeni kişi adı: "</span> + newValue);
+});</code></pre>
+  <p>Subscribe fonksiyonu personName değişkenindeki değişikliği yakalıyor ve alert ile ekranda gösteriyor.</p>
+  <h4>Son olarak</h4>
+  <p>Yazıda HTML'e sadece text binding seçeneğini gösterdim. Çok daha çeşitli binding fonksiyonlarını <a href="http://knockoutjs.com/documentation/introduction.html" rel="external" target="_blank">dokümentasyonda</a> inceleyebilirsiniz.</p>
+  <p>Ayrıca, observable ve subscribe özelliğini de kullanan bir form örneği hazırlayıp codepen’e ekledim. <a href="http://codepen.io/tufantunc/pen/oBpNgE" rel="external" target="_blank">Kodları inceleyip</a> siz de ilk örneğinizi yapabilirsiniz.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>31 Ocak 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/knockoutjs/">knockoutjs</a>
+    
+    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
+    
+    <a href="https://tufantunc.com/tags/anlatim/">anlatim</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı&url=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/&title=Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı&summary=Basit örneklerle KnockoutJS kütüphanesinin kullanımını anlattığım blog yazım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi';
+		window.disqus_identifier = 'blog-basit-orneklerle-knockoutjs-anlatimi';
+		window.disqus_title = 'Basit Örneklerle KnockoutJS&#39;ye Başlangıç Anlatımı';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi</guid>
+            <pubDate>Tue, 31 Jan 2017 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
