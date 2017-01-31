@@ -4,38 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Jan 2017 06:17:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Jan 2017 08:40:36 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Jan 2017 06:17:47 GMT</pubDate>
-        <item>
-            <title><![CDATA[Hakkımda]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>Hakkımda</h1>
-  <p>Adım Tufan Tunç. İstanbul'da yaşıyorum.</p>
-  <p>
-    Front-End Developer'ım. Yani sürekli olarak tarayıcıların kod yorumlaması arasındaki farkları, kullanıcı deneyimini araştırıyor, servisler ve arayüz arasında etkileşim için bolca javascript yazıyorum.
-    Çalışma ortamında yeni fikirleri uygulamayı, yeni teknolojiler öğrenmeyi ve iş akışını otomatize etmeyi seven biriyim.
-  </p>
-  <p>
-    Blogumda arayüz geliştirme hakkında edindiğim tecrübeleri ve fikirlerimi paylaşıyorum.
-  </p>
-  <p>
-    İş dışında ise okumayı, dizi izlemeyi, motorsiklet sürmeyi ve bilgisayar oyunları oynamayı severim.
-  </p>
-  <p>Çalışma hayatım ve yer aldığım projelerle ilgili detaylar <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn profilim</a>de mevcut.</p>
-  <p>Üzerinde çalıştığım açık kaynaklı projelerimi <a href="https://github.com/tufantunc/" rel="external" target="_blank">Github</a> üzerinde inceleyebilirsiniz.</p>
-  <p>Bana ulaşmak isterseniz <a href="/iletisim/">iletişim</a> sayfasındaki bilgileri kullanabilirsiniz.</p>
-  <h2>Bu internet sitesini geliştirirken:</h2>
-  <ul>
-    <li>Tasarım için Photoshop'tan,</li>
-    <li>CSS ve HTML optimize işlemleri için Grunt ve eklentilerinden,</li>
-    <li>Statik html dosyalarını oluşturmak için DocPad ve eklentilerinden yararlandım.</li>
-  </ul>
-</article>]]></description>
-            <link>https://tufantunc.com/hakkimda</link>
-            <guid isPermaLink="true">https://tufantunc.com/hakkimda</guid>
-            <pubDate>Sun, 15 Jan 2017 10:50:10 GMT</pubDate>
-        </item>
+        <pubDate>Tue, 31 Jan 2017 08:40:31 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -44,6 +15,13 @@
     <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
   </h1>
   <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/basit-orneklerle-knockoutjs-anlatimi/">
+        <span>Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı</span>
+        <time>31 Ocak 2017</time>
+      </a>
+    </li>
     
     <li>
       <a href="/blog/verimliliginizi-artiracak-8-uygulama/">
@@ -108,25 +86,33 @@
             <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Front-End Developer]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-
-  <h2>Son Blog Yazım:</h2>
-  
-  <p class="no-margin-top"><a href="/blog/verimliliginizi-artiracak-8-uygulama/">Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç</a></p>
-  
-
-
+            <title><![CDATA[Hakkımda]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>Hakkımda</h1>
+  <p>Adım Tufan Tunç. İstanbul'da yaşıyorum.</p>
+  <p>
+    Front-End Developer'ım. Yani sürekli olarak tarayıcıların kod yorumlaması arasındaki farkları, kullanıcı deneyimini araştırıyor, servisler ve arayüz arasında etkileşim için bolca javascript yazıyorum.
+    Çalışma ortamında yeni fikirleri uygulamayı, yeni teknolojiler öğrenmeyi ve iş akışını otomatize etmeyi seven biriyim.
+  </p>
+  <p>
+    Blogumda arayüz geliştirme hakkında edindiğim tecrübeleri ve fikirlerimi paylaşıyorum.
+  </p>
+  <p>
+    İş dışında ise okumayı, dizi izlemeyi, motorsiklet sürmeyi ve bilgisayar oyunları oynamayı severim.
+  </p>
+  <p>Çalışma hayatım ve yer aldığım projelerle ilgili detaylar <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn profilim</a>de mevcut.</p>
+  <p>Üzerinde çalıştığım açık kaynaklı projelerimi <a href="https://github.com/tufantunc/" rel="external" target="_blank">Github</a> üzerinde inceleyebilirsiniz.</p>
+  <p>Bana ulaşmak isterseniz <a href="/iletisim/">iletişim</a> sayfasındaki bilgileri kullanabilirsiniz.</p>
+  <h2>Bu internet sitesini geliştirirken:</h2>
+  <ul>
+    <li>Tasarım için Photoshop'tan,</li>
+    <li>CSS ve HTML optimize işlemleri için Grunt ve eklentilerinden,</li>
+    <li>Statik html dosyalarını oluşturmak için DocPad ve eklentilerinden yararlandım.</li>
+  </ul>
 </article>]]></description>
-            <link>https://tufantunc.com/</link>
-            <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
+            <link>https://tufantunc.com/hakkimda</link>
+            <guid isPermaLink="true">https://tufantunc.com/hakkimda</guid>
+            <pubDate>Sun, 15 Jan 2017 10:50:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[İletişim]]></title>
@@ -145,6 +131,27 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <link>https://tufantunc.com/iletisim</link>
             <guid isPermaLink="true">https://tufantunc.com/iletisim</guid>
             <pubDate>Tue, 03 Jan 2017 20:08:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Front-End Developer]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>Merhaba.</h1>
+  <p>Adım Tufan Tunç.<br/>
+    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
+  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
+otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
+kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
+
+  <h2>Son Blog Yazım:</h2>
+  
+  <p class="no-margin-top"><a href="/blog/basit-orneklerle-knockoutjs-anlatimi/">Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı</a></p>
+  
+
+
+</article>]]></description>
+            <link>https://tufantunc.com/</link>
+            <guid isPermaLink="true">https://tufantunc.com/</guid>
+            <pubDate>Tue, 03 Jan 2017 20:02:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
@@ -266,72 +273,100 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Tue, 03 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç]]></title>
+            <title><![CDATA[Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı]]></title>
             <description><![CDATA[<article>
-  <h1>Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç</h1>
-  <p>Bu blog yazımda verimliliğimi artırdığı için çalışırken sıkça kullandığım uygulamaları listeledim. Belki bir kısmı herkesin bildiği uygulamalardır. Ben kendi açımdan nasıl faydalandığımı yazdım.</p>
-  <h2>Pocket</h2>
-  <p>Araştırma yapmam gereken konular bazen dallanıyor, beni merak ettiğim başka konulara sürüklüyor. Web’de kaybolmamak için o anki işimle ilgili makaleyi okuyorum. İlgimi çeken diğer sayfaları ise daha sonra okumak üzere kaydediyorum.</p>
-  <p>Önceleri, daha sonra okurum dediğim ne varsa tarayıcının sık kullanılanlarına ekliyordum. Ev ve iş bilgisayarımdaki tarayıcılarda kişisel hesabım açık. Bu bağlantılar tarayıcılarımda senkronize oluyor. Buraya kadar sorun yok. Fakat daha sonra sık kullanılanlar alanındaki klasörlerim kalabalıklaştı ve linkler birikti. Gerçekten sık kullandığım bağlantılara yer kalmadı. Bu karmaşayı çözmek için uygulama ararken Pocket'a rastladım.</p>
-  <p>Mobil uygulama iOS 7 destekli olmadığından kullanamıyorum. Diğer yandan zaten iPhone ile pek makale okumam ama web uygulaması oldukça başarılı. Tarayıcı eklentisi ile siteyi kayıt ediyorsunuz, dilediğiniz zaman okuyabiliyorsunuz. Ayrıca sitede Best Of, Must Read gibi kategorilerde ilgi çekici yazılar bulmak da mümkün. Uygulamanın ücretsiz sürümünün özellikleri benim için yeterli.</p>
-  <p>Dün uygulamayı karıştırırken, linkleri önerme (recommend) seçeneği ile kendi profilimizde paylaşabildiğimiz gördüm. Ayrıca başka kişileri takip takip edip onların önerilerini görebiliyoruz. <a href="https://getpocket.com/@tufantunc" target="_blank" rel="external">Pocket’da beni takip ederek</a> paylaştığım içerikleri görebilirsiniz.</p>
-  <h2>f.lux</h2>
-  <p>Bu uygulama bilgisayarın ekran aydınlatmasını ve renk aralığını gün ışığına göre ayarlıyor. Ev bilgisayarımda bu uygulamayı kullanmıyorum ancak iş bilgisayarımda hep açık. Uygulama ücretsiz. Uygulamayı bir süre kullandıktan sonra, özellikle akşam saatleri kapatmak istemeyeceksiniz.</p>
-  <p>Kurulumdan sonra doğru çalışması için uygulama arayüzündeki Settings butonu ile ayarlar sayfasına gidin. Buradan Set your location yazılı alanındaki Change butonuna basın ve bulunduğunuz bölgeyi belirleyin. Ben İstanbul olarak belirledim.</p>
-  <p>Eğer tasarım ya da fotoğraf işlerinde olduğu gibi gerçek renkleri görmeniz gerekirse Alt + End kısayolu ile uygulamayı kapatıp açabilirsiniz.</p>
-  <h2>Spotify</h2>
-  <p>Müzik, çalışırken odaklanmama yardımcı oluyor. Bu sayede açık ofisin gürültüsünden de izole olabiliyorum.</p>
-  <p>Spotify’ın ücretsiz sürümünü pek tavsiye etmem, sinir bozucu sıklıkta reklam giriyor. Ben premium versiyonu kullanıyorum ve kullandıkça çok sevdim. Hem telefon hem iş hem de ev bilgisayarımda kurulu, web uygulamasını kullanmadım. Özellikle öneri algoritması çok iyi çalışıyor.</p>
-  <h2>Google Docs</h2>
-  <p>Bu yıl daha sık blog yazmak için kendime hedef koyunca aradığım ilk uygulama cloud’da çalışan bir metin editörü oldu. Yazılarımı çoğunlukla evde yazıyorum. Bazen iş yerinde aklıma gelen yazı fikirlerini de Google Docs’a başlık ve 1-2 satır metin olarak girip kaydediyorum. Daha sonra evden devam ediyorum. Bazen tam tersi... Google Docs’u daha önce de kullanıyordum, başarılı bir servis. Üstelik tamamen ücretsiz.</p>
-  <h2>Hemingway</h2>
-  <p>Yine 1 yıl öncesine kadar çok sık kullandığım bir uygulama. Hemingway editörün masaüstü uygulaması ücretli. Web uygulaması ise ücretsiz, benim işimi görüyor.</p>
-  <p>Yazılarımı Google Docs’ta yazdıktan sonra Hemingway’in düzenleme modu ile yazıyı gözden geçiriyorum. Hemingway fazla uzun olan paragrafları, okuması zor olan uzun cümleleri işaretliyor. Ben de bu alanları yeniden yazıyorum. Örneğin bu yazıda Hemingway'i kullandım.</p>
-  <h2>Evernote</h2>
-  <p>Bu uygulamayı ilk günden beri kullananlar var ve hep önerdiler. Evernote’un değerini bu ay anladım. Ben daha çok kağıt üzerinde not alanlardanım. Yanımda sürekli not defteri taşıyamadığımı fark edip evde de notlarıma ulaşmak isteyince kendime mail atmaya başladım. Bu defa da mailler arasında kaybolunca Evernote’u tekrar denemeye karar verdim. Bence başarılı ve basit bir program.</p>
-  <p>Mobil uygulama iOS 7 desteklemediğinden telefonumda kullanamıyorum. Yine de ev ve iş bilgisayarımda kurulu. Ctrl + Alt + N tuş kombinasyonu ile yeni bir not oluşturabiliyorsunuz. Bu notlarınıza istediğiniz yerden erişebilirsiniz. Uygulamanın ücretli ve ücretsiz seçenekleri mevcut.</p>
-  <h2>Mindmeister</h2>
-  <p>Bu aslında klasik bir mind mapping uygulaması. Benzer uygulamalardan bir farkı yok ancak ben bunun kullanımını oldukça rahat buluyorum.</p>
+  <h1>Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı</h1>
+  <p>KnockoutJS kütüphanesini kullanmaya nasıl karar verdiğimi <a href="https://tufantunc.com/blog/knockoutjs-kullanmaniz-icin-birkac-sebep/" target="_blank">önceki yazımda</a> yazmıştım. Bu defa basit örneklerle kullanımını anlatacağım.</p>
+  <p>Önceki yazıyı uzun bulanlar için KnockoutJS’nin ne yaptığına dair bir özet geçeyim: Tıpkı jQuery gibi bir kütüphane. Kendi sitesinde UI ve json data arasındaki iletişimi kontrol eden MVVM’in VM’i olarak tanıtılmış.</p>
+  <p>Peki <abbr title="Model-View-ViewModel">MVVM</abbr> nedir? MVVM, tıpkı MVC gibi bir yazılım mimarisi pattern’i. Gelin bu kısaltmadaki harflerin anlamına bakalım:</p>
+  <ul>
+    <li><strong>Model</strong>: Uygulamanızda kullandığınız data katmanı. Bu dataya ulaşmak için Ajax talebi gönderir ve aldığınız datayı javascript ile işlersiniz.</li>
+    <li><strong>View</strong>: Arayüz katmanı, HTML’de kullanıcıya gösterdiğimiz tüm elemanlar bu katmanda yer alır. Bu katman sadece sayfa elemanlarını anlamlı bir şekilde kullanıcıya sunmaz, aynı zamanda kullanıcının yapmış olduğu veri girişi, buton tıklaması gibi işlemleri view-model katmanına iletir.</li>
+    <li><strong>View-Model</strong>: Bu katmanda hem datalar hem de arayüz elemanlarının etkileşimine dair fonksiyonlar yer alır. Ancak UI elemanlarının kendisi yer almaz. Çalışma prensibini şu şekilde düşünebilirsiniz: Sayfanızda bir liste görünümü var. Bu listenin her elemanı view-model katmanında tutulur. Yine listeye yeni bir eleman ekleme ve eleman çıkarma işlemleri için bu katmanda fonksiyonlar yer alır. Basitçe Model ve View katmanı arasındaki iletişimi sağlar. Knockout bu katmanın kontrolünü sağlayan bir kütüphanedir.</li>
+  </ul>
   <figure>
-    <img alt="tedx sanfrancisco etkinliğine ait mindmap görseli" src="https://tufantunc.com/content/blog/tedx-sanfrancisco-mindmap.jpg">
+    <img alt="mvvm çalışma prensibi" src="https://tufantunc.com/content/blog/mvvm-design-pattern.png">
     <figcaption>
-      Juan Bennet, TEDx Sanfrancisco için hazırladığı mind map'i sitede paylaşmış. Görselde yazıların görünmediğinin farkındayım, <a href="https://www.mindmeister.com/770591459/tedx-sanfrancisco-session-2-juan-benet" target="_blank" rel="external">buradan</a> inceleyebilirsiniz.
+      Bulabildiğim en güzel MVVM'in çalışma prensibini anlatan görsel bu. Kaynak: <a href="https://msdn.microsoft.com/en-us/library/ff798384.aspx" rel="external" target="_blank">Microsoft</a>
     </figcaption>
   </figure>
-  <p>Aklıma gelen projeleri burada dallandırıp yol haritası çıkarmaya çalışıyorum. Hem düşünceyi görsel olarak görmek çok faydalı oluyor. Uygulama tarayıcı üzerinde çalışıyor. Ücretsiz hesapda 3 proje oluşturma limiti var. Ben bitirdikten sonra projeyi görsel olarak kaydedip hesaptan silerek yer açıyorum. Adapte olmak kolay.</p>
-  <p><a href="https://www.mindmeister.com/?r=364806" target="_blank" rel="external">Buradan referansımla üye olursanız</a> bana ekstradan 1 proje açma hakkı daha kazandırabilirsiniz.</p>
-  <h2>Dropbox</h2>
-  <p>6 ayda 3 tane flash bellek kaybettim. Büyük boyutlu dosyaları taşımak ve yedeklemek için harddisk kullanıyorum. 50-100 mb’lık dosyalar içinse Dropbox kullanmaya başladım. Ev internetlerinin upload hızları düşük olduğundan bu tarz servisler çok kullanışlı olmayabiliyor. Fakat düşük boyutlu dosyalar için ideal.</p>
-  <p>Ücretsiz üyelikte 2gb alan sunuyor. Eğer <a href="https://db.tt/eKt4AAwF" target="_blank" rel="external">referansımla üye olursanız</a> bana ekstra 250mb alan kazandıracaksınız.</p>
-  <p>Benim kullandığım uygulamalar bunlar. Önerdiğiniz uygulamalar varsa yorumunuzu bekliyorum.</p>
+  <h2>Knockout’a hızlı giriş</h2>
+  <p>İlk adım elbette js kütüphanesini sayfanıza eklemek. İlgili dosyaları KnockoutJS sitesinden alabilirsiniz. Bower kullananlar aşağıdaki komut ile son sürümü indirebilir:</p>
+  <pre class="highlight"><code class="hljs mipsasm"><span class="hljs-keyword">bower </span><span class="hljs-keyword">install </span>knockout</code></pre>
+  <p>Ardından:</p>
+  <ul>
+    <li>Basitçe bir javascript objesi oluşturun,</li>
+    <li>Objedeki datanın UI’da nereyi dolduracağını belirtin</li>
+    <li>KnockoutJS’yi aktifleştirin</li>
+  </ul>
+  <p>Kolay görünüyor, değil mi? KnockoutJS dökümentasyonunda yer alan bir örnekle başlayalım. JS Objemizde kişi bilgileri yer alsın:</p>
+  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> myViewModel = {
+    <span class="hljs-attr">personName</span>: <span class="hljs-string">'Tufan'</span>,
+    <span class="hljs-attr">personAge</span>: <span class="hljs-number">26</span>
+};
+</code></pre>
+  <p>Şimdi UI’da bu datayı göstereceğimiz yeri Knockout’a bildirelim. Bunun için HTML etiketimize data-bind parametresi ile Knockout komutu ekleyeceğiz:</p>
+  <pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Benim adım <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">data-bind</span>=<span class="hljs-string">"text: personName"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre>
+  <p>Şimdi de JS tarafına geri dönelim ve KnockoutJS’yi çalıştıralım:</p>
+  <pre class="highlight"><code class="hljs javascript">ko.applyBindings(myViewModel);</code></pre>
+  <p>ko.applyBindings komutu ile belirttiğimiz viewModel objesini sayfadaki data-bind parametrelerine bağlamış olduk.</p>
+  <p>Bu basit örneğin kodlarını codepen.io'daki hesabıma ekledim, <a href="http://codepen.io/tufantunc/pen/MJrgNK" rel="external" target="_blank">buradan</a> inceleyip üzerinde oynayabilirsiniz.</p>
+  <p>Şimdi biraz da KnockoutJS’nin sihrine bakalım.</p>
+  <h3>Observable kullanımı</h3>
+  <p>Observable değişkenler KnockoutJS için özel yeteneklere sahip. En önemli iki özelliği:</p>
+  <ol>
+    <li>Bağlılık takibi (dependency tracking) özelliğine sahip olması</li>
+    <li>View-model'daki değişiklikleri UI’a yansıtması ve UI'dakileri view-model'a taşıması (two-way binding)</li>
+  </ol>
+  <p>Observable tanımlamak oldukça kolay. Bir önceki örneğimizden devam edelim:</p>
+  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> myViewModel = {
+    <span class="hljs-attr">personName</span>: ko.observable(<span class="hljs-string">'Tufan'</span>),
+    <span class="hljs-attr">personAge</span>: ko.observable(<span class="hljs-number">26</span>)
+};</code></pre>
+  <p>personName ve personAge property’leri burada observable oldu. Fonksiyon parametresi olarak verdiğimiz değerler de varsayılan değer olarak set etmiş olduk. Değerleri js içinde okumak istersek şu şekilde okuyabiliriz:</p>
+  <pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> isim = myViewModel.personName(); <span class="hljs-comment">//isim değişkenine Tufan datası set edilir</span></code></pre>
+  <p>Yeni bir isim atamak için:</p>
+  <pre class="highlight"><code class="hljs javascript">myViewModel.personName(<span class="hljs-string">"Ahmet"</span>);</code></pre>
+  <p>Biz yeni ismi set eder etmez UI'da ilgili alan güncellenecek ve 'Benim adım Ahmet' yazacaktır.</p>
+  <p>Eğer bir dizi tanımlayacak olursak, bunu ObservableArray ile yaparız. ObservableArray'ler tıpkı Observable gibi çalışır, sadece ekstra fonksiyonlara sahiptir. JS array'lerin pop, shift gibi özel fonksiyonlarına sahiptir. Şu şekilde tanımlanır:</p>
+  <pre class="highlight"><code class="hljs javascript">myviewModel.personHobbies = ko.observableArray([<span class="hljs-string">"kitap okumak"</span>, <span class="hljs-string">"film izlemek"</span>, <span class="hljs-string">"blog yazmak"</span>]);</code></pre>
+  <h3>Subscribe özelliği</h3>
+  <p>Subscribe, observable tanımlı datalarda benim en sık kullandığım özellik. Bir datada değişiklik olması durumunda çalışacak işlemleri belirtir. Örnek bir subscribe yazımı:</p>
+  <pre class="highlight"><code class="hljs javascript">myViewModel.personName.subscribe(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newValue</span>) </span>{
+    alert(<span class="hljs-string">"Yeni kişi adı: "</span> + newValue);
+});</code></pre>
+  <p>Subscribe fonksiyonu personName değişkenindeki değişikliği yakalıyor ve alert ile ekranda gösteriyor.</p>
+  <h4>Son olarak</h4>
+  <p>Yazıda HTML'e sadece text binding seçeneğini gösterdim. Çok daha çeşitli binding fonksiyonlarını <a href="http://knockoutjs.com/documentation/introduction.html" rel="external" target="_blank">dokümentasyonda</a> inceleyebilirsiniz.</p>
+  <p>Ayrıca, observable ve subscribe özelliğini de kullanan bir form örneği hazırlayıp codepen’e ekledim. <a href="http://codepen.io/tufantunc/pen/oBpNgE" rel="external" target="_blank">Kodları inceleyip</a> siz de ilk örneğinizi yapabilirsiniz.</p>
   <footer>
   <div class="post-date">
     <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>24 Ocak 2017</time>
+    <time>31 Ocak 2017</time>
   </div>
 
   
   <div class="tags">
     <small><i class="icon-tags"></i> Etiketler: </small><br/>
     
-    <a href="https://tufantunc.com/tags/verimlilik/">verimlilik</a>
+    <a href="https://tufantunc.com/tags/knockoutjs/">knockoutjs</a>
     
-    <a href="https://tufantunc.com/tags/fayda/">fayda</a>
+    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
     
-    <a href="https://tufantunc.com/tags/uygulama/">uygulama</a>
+    <a href="https://tufantunc.com/tags/anlatim/">anlatim</a>
     
   </div>
   
 
   <div class="share">
     <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama/" class="facebook" target="_blank" rel="external,nofollow">
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/" class="facebook" target="_blank" rel="external,nofollow">
       <i class="icon-facebook"></i> Facebook
     </a>
-    <a href="https://twitter.com/intent/tweet?text=Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç&url=https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı&url=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
       <i class="icon-twitter"></i> Twitter
     </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama/&title=Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç&summary=Çalışırken kullandığım, verimliliğimi artıran uygulamaları paylaştığım bir blog yazısı.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi/&title=Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı&summary=Basit örneklerle KnockoutJS kütüphanesinin kullanımını anlattığım blog yazım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
       <i class="icon-linkedin"></i> LinkedIn
     </a>
   </div>
@@ -342,9 +377,9 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 	(function(){
 		window.disqus_shortname = 'tufantunc';
 		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama';
-		window.disqus_identifier = 'blog-verimliliginizi-artiracak-8-uygulama';
-		window.disqus_title = 'Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç';
+		window.disqus_url = 'https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi';
+		window.disqus_identifier = 'blog-basit-orneklerle-knockoutjs-anlatimi';
+		window.disqus_title = 'Basit Örneklerle KnockoutJS'ye Başlangıç Anlatımı';
 		if ( window.DISQUS ) {
 			return DISQUS.reset({
 				reload: true,
@@ -365,9 +400,9 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </article>]]></description>
-            <link>https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama</guid>
-            <pubDate>Tue, 24 Jan 2017 00:00:00 GMT</pubDate>
+            <link>https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/basit-orneklerle-knockoutjs-anlatimi</guid>
+            <pubDate>Tue, 31 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[KnockoutJS Kullanmanız için Birkaç Sebep]]></title>
@@ -746,24 +781,108 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tag: kisisel]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>kisisel etiketi içeren yazılar:</h1>
-  <ul id="blog-posts">
+            <title><![CDATA[Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç]]></title>
+            <description><![CDATA[<article>
+  <h1>Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç</h1>
+  <p>Bu blog yazımda verimliliğimi artırdığı için çalışırken sıkça kullandığım uygulamaları listeledim. Belki bir kısmı herkesin bildiği uygulamalardır. Ben kendi açımdan nasıl faydalandığımı yazdım.</p>
+  <h2>Pocket</h2>
+  <p>Araştırma yapmam gereken konular bazen dallanıyor, beni merak ettiğim başka konulara sürüklüyor. Web’de kaybolmamak için o anki işimle ilgili makaleyi okuyorum. İlgimi çeken diğer sayfaları ise daha sonra okumak üzere kaydediyorum.</p>
+  <p>Önceleri, daha sonra okurum dediğim ne varsa tarayıcının sık kullanılanlarına ekliyordum. Ev ve iş bilgisayarımdaki tarayıcılarda kişisel hesabım açık. Bu bağlantılar tarayıcılarımda senkronize oluyor. Buraya kadar sorun yok. Fakat daha sonra sık kullanılanlar alanındaki klasörlerim kalabalıklaştı ve linkler birikti. Gerçekten sık kullandığım bağlantılara yer kalmadı. Bu karmaşayı çözmek için uygulama ararken Pocket'a rastladım.</p>
+  <p>Mobil uygulama iOS 7 destekli olmadığından kullanamıyorum. Diğer yandan zaten iPhone ile pek makale okumam ama web uygulaması oldukça başarılı. Tarayıcı eklentisi ile siteyi kayıt ediyorsunuz, dilediğiniz zaman okuyabiliyorsunuz. Ayrıca sitede Best Of, Must Read gibi kategorilerde ilgi çekici yazılar bulmak da mümkün. Uygulamanın ücretsiz sürümünün özellikleri benim için yeterli.</p>
+  <p>Dün uygulamayı karıştırırken, linkleri önerme (recommend) seçeneği ile kendi profilimizde paylaşabildiğimiz gördüm. Ayrıca başka kişileri takip takip edip onların önerilerini görebiliyoruz. <a href="https://getpocket.com/@tufantunc" target="_blank" rel="external">Pocket’da beni takip ederek</a> paylaştığım içerikleri görebilirsiniz.</p>
+  <h2>f.lux</h2>
+  <p>Bu uygulama bilgisayarın ekran aydınlatmasını ve renk aralığını gün ışığına göre ayarlıyor. Ev bilgisayarımda bu uygulamayı kullanmıyorum ancak iş bilgisayarımda hep açık. Uygulama ücretsiz. Uygulamayı bir süre kullandıktan sonra, özellikle akşam saatleri kapatmak istemeyeceksiniz.</p>
+  <p>Kurulumdan sonra doğru çalışması için uygulama arayüzündeki Settings butonu ile ayarlar sayfasına gidin. Buradan Set your location yazılı alanındaki Change butonuna basın ve bulunduğunuz bölgeyi belirleyin. Ben İstanbul olarak belirledim.</p>
+  <p>Eğer tasarım ya da fotoğraf işlerinde olduğu gibi gerçek renkleri görmeniz gerekirse Alt + End kısayolu ile uygulamayı kapatıp açabilirsiniz.</p>
+  <h2>Spotify</h2>
+  <p>Müzik, çalışırken odaklanmama yardımcı oluyor. Bu sayede açık ofisin gürültüsünden de izole olabiliyorum.</p>
+  <p>Spotify’ın ücretsiz sürümünü pek tavsiye etmem, sinir bozucu sıklıkta reklam giriyor. Ben premium versiyonu kullanıyorum ve kullandıkça çok sevdim. Hem telefon hem iş hem de ev bilgisayarımda kurulu, web uygulamasını kullanmadım. Özellikle öneri algoritması çok iyi çalışıyor.</p>
+  <h2>Google Docs</h2>
+  <p>Bu yıl daha sık blog yazmak için kendime hedef koyunca aradığım ilk uygulama cloud’da çalışan bir metin editörü oldu. Yazılarımı çoğunlukla evde yazıyorum. Bazen iş yerinde aklıma gelen yazı fikirlerini de Google Docs’a başlık ve 1-2 satır metin olarak girip kaydediyorum. Daha sonra evden devam ediyorum. Bazen tam tersi... Google Docs’u daha önce de kullanıyordum, başarılı bir servis. Üstelik tamamen ücretsiz.</p>
+  <h2>Hemingway</h2>
+  <p>Yine 1 yıl öncesine kadar çok sık kullandığım bir uygulama. Hemingway editörün masaüstü uygulaması ücretli. Web uygulaması ise ücretsiz, benim işimi görüyor.</p>
+  <p>Yazılarımı Google Docs’ta yazdıktan sonra Hemingway’in düzenleme modu ile yazıyı gözden geçiriyorum. Hemingway fazla uzun olan paragrafları, okuması zor olan uzun cümleleri işaretliyor. Ben de bu alanları yeniden yazıyorum. Örneğin bu yazıda Hemingway'i kullandım.</p>
+  <h2>Evernote</h2>
+  <p>Bu uygulamayı ilk günden beri kullananlar var ve hep önerdiler. Evernote’un değerini bu ay anladım. Ben daha çok kağıt üzerinde not alanlardanım. Yanımda sürekli not defteri taşıyamadığımı fark edip evde de notlarıma ulaşmak isteyince kendime mail atmaya başladım. Bu defa da mailler arasında kaybolunca Evernote’u tekrar denemeye karar verdim. Bence başarılı ve basit bir program.</p>
+  <p>Mobil uygulama iOS 7 desteklemediğinden telefonumda kullanamıyorum. Yine de ev ve iş bilgisayarımda kurulu. Ctrl + Alt + N tuş kombinasyonu ile yeni bir not oluşturabiliyorsunuz. Bu notlarınıza istediğiniz yerden erişebilirsiniz. Uygulamanın ücretli ve ücretsiz seçenekleri mevcut.</p>
+  <h2>Mindmeister</h2>
+  <p>Bu aslında klasik bir mind mapping uygulaması. Benzer uygulamalardan bir farkı yok ancak ben bunun kullanımını oldukça rahat buluyorum.</p>
+  <figure>
+    <img alt="tedx sanfrancisco etkinliğine ait mindmap görseli" src="https://tufantunc.com/content/blog/tedx-sanfrancisco-mindmap.jpg">
+    <figcaption>
+      Juan Bennet, TEDx Sanfrancisco için hazırladığı mind map'i sitede paylaşmış. Görselde yazıların görünmediğinin farkındayım, <a href="https://www.mindmeister.com/770591459/tedx-sanfrancisco-session-2-juan-benet" target="_blank" rel="external">buradan</a> inceleyebilirsiniz.
+    </figcaption>
+  </figure>
+  <p>Aklıma gelen projeleri burada dallandırıp yol haritası çıkarmaya çalışıyorum. Hem düşünceyi görsel olarak görmek çok faydalı oluyor. Uygulama tarayıcı üzerinde çalışıyor. Ücretsiz hesapda 3 proje oluşturma limiti var. Ben bitirdikten sonra projeyi görsel olarak kaydedip hesaptan silerek yer açıyorum. Adapte olmak kolay.</p>
+  <p><a href="https://www.mindmeister.com/?r=364806" target="_blank" rel="external">Buradan referansımla üye olursanız</a> bana ekstradan 1 proje açma hakkı daha kazandırabilirsiniz.</p>
+  <h2>Dropbox</h2>
+  <p>6 ayda 3 tane flash bellek kaybettim. Büyük boyutlu dosyaları taşımak ve yedeklemek için harddisk kullanıyorum. 50-100 mb’lık dosyalar içinse Dropbox kullanmaya başladım. Ev internetlerinin upload hızları düşük olduğundan bu tarz servisler çok kullanışlı olmayabiliyor. Fakat düşük boyutlu dosyalar için ideal.</p>
+  <p>Ücretsiz üyelikte 2gb alan sunuyor. Eğer <a href="https://db.tt/eKt4AAwF" target="_blank" rel="external">referansımla üye olursanız</a> bana ekstra 250mb alan kazandıracaksınız.</p>
+  <p>Benim kullandığım uygulamalar bunlar. Önerdiğiniz uygulamalar varsa yorumunuzu bekliyorum.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>24 Ocak 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
     
-    <li>
-      <a href="/blog/2017-kisisel-hedeflerim/">
-        <span>2017 Yılı İçin Kişisel Hedeflerim</span>
-        <time>03 Ocak 2017</time>
-      </a>
-    </li>
+    <a href="https://tufantunc.com/tags/verimlilik/">verimlilik</a>
     
-  </ul>
-</article>
-]]></description>
-            <link>https://tufantunc.com/tags/kisisel</link>
-            <guid isPermaLink="true">https://tufantunc.com/tags/kisisel</guid>
-            <pubDate>Tue, 24 Jan 2017 06:17:48 GMT</pubDate>
+    <a href="https://tufantunc.com/tags/fayda/">fayda</a>
+    
+    <a href="https://tufantunc.com/tags/uygulama/">uygulama</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç&url=https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama/&title=Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç&summary=Çalışırken kullandığım, verimliliğimi artıran uygulamaları paylaştığım bir blog yazısı.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama';
+		window.disqus_identifier = 'blog-verimliliginizi-artiracak-8-uygulama';
+		window.disqus_title = 'Çalışırken Verimliliğinizi Artıracak 8 Yardımcı Araç';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/verimliliginizi-artiracak-8-uygulama</guid>
+            <pubDate>Tue, 24 Jan 2017 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
