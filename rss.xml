@@ -4,74 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Feb 2017 14:56:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Feb 2017 07:11:17 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 06 Feb 2017 14:55:53 GMT</pubDate>
-        <item>
-            <title><![CDATA[Front-End Developer]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-
-  <h2>Son Blog Yazım:</h2>
-  
-  <p class="no-margin-top"><a href="/blog/facebook-yardim-istemenin-dogru-yolu/">Facebook'ta Yardım İstemenin Doğru Yolu</a></p>
-  
-
-
-</article>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "name": "Tufan Tunç",
-  "url": "https://tufantunc.com",
-  "jobTitle": "Front-End Developer",
-  "image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/029/261/06fd0cf.jpg",
-  "sameAs": [
-    "https://tr.linkedin.com/in/tufantunc",
-    "https://twitter.com/tufant",
-    "https://plus.google.com/u/0/+TufanTun%C3%A7"
-  ]
-}
-</script>]]></description>
-            <link>https://tufantunc.com/</link>
-            <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Mon, 06 Feb 2017 14:55:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hakkımda]]></title>
-            <description><![CDATA[<article class="main-content">
-  <h1>Hakkımda</h1>
-  <p>Adım Tufan Tunç. İstanbul'da yaşıyorum.</p>
-  <p>
-    Front-End Developer'ım. Yani sürekli olarak tarayıcıların kod yorumlaması arasındaki farkları, kullanıcı deneyimini araştırıyor, servisler ve arayüz arasında etkileşim için bolca javascript yazıyorum.
-    Çalışma ortamında yeni fikirleri uygulamayı, yeni teknolojiler öğrenmeyi ve iş akışını otomatize etmeyi seven biriyim.
-  </p>
-  <p>
-    Blogumda arayüz geliştirme hakkında edindiğim tecrübeleri ve fikirlerimi paylaşıyorum.
-  </p>
-  <p>
-    İş dışında ise okumayı, dizi izlemeyi, motorsiklet sürmeyi ve bilgisayar oyunları oynamayı severim.
-  </p>
-  <p>Çalışma hayatım ve yer aldığım projelerle ilgili detaylar <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn profilim</a>de mevcut.</p>
-  <p>Üzerinde çalıştığım açık kaynaklı projelerimi <a href="https://github.com/tufantunc/" rel="external" target="_blank">Github</a> üzerinde inceleyebilirsiniz.</p>
-  <p>Bana ulaşmak isterseniz <a href="/iletisim/">iletişim</a> sayfasındaki bilgileri kullanabilirsiniz.</p>
-  <h2>Bu internet sitesini geliştirirken:</h2>
-  <ul>
-    <li>Tasarım için Photoshop'tan,</li>
-    <li>CSS ve HTML optimize işlemleri için Grunt ve eklentilerinden,</li>
-    <li>Statik html dosyalarını oluşturmak için DocPad ve eklentilerinden yararlandım.</li>
-  </ul>
-</article>]]></description>
-            <link>https://tufantunc.com/hakkimda</link>
-            <guid isPermaLink="true">https://tufantunc.com/hakkimda</guid>
-            <pubDate>Sun, 15 Jan 2017 10:50:10 GMT</pubDate>
-        </item>
+        <pubDate>Mon, 27 Feb 2017 07:11:11 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -80,6 +15,13 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
     <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
   </h1>
   <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar/">
+        <span>Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar</span>
+        <time>22 Şubat 2017</time>
+      </a>
+    </li>
     
     <li>
       <a href="/blog/facebook-yardim-istemenin-dogru-yolu/">
@@ -176,105 +118,69 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Tue, 03 Jan 2017 20:08:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Facebook'ta Yardım İstemenin Doğru Yolu]]></title>
-            <description><![CDATA[<article>
-  <h1>Facebook'ta Yardım İstemenin Doğru Yolu</h1>
-  <p>Genç Front-End'ci arkadaşlarımızın yaptığı en büyük yanlış elinden geldikçe kendi başlarına öğrenmeye çalışmaları. <strong>Herhangi bir yazılım dilini öğrenmenin en kötü yolu tek başına öğrenmektir.</strong> Bunu sadece <attr title="javascript">js</attr> ya da <attr title="hyper text markup language">html</attr>-<attr title="cascading style sheet">css</attr> için söylemiyorum. Tüm yazılım dilleri için bu böyle. <u>Tek başına öğrenmek sadece hatalarınızı pekiştirir.</u> Peki hata aldığınız ya da izlediğiniz yöntemden emin olmadığınız konularda nasıl yardım istemeli? İster Facebook gruplarında, isterseniz webmaster forumlarında kullanabileceğiniz basit bir servis paylaşacağım.. Ama öncesinde hatamızı görelim.</p>
-  <h2>Hatalı Yardım İsteme Yöntemleri</h2>
-  <p>En sık yapılan 2 hatalı yöntemi aşağıdaki paragraflarda inceledim.<br/>İlki hata alınan konuda <u>sadece</u> izlenen yöntemi açıklamak:</p>
-  <p><i>“Bir input’um var, buraya girilen dataları yakalamak istiyorum ancak js hatası alıyorum. Nasıl yaparım?”</i></p>
-  <p>Bu yöntemdeki en büyük hata, inceleyen kişinin kodlara dair çok az fikrinin oluşması. Çoğu zaman tecrübeli geliştiriciler bu senaryo için en ideal kodları paylaşırlar. Çünkü sorulması gereken çok soru var ancak buna harcanacak vakit kısıtlı. Örneğin;</p>
-  <ul>
-    <li>“js kodlarını jquery ile mi yoksa vanillajs ile mi yazdın?”</li>
-    <li>“hangi event ile değişikliği yakalıyorsun, onchange mi yoksa keyup mı?”</li>
-  </ul>
-  <p>Sorular böyle devam eder. Bu sorularla vakit kaybetmekten kaçıp ideal kodları paylaşmak çoğu zaman çözüm sunmuyor. Bu yeni kodlar soruyu soran kişinin istediği ya da yapısına uydurabileceği bir şey olmayabiliyor. Hatayı alan kişi bu defa <i>“bunu jQuery ile nasıl yaparım”</i> diye soracak. Daha sonra <i>"burada başka bir fonksiyonu nasıl çağırırım"</i> diye soracak. <strong>Bunu tecrübe eden developerlar bir daha bu konularda yardım etmeye istekli olmuyor.</strong> Daha sonra gelen sorularda bütün grup sessizliğe bürünüyor.</p>
-  <p><i>“Bu kodlarda hata alıyorum neden çalışmıyor? [burada uzun bir kod bloğu paylaşmıştır]”</i></p>
-  <p>Facebook gönderilerinde kodlarınızı paylaşmak, aslına bakarsanız çok saçma. Bunun ilk nedeni Facebook, postlardaki bu kodların bir kısmını temizleyebiliyor. Bu nedenle de zaten hatalı olan kodlar bir de eksik oluyor.</p>
-  <p>Bir diğer sebep okunaksızlık. Çok az kişi Facebook gönderisinde gördüğü kodu okumaya çalışıp hata ayıklamayı deniyor. Tecrübeli bir developer’ın yapacağı ilk iş kodları buradan alıp, kendi kullandığı IDE'ye aktarmak oluyor. Sonra bu kodu düzenlemek, tarayıcıda test etmek de ayrı bir uğraş. Herkes bu vakti harcamak istemiyor. Daha önceki örnekte olduğu gibi geliştiriciler bu gibi yardım isteklerine kayıtsız kalıyor.</p>
-  <h2>Hata aldım, ne yapmalıyım?</h2>
-  <p>Burası sürpriz bir bölüm, yardım istemeden önce yapmanız gereken bir konu. Aldığınız hatayı büyük olasılıkla sizden önce biri daha almış ve <a href="http://stackoverflow.com/" target="_blank" rel="external">StackOverflow</a>’da bunu sormuştur. Çoğu zaman yüzlerce, hatta binlerce oy ile en ideal çözüme de karar verilmiştir. StackOverflow yazılımcılar için bir yardımlaşma sitesi. Dolayısıyla, hatanızı önce StackOverflow’da aratmayı deneyin.</p>
-  <figure>
-    <img alt="js hatasını otomatik olarak stackoverflow'da arayan kod parçası" src="https://tufantunc.com/content/blog/search-js-error-on-stackoverflow.jpg">
-    <figcaption>
-      Front-End Developer'lar arasında dolaşan esprili bir StackOverflow çözümü...
-    </figcaption>
-  </figure>
-  <h2>Yardım istemenin doğru yolu</h2>
-  <p>Kodlarınızı online bir editöre taşıyın ve grupta paylaşın. Ben daha önceleri <a href="https://jsfiddle.net/" target="_blank" rel="external">jsfiddle</a> sitesini kullanıyordum. Daha sonra renklendirmeleri ve kullanışlılığı hoşuma gittiği için <a href="http://codepen.io/" target="_blank" rel="external">codepen.io</a> sitesine geçtim. Hangisinde rahat ediyorsanız onu kullanabilirsiniz. Size şu avantajları sunacak:</p>
-  <ul>
-    <li>Kodlarınızı online bir editöre aktarırken yeniden okumuş olursunuz. Böylece gözünüzden kaçan bir hata varsa daha sormadan kendiniz çözersiniz.</ki>
-    <li>Codepen gibi siteler kodları renklendirir. Bu sayede yardım etmek isteyenler kendi geliştirme ortamlarına kod taşımakla vs. uğraşmazlar. Bu şekilde vakit kazanacaklarını bilmek yardım etme isteğini de artırır.</ki>
-    <li>Editörler üzerinde herkes düzenleme yapabilir. Bu sayede düzeltilmiş kodları ve düzeltilen yerleri, hatta yorum satırı ekleyerek hatanızı vs. görmenizi de sağlarlar. Sadece çözüme ulaşmış olmazsınız, aynı zamanda hatanızı görerek doğrusunu da öğrenmiş olursunuz. Bence bu daha değerli.</ki>
-  </ul>
-  <p>Son olarak, codepen’de pek çok developer’ın hesabı vardır. <a href="http://codepen.io/tufantunc/" target="_blank" rel="external">Codepen'de beni buradan takip edebilirsiniz.</a> Diğer developer’ların da yaptıkları örnekleri ve paylaştıkları kod bloklarını inceleyebilirsiniz. Ben sık sık codepen’in anasayfasında, öne çıkan kodları incelemeyi severim. Çoğu zaman ilginç çalışmalarla karşılaşmak mümkün.</p>
-  <p>Denemekten ve öğrenmekten asla vazgeçmeyin. Sonraki yazılarda görüşmek üzere...</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>06 Şubat 2017</time>
-  </div>
+            <title><![CDATA[Front-End Developer]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>Merhaba.</h1>
+  <p>Adım Tufan Tunç.<br/>
+    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
+  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
+otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
+kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
 
+  <h2>Son Blog Yazım:</h2>
   
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/front-end/">front-end</a>
-    
-    <a href="https://tufantunc.com/tags/developer/">developer</a>
-    
-    <a href="https://tufantunc.com/tags/help/">help</a>
-    
-    <a href="https://tufantunc.com/tags/facebook/">facebook</a>
-    
-  </div>
+  <p class="no-margin-top"><a href="/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar/">Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar</a></p>
   
 
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=Facebook'ta Yardım İstemenin Doğru Yolu&url=https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu/&title=Facebook'ta Yardım İstemenin Doğru Yolu&summary=Front-End Developer'lar için Facebook'ta doğru yardım isteme yöntemini anlattım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
 
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu';
-		window.disqus_identifier = 'blog-facebook-yardim-istemenin-dogru-yolu';
-		window.disqus_title = 'Facebook&#39;ta Yardım İstemenin Doğru Yolu';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Tufan Tunç",
+  "url": "https://tufantunc.com",
+  "jobTitle": "Front-End Developer",
+  "image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/029/261/06fd0cf.jpg",
+  "sameAs": [
+    "https://tr.linkedin.com/in/tufantunc",
+    "https://twitter.com/tufant",
+    "https://plus.google.com/u/0/+TufanTun%C3%A7"
+  ]
+}
+</script>]]></description>
+            <link>https://tufantunc.com/</link>
+            <guid isPermaLink="true">https://tufantunc.com/</guid>
+            <pubDate>Mon, 06 Feb 2017 14:55:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hakkımda]]></title>
+            <description><![CDATA[<article class="main-content">
+  <h1>Hakkımda</h1>
+  <p>Adım Tufan Tunç. İstanbul'da yaşıyorum.</p>
+  <p>
+    Front-End Developer'ım. Yani sürekli olarak tarayıcıların kod yorumlaması arasındaki farkları, kullanıcı deneyimini araştırıyor, servisler ve arayüz arasında etkileşim için bolca javascript yazıyorum.
+    Çalışma ortamında yeni fikirleri uygulamayı, yeni teknolojiler öğrenmeyi ve iş akışını otomatize etmeyi seven biriyim.
+  </p>
+  <p>
+    Blogumda arayüz geliştirme hakkında edindiğim tecrübeleri ve fikirlerimi paylaşıyorum.
+  </p>
+  <p>
+    İş dışında ise okumayı, dizi izlemeyi, motorsiklet sürmeyi ve bilgisayar oyunları oynamayı severim.
+  </p>
+  <p>Çalışma hayatım ve yer aldığım projelerle ilgili detaylar <a href="https://tr.linkedin.com/in/tufantunc" rel="external" target="_blank">LinkedIn profilim</a>de mevcut.</p>
+  <p>Üzerinde çalıştığım açık kaynaklı projelerimi <a href="https://github.com/tufantunc/" rel="external" target="_blank">Github</a> üzerinde inceleyebilirsiniz.</p>
+  <p>Bana ulaşmak isterseniz <a href="/iletisim/">iletişim</a> sayfasındaki bilgileri kullanabilirsiniz.</p>
+  <h2>Bu internet sitesini geliştirirken:</h2>
+  <ul>
+    <li>Tasarım için Photoshop'tan,</li>
+    <li>CSS ve HTML optimize işlemleri için Grunt ve eklentilerinden,</li>
+    <li>Statik html dosyalarını oluşturmak için DocPad ve eklentilerinden yararlandım.</li>
+  </ul>
 </article>]]></description>
-            <link>https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu</guid>
-            <pubDate>Mon, 06 Feb 2017 00:00:00 GMT</pubDate>
+            <link>https://tufantunc.com/hakkimda</link>
+            <guid isPermaLink="true">https://tufantunc.com/hakkimda</guid>
+            <pubDate>Sun, 15 Jan 2017 10:50:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
@@ -528,6 +434,205 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Tue, 31 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Facebook'ta Yardım İstemenin Doğru Yolu]]></title>
+            <description><![CDATA[<article>
+  <h1>Facebook'ta Yardım İstemenin Doğru Yolu</h1>
+  <p>Genç Front-End'ci arkadaşlarımızın yaptığı en büyük yanlış elinden geldikçe kendi başlarına öğrenmeye çalışmaları. <strong>Herhangi bir yazılım dilini öğrenmenin en kötü yolu tek başına öğrenmektir.</strong> Bunu sadece <attr title="javascript">js</attr> ya da <attr title="hyper text markup language">html</attr>-<attr title="cascading style sheet">css</attr> için söylemiyorum. Tüm yazılım dilleri için bu böyle. <u>Tek başına öğrenmek sadece hatalarınızı pekiştirir.</u> Peki hata aldığınız ya da izlediğiniz yöntemden emin olmadığınız konularda nasıl yardım istemeli? İster Facebook gruplarında, isterseniz webmaster forumlarında kullanabileceğiniz basit bir servis paylaşacağım.. Ama öncesinde hatamızı görelim.</p>
+  <h2>Hatalı Yardım İsteme Yöntemleri</h2>
+  <p>En sık yapılan 2 hatalı yöntemi aşağıdaki paragraflarda inceledim.<br/>İlki hata alınan konuda <u>sadece</u> izlenen yöntemi açıklamak:</p>
+  <p><i>“Bir input’um var, buraya girilen dataları yakalamak istiyorum ancak js hatası alıyorum. Nasıl yaparım?”</i></p>
+  <p>Bu yöntemdeki en büyük hata, inceleyen kişinin kodlara dair çok az fikrinin oluşması. Çoğu zaman tecrübeli geliştiriciler bu senaryo için en ideal kodları paylaşırlar. Çünkü sorulması gereken çok soru var ancak buna harcanacak vakit kısıtlı. Örneğin;</p>
+  <ul>
+    <li>“js kodlarını jquery ile mi yoksa vanillajs ile mi yazdın?”</li>
+    <li>“hangi event ile değişikliği yakalıyorsun, onchange mi yoksa keyup mı?”</li>
+  </ul>
+  <p>Sorular böyle devam eder. Bu sorularla vakit kaybetmekten kaçıp ideal kodları paylaşmak çoğu zaman çözüm sunmuyor. Bu yeni kodlar soruyu soran kişinin istediği ya da yapısına uydurabileceği bir şey olmayabiliyor. Hatayı alan kişi bu defa <i>“bunu jQuery ile nasıl yaparım”</i> diye soracak. Daha sonra <i>"burada başka bir fonksiyonu nasıl çağırırım"</i> diye soracak. <strong>Bunu tecrübe eden developerlar bir daha bu konularda yardım etmeye istekli olmuyor.</strong> Daha sonra gelen sorularda bütün grup sessizliğe bürünüyor.</p>
+  <p><i>“Bu kodlarda hata alıyorum neden çalışmıyor? [burada uzun bir kod bloğu paylaşmıştır]”</i></p>
+  <p>Facebook gönderilerinde kodlarınızı paylaşmak, aslına bakarsanız çok saçma. Bunun ilk nedeni Facebook, postlardaki bu kodların bir kısmını temizleyebiliyor. Bu nedenle de zaten hatalı olan kodlar bir de eksik oluyor.</p>
+  <p>Bir diğer sebep okunaksızlık. Çok az kişi Facebook gönderisinde gördüğü kodu okumaya çalışıp hata ayıklamayı deniyor. Tecrübeli bir developer’ın yapacağı ilk iş kodları buradan alıp, kendi kullandığı IDE'ye aktarmak oluyor. Sonra bu kodu düzenlemek, tarayıcıda test etmek de ayrı bir uğraş. Herkes bu vakti harcamak istemiyor. Daha önceki örnekte olduğu gibi geliştiriciler bu gibi yardım isteklerine kayıtsız kalıyor.</p>
+  <h2>Hata aldım, ne yapmalıyım?</h2>
+  <p>Burası sürpriz bir bölüm, yardım istemeden önce yapmanız gereken bir konu. Aldığınız hatayı büyük olasılıkla sizden önce biri daha almış ve <a href="http://stackoverflow.com/" target="_blank" rel="external">StackOverflow</a>’da bunu sormuştur. Çoğu zaman yüzlerce, hatta binlerce oy ile en ideal çözüme de karar verilmiştir. StackOverflow yazılımcılar için bir yardımlaşma sitesi. Dolayısıyla, hatanızı önce StackOverflow’da aratmayı deneyin.</p>
+  <figure>
+    <img alt="js hatasını otomatik olarak stackoverflow'da arayan kod parçası" src="https://tufantunc.com/content/blog/search-js-error-on-stackoverflow.jpg">
+    <figcaption>
+      Front-End Developer'lar arasında dolaşan esprili bir StackOverflow çözümü...
+    </figcaption>
+  </figure>
+  <h2>Yardım istemenin doğru yolu</h2>
+  <p>Kodlarınızı online bir editöre taşıyın ve grupta paylaşın. Ben daha önceleri <a href="https://jsfiddle.net/" target="_blank" rel="external">jsfiddle</a> sitesini kullanıyordum. Daha sonra renklendirmeleri ve kullanışlılığı hoşuma gittiği için <a href="http://codepen.io/" target="_blank" rel="external">codepen.io</a> sitesine geçtim. Hangisinde rahat ediyorsanız onu kullanabilirsiniz. Size şu avantajları sunacak:</p>
+  <ul>
+    <li>Kodlarınızı online bir editöre aktarırken yeniden okumuş olursunuz. Böylece gözünüzden kaçan bir hata varsa daha sormadan kendiniz çözersiniz.</ki>
+    <li>Codepen gibi siteler kodları renklendirir. Bu sayede yardım etmek isteyenler kendi geliştirme ortamlarına kod taşımakla vs. uğraşmazlar. Bu şekilde vakit kazanacaklarını bilmek yardım etme isteğini de artırır.</ki>
+    <li>Editörler üzerinde herkes düzenleme yapabilir. Bu sayede düzeltilmiş kodları ve düzeltilen yerleri, hatta yorum satırı ekleyerek hatanızı vs. görmenizi de sağlarlar. Sadece çözüme ulaşmış olmazsınız, aynı zamanda hatanızı görerek doğrusunu da öğrenmiş olursunuz. Bence bu daha değerli.</ki>
+  </ul>
+  <p>Son olarak, codepen’de pek çok developer’ın hesabı vardır. <a href="http://codepen.io/tufantunc/" target="_blank" rel="external">Codepen'de beni buradan takip edebilirsiniz.</a> Diğer developer’ların da yaptıkları örnekleri ve paylaştıkları kod bloklarını inceleyebilirsiniz. Ben sık sık codepen’in anasayfasında, öne çıkan kodları incelemeyi severim. Çoğu zaman ilginç çalışmalarla karşılaşmak mümkün.</p>
+  <p>Denemekten ve öğrenmekten asla vazgeçmeyin. Sonraki yazılarda görüşmek üzere...</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>06 Şubat 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/front-end/">front-end</a>
+    
+    <a href="https://tufantunc.com/tags/developer/">developer</a>
+    
+    <a href="https://tufantunc.com/tags/help/">help</a>
+    
+    <a href="https://tufantunc.com/tags/facebook/">facebook</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Facebook'ta Yardım İstemenin Doğru Yolu&url=https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu/&title=Facebook'ta Yardım İstemenin Doğru Yolu&summary=Front-End Developer'lar için Facebook'ta doğru yardım isteme yöntemini anlattım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu';
+		window.disqus_identifier = 'blog-facebook-yardim-istemenin-dogru-yolu';
+		window.disqus_title = 'Facebook&#39;ta Yardım İstemenin Doğru Yolu';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu</guid>
+            <pubDate>Mon, 06 Feb 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar]]></title>
+            <description><![CDATA[<article>
+  <h1>Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar</h1>
+  <p>Menüyü ararken kendinizi bambaşka sitelerde bulduğunuz, 3-5 satırlık metni okuyabilmek için reklam engelleyen tarayıcı eklentileri kullanmak zorunda olduğunuz web siteleriyle karşılaşmışsınızdır eminim. Belli ki arama motorları bu sitenin içeriğini değerli buluyor ve bizi yönlendiriyor. Fakat tekrar ziyaret etmeyi düşünür müsünüz? Ben de düşünmem.</p>
+  <p>Burada bahsedeceğim 6 adım hem web sitelerinde hem de web uygulamalarında kullanılabilir.</p>
+  <h2>Ziyaretçi Dostu Arabirim</h2>
+  <p>Kullanışlılık, uzun süredir UX ismiyle aramızda. UX kullanıcı deneyimi anlamına gelir. Eğer bu konuya amatör ilginiz varsa, kendi siteniz için basitçe 2 adımı kontrol edin:</p>
+  <ol>
+    <li>Ziyaretçi aradığı içeriğe en fazla 3 tıklama ile ulaşabilir mu?</li>
+    <li>Benzer siteleri gezerken kendi alışkanlıklarınızı kontrol edin:<br/>
+Örneğin aşağı ok gösteren bir butona tıkladığınızda bir menünün mü yoksa bir içerik alanının mı açılmasını bekliyorsunuz? Sitenizi de buna göre yeniden gözden geçirin.</li>
+  </ol>
+  <p>Örneğin, bir blog sitesinde makale okurken bir süre sonra sitede modal box açılması ve benden facebook sayfalarını takip etmemi istemeleri benim için sinir bozucu. Çünkü henüz makaleyi okumayı bitirmedim. Üstelik modal box’ın açılmasını da istemedim. Bu benim içeriğe ulaşmam için yapılmış bir geliştirme değil. Bu nedenle ben de sitelerimde böyle bir uygulama kullanmıyorum.</p>
+  <p>Bu konu ile ilgili olarak <a href="http://www.kitapyurdu.com/kitap/kullanisli-web-siteleri-yaratma/89507.html" rel="external" target="_blank">Kullanışlı Web Siteleri Yaratma</a> kitabını tavsiye ederim. Benim okuduğum versiyonun çevirisi kötüydü ancak akıcı bir kitap.</p>
+  <h2>Okunabilirlik</h2>
+  <p>2016 internette okunabilirliğe en çok önem verilen yıl oldu. Artık internet siteleri doğru font’u sadece aramıyor, bulamadığında istediği font’u tasarlatıyor da. Benim bu konuda en beğendiğim sitelerden biri <a href="https://medium.com/" rel="external" target="_blank">Medium</a> oldu. Bence bu kadar başarılı olmasının en önemli sebeplerinden biri de içeriğe zahmetsizce ulaşabiliyor olmanız. Kendi blogumu tasarlarken büyük ölçüde Medium’un tipografi özelliklerini baz aldım. Her ne kadar telif nedeniyle aynı fontu kullanamasam da benzer bir font ve font büyüklükleri kullandım.</p>
+  <h2>Hareketli Gif ve Fon Müzikleri</h2>
+  <p>Eskiden internet siteleri fon müzikleri kullanırdı. Buna uzun süredir rastlamadım ancak bence web’de bunun yerini alan bir özellik var. Hareketli gif’ler!</p>
+  <p>Flash’ın tarayıcılardan yavaş yavaş silinmesi ile hareketli gif’ler her yanımızı sarmaya başladı. Açıkcası blog yazılarında gördüğümde ben de mutlu oluyorum. Ama her zaman değil. Dolayısıyla bunun oranını tutturmak lazım.</p>
+  <figure>
+    <iframe src="//giphy.com/embed/d3mn3eR2I1DBDtS0?html5=true&hideSocial=true" width="680" height="379" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+    <figcaption>
+      Sayfaya yüzlerce gif koymayın, sonra site açılmak nedir bilmiyor.
+    </figcaption>
+  </figure>
+  <h2>Reklam Yerleşimi</h2>
+  <p>İnternet siteleri için en kolay ulaşılabilir gelir kaynağının reklamlar olduğu bir gerçek. Reklam alarak site giderlerini azaltmanız hatta kazanmanız da hakkınız. Ancak daha fazla kazanmak için hileli yerleştirilen reklamlar, popup pencereler hatta linkler göstermek büyük hata. Reklamların ön plana çıktığı bir site asla ziyaretçinin güvenini kazanamaz. Burada kendi açınızdan baktığınızda daha fazla tık alma olasılığınız yüksektir elbet fakat, daha çok ziyaretçi kazanmak için ziyaretçinizi de memnun etmeniz gerekmektedir. Satıcı-müşteri ilişkisi gibidir, site içeriğiniz sizin ürününüz ve bunu müşterinize en güzel şekilde sunarak onu memnun etmeniz gerekmektedir. Zaten hileli tıklamalarla reklam verenlerde memnun olmayacaktır, etik değil. Sitenizde az ama içeriğinizle ilgili reklamları barındırmanız hem ziyaretçi hemde sizin açınızdan önemli. Böylece ziyaretçi sayısı arttıkça reklamların tıklanma oranı da artacaktır.</p>
+  <p>Sitenizin konusu ve ziyaretçilerinizin ilgi alanlarını tespit ederek az reklam ile daha fazla tık sağlayabilirsiniz. Tabi bu reklamların sayfadaki yerleşimleri de önemli. Ancak reklam yerleşimi ve ziyaretçi eğiliminin ölçümü uzun bir araştırma konusu. Daha derine inmeyip asıl konumuza geri dönelim.</p>
+  <h2>Tarayıcı Uyumluluğu</h2>
+  <p>Sitenizin en sık kullanılan tarayıcılarda ve mobilde iyi çalıştığından emin olun. Her ne kadar tarayıcılar arasındaki rekabet daha kullanışlı, daha hızlı tarayıcıların ortaya çıkmasını sağlasa da site sahipleri için olumsuz yönleri çok. Farklı tarayıcılar aynı siteyi farklı şekillerde gösteriyor veya olması gerektiği gibi gösteremiyor.</p>
+  <p>Ziyaretçilerinizi de düşünerek en çok kullanılan tarayıcılarda sitenizin nasıl göründüğüne bakın. Sorunlu olan kısımları düzeltmeye çalışın. Bu iş HTML vs CSS kodlamalarını bilenler için çok zor değil. Bu sorunlu tespit etmenin ilk yolu html ve css kodlarının doğruluğunu kontrol etmek. HTML kodlarınız için <a href="http://validator.w3.org/" target="_blank" rel="external">W3 HTML validator</a> adresinden, CSS kodlarınız için ise <a href="http://jigsaw.w3.org/css-validator/" rel="external" target="_blank">W3 CSS validator</a> adresinden sitenizin standartlara uyup uymadığını kontrol edebilir, hatalarınızı ve çözümlerini görebilirsiniz.</p>
+  <p>Yazı biraz uzun görünüyor fakat yine de konuları derinlemesine işleyemedim. Sizin de kendi fikirlerinizi, bilgilerinizi veya konuları daha ayrıntılı işleyen kaynakları yorumlarınızda bekliyorum.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>22 Şubat 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/website/">website</a>
+    
+    <a href="https://tufantunc.com/tags/ux/">ux</a>
+    
+    <a href="https://tufantunc.com/tags/ziyaretci/">ziyaretci</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar&url=https://tufantunc.com/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar/&title=Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar&summary=Web sitelerinin ziyaretçilerini ön plana koyan içerik yerleşimi ile ziyaretçi kazanabileceklerini anlattığım bir blog yazısı.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar';
+		window.disqus_identifier = 'blog-modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar';
+		window.disqus_title = 'Modern Web Sitesi İçin Ziyaretçi Kazandıracak Detaylar';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/modern-web-sitesi-icin-ziyaretci-kazandiracak-detaylar</guid>
+            <pubDate>Wed, 22 Feb 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[KnockoutJS Kullanmanız için Birkaç Sebep]]></title>
             <description><![CDATA[<article>
   <h1>KnockoutJS Kullanmanız için Birkaç Sebep</h1>
@@ -743,165 +848,6 @@ Tıpkı Github Pages özelliğini kullanarak hosting ve versiyonlama işlemlerim
             <link>https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</link>
             <guid isPermaLink="true">https://tufantunc.com/blog/ssl-sertifikasinin-seo-etkisi</guid>
             <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Static Site Generator Kullanmanın Avantajları]]></title>
-            <description><![CDATA[<article>
-  <h1>Static Site Generator Kullanmanın Avantajları</h1>
-  <figure>
-    <img alt="static site generator çalışma şekli" src="https://tufantunc.com/content/blog/static-site-generator-workflow.jpg">
-    <figcaption>
-      Static Site Generator'ların çalışma şekli.<br/>
-      Kaynak: <a href="http://www.slideshare.net/mackato/blogging-on-jekyll" target="_blank">SlideShare</a>
-    </figcaption>
-  </figure>
-  <p><a href="http://mailchimp.com" target="_blank" rel="external">MailChimp</a> ana sitesinin static site generator ile hazırlanması şaşırtıcı olmadı. Statik siteler son zamanlarda büyük firmaların
-  <em>yeniden</em> gözdesi oldu. <a href="https://www.google.com/trends/2014/" target="_blank" rel="external">Google 2014 arama trendleri</a> sayfasını statik site olarak hazırlamasının ardından
-  çeşitli servislerini statik sayfalar ile hazırlamayı tercih ediyor. Avantajlarını araştırdıktan sonra ben de kendi sitemi ve blog sayfalarımı static site generator ile hazırlamaya karar verdim.</p>
-  <h2>Static site generator nedir?</h2>
-  <p>Static site generator araçları, hazırlanış aşamasında html template yapıları ve veri tabanı gibi CMS özellikleri ile geliştirme ortamı sağlarken, çıktı olarak sadece html sayfaları oluşturan
-  sistemlerdir. <a href="https://staticsitegenerators.net/" target="_blank" rel="external">Staticsitegenerators.net</a> sitesine göre Github üzerinde 437 tane sitatic site generator bulunmakta. Aynı siteden
-  projelere verilen yıldızları ve güncellenme sıklıklarını da inceleyebilirsiniz.</p>
-  <blockquote>Kendi sitemi geliştirirken <a href="http://docpad.org" target="_blank" rel="external">DocPad</a> adlı static site generator'dan yararlandım.</blockquote>
-  <h2>Neden statik sayfa kullanımına geri dönüldü?</h2>
-  <p>Web'deki bu eskiye dönüşün ardında iki temel sebep var:</p>
-  <ol>
-    <li>Statik siteler dinamik sitelere göre çok daha az kaynak tüketiyor ve daha performanslı</li>
-    <li>Statik sayfaları oluşturmak eskisi gibi eziyet değil, artık çok gelişmiş yardımcı araç seçenekleri var</li>
-  </ol>
-  <h2>Statik Sitelerin Avantajları</h2>
-  <p>Statik site oluşturmamın avantaj ve dezavantajlarını kendi açımdan listeledim.</p>
-  <h2>1) Düşük kaynak ihtiyacı</h2>
-  <p>Uzun yıllar WordPress için geliştirmeler yaptım ve WordPress hakkında blog yazıları yazdım. WordPress <abbr title="Content Management System">CMS</abbr> sistemleri arasında en kolay kurulum ve kullanıma sahip olanı.
-  Ancak bugün normal karşıladığımız sistem gereksinimleri hiç de azımsanacak gibi değil.</p>
-  <p>Ortalama bir WordPress site çalışmak için aşağıdaki sistem gereksinimlerine ihtiyaç duyar:</p>
-  <ul>
-    <li>Linux kurulu bir sunucu</li>
-    <li>Apache veya Nginx server yazılımı</li>
-    <li>Sunucuda gerekli PHP ayarları</li>
-    <li>WordPress kurulumu</li>
-    <li>Temaya ait veya siteye özellik katan eklentiler</li>
-    <li>Tema kurulumu</li>
-  </ul>
-  <p>Tüm bunlara sahip olmak yeterli değil, eğer başarılı bir cache sistemi kurulmazsa, yüksek trafikli WordPress sitelerde aşırı CPU kullanım sorunu ortaya çıkıyor. Sayfaların hazırlanıp ziyaretçilerin taleplerine
-  cevap vermek WordPress gibi esnek yapıdaki sistemler için yüksek CPU gücü gerektiren bir işlemdir. Bu durum sunucu maliyetlerinin artmasına sebep oluyor.</p>
-  <p>Tüm bunların sonucunda, sitenizi taşırken yeni hosting firmanızda bu ayarlardan birinin eksik olması ya da mevcut hosting firmanızın sistemini güncellemeye karar vermesi sitenizin çalışmamasına sebep
-  olacaktır.</p>
-  <p>Durum statik sayfalara geldiğinde ise çok daha basit ve kolay: dosyalarınızı servis edecek bir sunucu olması yeterli.</p>
-  <p>Statik siteler için sunucunuzun sadece html, css, js ve gerekli görsel dosyalarınızı saklaması ve servis etmesi yeterli. Static site generator'lar çıktı olarak yalnızca bu dosyaları veriyor.</p>
-  <p>Ben kendi sitem için Github sunucularında barındırılan <a href="https://pages.github.com/" target="_blank" rel="external">Github Sayfalar</a> hizmetini kullandım. Bu sayede sunucu bakımı, hosting masrafı
-  gibi dertlerden de kurtuldum.</p>
-  <h2>2) Hız</h2>
-  <p>Araştırmalara göre internet kullanıcılarının büyük bir kısmı sayfa açılış süresi 3 saniyenin üzerine çıktığında bekemekten vazgeçip siteyi terk ediyor. Bu sonuçlardan yola çıkarak Google ve diğer
-  arama motorları da sayfa açılış hızını bir <abbr title="Search Engine Optimizations">SEO</abbr> kriteri olarak kabul etti.</p>
-  <p>Statik siteler maksimum hızda çalışıyor. Bunun sebebi sunucu tarafında dosyaları hazırlamak için bir işlem yok, sunucu dosyaları olduğu gibi servis ediyor.</p>
-  <h2>3) Versiyon kontrolü</h2>
-  <p>Versiyon kontrol sistemi olmadan bir proje üzerinde çalışmak neredeyse imkansız. Hazır yapılar bunu yazılımsal olarak sağlamıyor, WordPress gibi gelişmiş CMS sistemleri sadece içerik için versiyon kontrolü
-  özelliği sağlıyor. Ancak hatalı bir eklenti veya tema geliştirmesini eski haline döndürmek, yedek almayı unuttuysanız büyük problem oluyor.</p>
-  <p>Sitemi Github üzerinde barındırıyor olmak beni versiyon kontrol sistemi ayarlamak için sarf edeceğim efordan kurtardı.</p>
-  <h2>4) Güvenlik</h2>
-  <p>Hazır yapılarda sıklıkla güvenlik açığı çıkma ihtimali var. Örneğin WordPress için, bulunduğunuz sürümde bir güvenlik açığı çıkması durumunda siz güncelleme yapana kadar sisteminiz tehdit altında olacaktır.</p>
-  <p>Statik sitelerde ise kullanıcı etkileşimi doğrudan yapılmıyor. Bu tarz hizmetler farklı servislerden alınabilir. Böylece sitenizi direkt etkileyecek bir güvenlik açığı söz konusu olmaz. Sadece hosting firmanızın kendi
-  güvenliğini sağlaması yeterli. Bu nedenle güvenlik konusunda büyük tedirginlikler yaşanmıyor.</p>
-  <h3>5) Esneklik</h3>
-  <p>Yapıyı kendiniz kurguladığınız için, giriş sayfasını bir landing page olarak ve içerik sayfalarını da blog olarak tasarlamanızda hiçbir engel yok. CMS sistemlerinde ise bu durum çok daha zor ve
-  kısıtlıdır. Hazır blog yapıları ise buna izin vermez.</p>
-  <h2>Statik sayfaların dezavantajları</h2>
-  <p>Avantajlardan bahsedip de dezavantajlardan bahsetmemek olmaz. Statik sitelerin 2 büyük dezavantajı var ve bu nedenle her yapıdaki siteye uygulanamıyor:</p>
-  <ol>
-    <li>
-      <p>Kullanıcı etkileşiminin olmaması</p>
-      <p>Güvenlik başlığından bunun bir avantaj olduğunu söylemiştim. Ancak kullanıcılardan bir bilgi girişi isteyecekseniz bunu direkt olarak yapmanız pek mümkün değil.</p>
-      <p>Örneğin blog için basit bir yorum sistemi yapacağımızı düşünelim. Tamamı statik bir sitede veritabanı kaydını nasıl gerçekleştireceğiz? Klasik yapılarda bunu yapamayız. Bunun için
-      <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> gibi bir servisten yararlanmak mümkün. Ancak daha karmaşık etkileşimli işlemlerde bu durum bir dezavantaj olacaktır.</p>
-    </li>
-    <li>
-      <p>Yönetici arayüzünün olmaması</p>
-      <p>WordPress gibi bir sistem üzerinde yeni bir yazı yayınlamak çok eğlencelidir. Ancak yönetici arayüzünün olmadığı statik sitelerde yeni bir yazıyı kullandığınız
-      <abbr title="Integrated development environment">IDE</abbr> üzerinden yazarsınız. Her ne kadar markup dilleri makale yazmayı kolaylaştırsa da bu durum son kullanıcı için pek mümkün değil.</p>
-    </li>
-  </ol>
-  <h2>Sonuç olarak</h2>
-  <p>Static site generator araçlarının en popüleri Ruby üzerinde çalışan <a href="https://jekyllrb.com/" target="_blank" rel="external">Jekyll</a>. Ancak ben arayüz geliştirme ortamı için
-  <a href="https://nodejs.org/en/" target="_blank" rel="external">nodeJS</a> ve <a href="http://gruntjs.com/" target="_blank" rel="external">Grunt</a> araçlarından yararlandığım için nodeJS üzerinde
-  çalışan popüler uygulamaları denedim. Amacım en basit ve en hızlı adapte olabileceğim aracı seçmekti. Aşağıdaki araçları inceleme fırsatım oldu:</p>
-  <ul>
-    <li><a href="http://assemble.io/" target="_blank" rel="external">Assemble</a></li>
-    <li><a href="http://www.metalsmith.io/" target="_blank" rel="external">Metalsmith</a></li>
-    <li><a href="http://docpad.org" target="_blank" rel="external">Docpad</a></li>
-    <li><a href="http://harpjs.com/" target="_blank" rel="external">Harp</a></li>
-    <li><a href="https://laktek.github.io/punch/" target="_blank" rel="external">Punch</a></li>
-    <li><a href="http://brunch.io/" target="_blank" rel="external">Brunch</a></li>
-  </ul>
-  <p>Sonuç olarak DocPad'in kullanımını kolay buldum. Ayrıca eklenti olarak tam da ihtiyaç duyacağım eklentileri mevcut. Döküman sayfasındaki örnek uygulama oluşturma adımlarını takip
-  edince çabuk alışacağımı anladım.</p>
-  <p>Sonraki yazılarımda DocPad'in kullanımına da yer vereceğim.</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>02 Ekim 2016</time>
-  </div>
-
-  
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/nodejs/">nodejs</a>
-    
-    <a href="https://tufantunc.com/tags/javascript/">javascript</a>
-    
-    <a href="https://tufantunc.com/tags/static-site-generator/">static-site-generator</a>
-    
-    <a href="https://tufantunc.com/tags/docpad/">docpad</a>
-    
-  </div>
-  
-
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=Static Site Generator Kullanmanın Avantajları&url=https://tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari/&title=Static Site Generator Kullanmanın Avantajları&summary=Geliştiricilerin yeni oyuncağı static site generator'lara genel bakış&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
-
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari';
-		window.disqus_identifier = 'blog-static-site-generator-kullanmanin-avantajlari';
-		window.disqus_title = 'Static Site Generator Kullanmanın Avantajları';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>]]></description>
-            <link>https://tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/static-site-generator-kullanmanin-avantajlari</guid>
-            <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
