@@ -4,9 +4,9 @@
         <description><![CDATA[Tufan Tunç]]></description>
         <link>https://tufantunc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Mar 2017 19:43:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Mar 2017 21:23:28 GMT</lastBuildDate>
         <atom:link href="https://tufantunc.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 09 Mar 2017 19:43:05 GMT</pubDate>
+        <pubDate>Sun, 12 Mar 2017 21:23:21 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<article class="main-content bracket">
@@ -15,6 +15,13 @@
     <a href="https://tufantunc.com/rss.xml" target="_blank" class="rss"><i class="icon icon-rss-squared"></i></a>
   </h1>
   <ul id="blog-posts">
+    
+    <li>
+      <a href="/blog/yeni-baslayanlara-facebook-chat-botlari/">
+        <span>Yeni Başlayanlar için Facebook Chat Bot'ları</span>
+        <time>13 Mart 2017</time>
+      </a>
+    </li>
     
     <li>
       <a href="/blog/hikaye-anlaticisinin-sirri-kitap/">
@@ -107,6 +114,42 @@
             <pubDate>Sat, 22 Oct 2016 11:31:28 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Front-End Developer]]></title>
+            <description><![CDATA[<article class="main-content bracket">
+  <h1>Merhaba.</h1>
+  <p>Adım Tufan Tunç.<br/>
+    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
+  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
+otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
+kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
+
+  <h2>Son Blog Yazım:</h2>
+  
+  <p class="no-margin-top"><a href="/blog/yeni-baslayanlara-facebook-chat-botlari/">Yeni Başlayanlar için Facebook Chat Bot'ları</a></p>
+  
+
+
+</article>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Tufan Tunç",
+  "url": "https://tufantunc.com",
+  "jobTitle": "Front-End Developer",
+  "image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/029/261/06fd0cf.jpg",
+  "sameAs": [
+    "https://tr.linkedin.com/in/tufantunc",
+    "https://twitter.com/tufant",
+    "https://plus.google.com/u/0/+TufanTun%C3%A7"
+  ]
+}
+</script>]]></description>
+            <link>https://tufantunc.com/</link>
+            <guid isPermaLink="true">https://tufantunc.com/</guid>
+            <pubDate>Mon, 06 Feb 2017 14:55:23 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[İletişim]]></title>
             <description><![CDATA[<article class="main-content">
   <h1>İletişim</h1>
@@ -152,42 +195,6 @@
             <link>https://tufantunc.com/hakkimda</link>
             <guid isPermaLink="true">https://tufantunc.com/hakkimda</guid>
             <pubDate>Sun, 15 Jan 2017 10:50:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Front-End Developer]]></title>
-            <description><![CDATA[<article class="main-content bracket">
-  <h1>Merhaba.</h1>
-  <p>Adım Tufan Tunç.<br/>
-    CRM Akademi şirketinde <strong>Front-End Developer</strong> olarak çalışıyorum.</p>
-  <p>Performanslı JavaScript uygulamaları ve Front-End geliştirme ortamının
-otomasyonu için uygulamalar geliştirerek hem geliştiriciler hem de
-kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa etmeyi amaçlıyorum.</p>
-
-  <h2>Son Blog Yazım:</h2>
-  
-  <p class="no-margin-top"><a href="/blog/hikaye-anlaticisinin-sirri-kitap/">Kitap: Hikaye Anlatıcısının Sırrı</a></p>
-  
-
-
-</article>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "name": "Tufan Tunç",
-  "url": "https://tufantunc.com",
-  "jobTitle": "Front-End Developer",
-  "image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/029/261/06fd0cf.jpg",
-  "sameAs": [
-    "https://tr.linkedin.com/in/tufantunc",
-    "https://twitter.com/tufant",
-    "https://plus.google.com/u/0/+TufanTun%C3%A7"
-  ]
-}
-</script>]]></description>
-            <link>https://tufantunc.com/</link>
-            <guid isPermaLink="true">https://tufantunc.com/</guid>
-            <pubDate>Mon, 06 Feb 2017 14:55:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2017 Yılı İçin Kişisel Hedeflerim]]></title>
@@ -441,98 +448,6 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <pubDate>Tue, 31 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Kitap: Hikaye Anlatıcısının Sırrı]]></title>
-            <description><![CDATA[<article>
-  <h1>Kitap: Hikaye Anlatıcısının Sırrı</h1>
-  <p>Hikaye Anlatıcısının Sırrı kitabı, 50’den fazla kişi ve markanın dönüşümünü anlattığı hikayeleri inceliyor.</p>
-  <p>Büyük markaların ve önemli olayların arkasındaki hikayelere ilgim büyük. Özellikle sıradanlaşan firmaların ve servislerin bir zamanlar devrimci birer yenilik olması bu ilgimi daha da körüklüyor. Örneğin, Steve Jobs kovulmasa Pixar olacak mıydı? Larry ve Sergey üniversite profesörlerinin haklı olduğunu düşünüp tüm interneti depolamayı düşünmeseydi Google olacak mıydı?</p>
-  <figure>
-    <img alt="Hikaye Anlatıcısının Sırrı kitap kapağı" src="https://tufantunc.com/content/blog/hikaye-anlaticisinin-sirri-kapak.jpg">
-    <figcaption>
-      Hikaye Anlatıcısının Sırrı kitap kapağı. Görsel abonesi olduğum <a href="https://www.kitapkulubu.com.tr/" rel="external" target="_blank">Kitap Kulübü</a>'ne ait.
-    </figcaption>
-  </figure>
-  <p>Bazen gündelik kullandığımız araçlar ardında büyük hikayeler taşıyabiliyor. Çoğu zaman insanların bunlardan haberdar olmaması ve hatta ilgi duymaması üzücü. Mesela Zuckerberg çok daha sosyal ve karşı cinsle rahat iletişim kurabilseydi Facebook olacak mıydı?</p>
-  <blockquote>Hikâyelerin insanların kalplerine seslenmek gibi benzersiz bir gücü vardır.<br/><small><a href="https://tr.wikipedia.org/wiki/Peter_Guber" target="_blank" rel="external">Peter Guber</a></small></blockquote>
-  <p>Tüm bu marka ve kişilerin ardındaki hikayeleri bilmek onların gerçek değerini de anlamak için güzel bir adım. Hikaye Anlatıcısının Sırrı kitabı bunlar gibi pek çok hikayeyi derlemiş ve insanlara ilham verenin ne olduğunu açıklamayı amaçlamış.</p>
-  <p>Bir dönem internette oldukça popüler olan ve ünlüler arasında da yaygınlaşan Ice Bucket Challenge’ın ardındaki hikayeyi öğrendikten sonra bu popüler akım benim için daha da anlamlandı. Bu arada, <a href="https://en.wikipedia.org/wiki/Ice_Bucket_Challenge" target="_blank" rel="external">Ice Bucket Challange</a> ülkemizde de pek anlaşılmamış olacak ki 20'den fazla dile çevrilen Wiki sayfası Türkçe'ye çevirilmemiş. </p>
-  <blockquote>Dünyayı değiştirmek için ne harika bir fırsatımız var.<br/><small>Pete Frates, ALS teşhisi konulduktan 6 saat sonra</small></blockquote>
-  <p>Pete Frates eski bir beyzbol kaptanı, 27 yaşında ALS teşhisi konuluyor. Doktorlar ona hastalıın tedavisi olmadığını söylediğinde yukarıdaki sözü söylüyor ve ekliyor, Bill Gates gibi hayırseverlerin ilgisini bu hastalığa çekmeliyiz. (Hatırlarsanız Bill Gates’in de bir Ice Bucket Challenge videosu var.) Teşhisten 2 yıl sonra Pete MLB.com’da kendi hikayesini anlattığı bir yazı yayınlıyor ve bu yazı onun eski oda arkadaşına ilham veriyor. Pete Frates’in eski oda arkadaşı kamera karşısına geçiyor ve buz dökme olayları başlıyor. Ardından Facebook ve Youtube’da 150 ülkeden aralarında ünlülerin de olduğu videolar yayılıyor. Tüm dünyanın dikkati ALS hastalığına çekiliyor.</p>
-  <p>
-  <iframe width="680" height="383" src="https://www.youtube.com/embed/XS6ysDFTbLU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-  </p>
-  <p>Bu akımdan bir önceki yıl 2.8 milyon dolar bağış toplayan ALS Derneği o yıl 100 milyon dolar, ertesi yıla kadar da 220 milyon dolar bağış topluyor. Buz Kovası Meydan Okuması akımı böylelikle başarıya ulaşıyor.</p>
-  <p>2017 hedeflerimden biri kitap okumaya daha fazla vakit ayırmaktı. Bu kitap hedefimin ilk adımı oldu. Eğer kafa dağıtmak için 4-5 sayfalık hikayeler okuyabileceğiniz bir masaüstü kitabı arıyorsanız Hikaye Anlatıcısının Sırrı kitabına bir şans vermenizi tavsiye ederim.</p>
-  <footer>
-  <div class="post-date">
-    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
-    <time>09 Mart 2017</time>
-  </div>
-
-  
-  <div class="tags">
-    <small><i class="icon-tags"></i> Etiketler: </small><br/>
-    
-    <a href="https://tufantunc.com/tags/kisisel/">kisisel</a>
-    
-    <a href="https://tufantunc.com/tags/hikaye-anlaticisinin-sirri/">hikaye-anlaticisinin-sirri</a>
-    
-    <a href="https://tufantunc.com/tags/kitap/">kitap</a>
-    
-    <a href="https://tufantunc.com/tags/ozet/">ozet</a>
-    
-    <a href="https://tufantunc.com/tags/yorum/">yorum</a>
-    
-  </div>
-  
-
-  <div class="share">
-    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
-    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap/" class="facebook" target="_blank" rel="external,nofollow">
-      <i class="icon-facebook"></i> Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=Kitap: Hikaye Anlatıcısının Sırrı&url=https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
-      <i class="icon-twitter"></i> Twitter
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap/&title=Kitap: Hikaye Anlatıcısının Sırrı&summary=Hikaye Anlatıcısının Sırrı kitabını okudum ve hakkındaki yorumlarımı yazdım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
-      <i class="icon-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</footer>
-
-  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'tufantunc';
-		window.disqus_developer = '1';
-		window.disqus_url = 'https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap';
-		window.disqus_identifier = 'blog-hikaye-anlaticisinin-sirri-kitap';
-		window.disqus_title = 'Kitap: Hikaye Anlatıcısının Sırrı';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>]]></description>
-            <link>https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap</link>
-            <guid isPermaLink="true">https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap</guid>
-            <pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Facebook'ta Yardım İstemenin Doğru Yolu]]></title>
             <description><![CDATA[<article>
   <h1>Facebook'ta Yardım İstemenin Doğru Yolu</h1>
@@ -632,6 +547,98 @@ kullanıcılar için <span class="highlight">daha hızlı bir web</span> inşa e
             <link>https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu</link>
             <guid isPermaLink="true">https://tufantunc.com/blog/facebook-yardim-istemenin-dogru-yolu</guid>
             <pubDate>Mon, 06 Feb 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kitap: Hikaye Anlatıcısının Sırrı]]></title>
+            <description><![CDATA[<article>
+  <h1>Kitap: Hikaye Anlatıcısının Sırrı</h1>
+  <p>Hikaye Anlatıcısının Sırrı kitabı, 50’den fazla kişi ve markanın dönüşümünü anlattığı hikayeleri inceliyor.</p>
+  <p>Büyük markaların ve önemli olayların arkasındaki hikayelere ilgim büyük. Özellikle sıradanlaşan firmaların ve servislerin bir zamanlar devrimci birer yenilik olması bu ilgimi daha da körüklüyor. Örneğin, Steve Jobs kovulmasa Pixar olacak mıydı? Larry ve Sergey üniversite profesörlerinin haklı olduğunu düşünüp tüm interneti depolamayı düşünmeseydi Google olacak mıydı?</p>
+  <figure>
+    <img alt="Hikaye Anlatıcısının Sırrı kitap kapağı" src="https://tufantunc.com/content/blog/hikaye-anlaticisinin-sirri-kapak.jpg">
+    <figcaption>
+      Hikaye Anlatıcısının Sırrı kitap kapağı. Görsel abonesi olduğum <a href="https://www.kitapkulubu.com.tr/" rel="external" target="_blank">Kitap Kulübü</a>'ne ait.
+    </figcaption>
+  </figure>
+  <p>Bazen gündelik kullandığımız araçlar ardında büyük hikayeler taşıyabiliyor. Çoğu zaman insanların bunlardan haberdar olmaması ve hatta ilgi duymaması üzücü. Mesela Zuckerberg çok daha sosyal ve karşı cinsle rahat iletişim kurabilseydi Facebook olacak mıydı?</p>
+  <blockquote>Hikâyelerin insanların kalplerine seslenmek gibi benzersiz bir gücü vardır.<br/><small><a href="https://tr.wikipedia.org/wiki/Peter_Guber" target="_blank" rel="external">Peter Guber</a></small></blockquote>
+  <p>Tüm bu marka ve kişilerin ardındaki hikayeleri bilmek onların gerçek değerini de anlamak için güzel bir adım. Hikaye Anlatıcısının Sırrı kitabı bunlar gibi pek çok hikayeyi derlemiş ve insanlara ilham verenin ne olduğunu açıklamayı amaçlamış.</p>
+  <p>Bir dönem internette oldukça popüler olan ve ünlüler arasında da yaygınlaşan Ice Bucket Challenge’ın ardındaki hikayeyi öğrendikten sonra bu popüler akım benim için daha da anlamlandı. Bu arada, <a href="https://en.wikipedia.org/wiki/Ice_Bucket_Challenge" target="_blank" rel="external">Ice Bucket Challange</a> ülkemizde de pek anlaşılmamış olacak ki 20'den fazla dile çevrilen Wiki sayfası Türkçe'ye çevirilmemiş. </p>
+  <blockquote>Dünyayı değiştirmek için ne harika bir fırsatımız var.<br/><small>Pete Frates, ALS teşhisi konulduktan 6 saat sonra</small></blockquote>
+  <p>Pete Frates eski bir beyzbol kaptanı, 27 yaşında ALS teşhisi konuluyor. Doktorlar ona hastalıın tedavisi olmadığını söylediğinde yukarıdaki sözü söylüyor ve ekliyor, Bill Gates gibi hayırseverlerin ilgisini bu hastalığa çekmeliyiz. (Hatırlarsanız Bill Gates’in de bir Ice Bucket Challenge videosu var.) Teşhisten 2 yıl sonra Pete MLB.com’da kendi hikayesini anlattığı bir yazı yayınlıyor ve bu yazı onun eski oda arkadaşına ilham veriyor. Pete Frates’in eski oda arkadaşı kamera karşısına geçiyor ve buz dökme olayları başlıyor. Ardından Facebook ve Youtube’da 150 ülkeden aralarında ünlülerin de olduğu videolar yayılıyor. Tüm dünyanın dikkati ALS hastalığına çekiliyor.</p>
+  <p>
+  <iframe width="680" height="383" src="https://www.youtube.com/embed/XS6ysDFTbLU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </p>
+  <p>Bu akımdan bir önceki yıl 2.8 milyon dolar bağış toplayan ALS Derneği o yıl 100 milyon dolar, ertesi yıla kadar da 220 milyon dolar bağış topluyor. Buz Kovası Meydan Okuması akımı böylelikle başarıya ulaşıyor.</p>
+  <p>2017 hedeflerimden biri kitap okumaya daha fazla vakit ayırmaktı. Bu kitap hedefimin ilk adımı oldu. Eğer kafa dağıtmak için 4-5 sayfalık hikayeler okuyabileceğiniz bir masaüstü kitabı arıyorsanız Hikaye Anlatıcısının Sırrı kitabına bir şans vermenizi tavsiye ederim.</p>
+  <footer>
+  <div class="post-date">
+    <small><i class="icon-calendar"></i> Yazı Tarihi: </small><br/>
+    <time>09 Mart 2017</time>
+  </div>
+
+  
+  <div class="tags">
+    <small><i class="icon-tags"></i> Etiketler: </small><br/>
+    
+    <a href="https://tufantunc.com/tags/kisisel/">kisisel</a>
+    
+    <a href="https://tufantunc.com/tags/hikaye-anlaticisinin-sirri/">hikaye-anlaticisinin-sirri</a>
+    
+    <a href="https://tufantunc.com/tags/kitap/">kitap</a>
+    
+    <a href="https://tufantunc.com/tags/ozet/">ozet</a>
+    
+    <a href="https://tufantunc.com/tags/yorum/">yorum</a>
+    
+  </div>
+  
+
+  <div class="share">
+    <small><i class="icon-thumbs-up-alt"></i> Beğendiniz mi? Paylaşın: </small><br/>
+    <a href="https://www.facebook.com/dialog/share?app_id=1738538536395827&display=popup&href=https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap/" class="facebook" target="_blank" rel="external,nofollow">
+      <i class="icon-facebook"></i> Facebook
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Kitap: Hikaye Anlatıcısının Sırrı&url=https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap/&via=tufant" class="twitter" target="_blank" rel="external,nofollow">
+      <i class="icon-twitter"></i> Twitter
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap/&title=Kitap: Hikaye Anlatıcısının Sırrı&summary=Hikaye Anlatıcısının Sırrı kitabını okudum ve hakkındaki yorumlarımı yazdım.&source=Tufan%20Tunç" class="linkedin" target="_blank" rel="external,nofollow">
+      <i class="icon-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</footer>
+
+  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'tufantunc';
+		window.disqus_developer = '1';
+		window.disqus_url = 'https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap';
+		window.disqus_identifier = 'blog-hikaye-anlaticisinin-sirri-kitap';
+		window.disqus_title = 'Kitap: Hikaye Anlatıcısının Sırrı';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>]]></description>
+            <link>https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap</link>
+            <guid isPermaLink="true">https://tufantunc.com/blog/hikaye-anlaticisinin-sirri-kitap</guid>
+            <pubDate>Thu, 09 Mar 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[KnockoutJS Kullanmanız için Birkaç Sebep]]></title>

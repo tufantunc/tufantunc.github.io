@@ -22,21 +22,18 @@
 <url> <loc>https://tufantunc.com/tags/knockoutjs/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/javascript/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/anlatim/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tufantunc.com/tags/hikaye-anlaticisinin-sirri/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tufantunc.com/tags/ozet/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tufantunc.com/tags/yorum/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/front-end/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/developer/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/help/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/facebook/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/hikaye-anlaticisinin-sirri/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/ozet/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/yorum/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/angular/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/react/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/website/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/ux/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/ziyaretci/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tufantunc.com/tags/nodejs/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tufantunc.com/tags/static-site-generator/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tufantunc.com/tags/docpad/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/verimlilik/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/fayda/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/uygulama/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -45,4 +42,10 @@
 <url> <loc>https://tufantunc.com/tags/ssl/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/github/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tufantunc.com/tags/cloudflare/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/chat/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/bot/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/nodejs/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/static-site-generator/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/tags/docpad/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tufantunc.com/blog/yeni-baslayanlara-facebook-chat-botlari/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
